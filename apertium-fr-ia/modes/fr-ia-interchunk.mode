@@ -1,3 +1,0 @@
-    
-    lt-proc -w /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.automorf.bin |cg-proc -w /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.rlx.bin |apertium-tagger -g $2 /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.prob |apertium-pretransfer|lt-proc -b /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.autobil.bin |lrx-proc /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.autolex.bin |apertium-transfer -b /Users/ethanchi/Documents/apy/apertium-fr-ia/apertium-fr-ia.fr-ia.t1x  /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.t1x.bin |apertium-interchunk -t /Users/ethanchi/Documents/apy/apertium-fr-ia/apertium-fr-ia.fr-ia.t2x  /Users/ethanchi/Documents/apy/apertium-fr-ia/fr-ia.t2x.bin 
-  
