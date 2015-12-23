@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <alphabet/>
+   <sdefs>
+    <sdef n="n"     c="Noun"/>
+    <sdef n="sg"    c="Singular"/>
+    <sdef n="pl"    c="Plural"/>
+    <sdef n="vblex" c="Verb"/>
+    <sdef n="p1"    c="1st person"/>
+    <sdef n="p2"    c="2nd person"/>
+    <sdef n="p3"    c="3rd person"/>
+    <sdef n="pri"   c="Present indicative"/>
+   </sdefs>
+
+       <section id="main" type="standard">
+           <e><p><l>chien<s n="n"/></l><r>can<s n="n"/></r></p></e>
+           <e><p><l>homme<s n="n"/></l><r>homine<s n="n"/></r></p></e>
+           <e><p><l>femme<s n="n"/></l><r>femina<s n="n"/></r></p></e>
+           <e><p><l>parler<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
+       </section>
+</dictionary>
