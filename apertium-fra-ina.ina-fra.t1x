@@ -7,12 +7,50 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="prn">
+      <cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
+    <def-attr n="temps">
+        <attr-item tags="pri"/>
+    </def-attr>
+    <def-attr n="tn">
+        <attr-item tags="tn"/> 
+    </def-attr>
+              <def-attr n="nbr">
+            <attr-item tags="sg"/>
+            <attr-item tags="pl"/>
+            <attr-item tags="sp"/>
+        </def-attr>
+    <def-attr n="word_type">
+      <attr-item tags="prn"/>
+      <attr-item tags="vblex"/>
+          <attr-item tags="n"/>
+          <attr-item tags="det"/>
+    </def-attr>
+           
+
+        <def-attr n="gender">
+          <attr-item tags="m"/>
+          <attr-item tags="f"/>
+          <attr-item tags="mf"/>
+        </def-attr>
+        <def-attr n="pers">
+           <attr-item tags="p1"/>
+           <attr-item tags="p2"/>
+           <attr-item tags="p3"/>
+        </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -43,6 +81,76 @@
               <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+          <pattern>
+        <pattern-item n="prn"/>
+        <pattern-item n="verb"/>
+      </pattern>
+
+      <action>  
+
+
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <lit-tag v="tn"/>
+            <clip pos="1" side="tl" part="pers"/>
+            <clip pos="1" side="tl" part="gender"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+          
+      </action>
+    </rule>
+      
+    <rule>
+          <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="verb"/>
+      </pattern>
+
+      <action>  
+
+
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="pers"/>
+<!--            <clip pos="1" side="tl" part="gender"/>-->
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
         </out>
       </action>
     </rule>

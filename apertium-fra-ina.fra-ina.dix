@@ -4,18 +4,78 @@
    <sdefs>
     <sdef n="n"     c="Noun"/>
     <sdef n="sg"    c="Singular"/>
+    <sdef n="m"     c="Masculine"/>
+    <sdef n="f"     c="Feminine"/>
+    <sdef n="mf"     c="Masculine/feminine"/>
     <sdef n="pl"    c="Plural"/>
     <sdef n="vblex" c="Verb"/>
     <sdef n="p1"    c="1st person"/>
     <sdef n="p2"    c="2nd person"/>
     <sdef n="p3"    c="3rd person"/>
+    <sdef n="prn"   c="Pronoun"/>
     <sdef n="pri"   c="Present indicative"/>
+    <sdef n="def"   c="Definite"/>
+    <sdef n="det"   c="Determiner"/>
+    <sdef n="sp"    c="Singular/plural"/>
+    <sdef n="nd"    c="Singular/plural"/>
+    <sdef n="gd"    c="Singular/plural"/>
+    <sdef n="preadv"  c="Pre-adverb"/>
+    <sdef n="predet"  c="Pre-determiner"/>
+    <sdef n="cnjcoo"  c="Coordinating conjunction"/>
+    <sdef n="cnjadv"  c="Conjunctive adverb"/>
+    <sdef n="pr"    c="Pronoun"/>
+    <sdef n="dem"    c="Demonstrative"/>
+    <sdef n="adv"    c="Adverb"/>
+    <sdef n="nom"    c="Nominative"/>
    </sdefs>
 
        <section id="main" type="standard">
            <e><p><l>chien<s n="n"/></l><r>can<s n="n"/></r></p></e>
            <e><p><l>homme<s n="n"/></l><r>homine<s n="n"/></r></p></e>
-           <e><p><l>femme<s n="n"/></l><r>femina<s n="n"/></r></p></e>
+           <e><p><l>femme<s n="n"/><s n="f"/></l><r>femina<s n="n"/></r></p></e>
+           <e><p><l>animal<s n="n"/></l><r>animal<s n="n"/></r></p></e>
+           <e><p><l>arbre<s n="n"/></l><r>arbore<s n="n"/></r></p></e>
+           <e><p><l>oiseau<s n="n"/></l><r>ave<s n="n"/></r></p></e>
+           <e><p><l>bâton<s n="n"/></l><r>bastion<s n="n"/></r></p></e>
+           <e><p><l>écorce<s n="n"/></l><r>cortice<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           
+            <e><p><l>je<s n="prn"/></l><r>io<s n="prn"/></r></p></e>
+            <e><p><l>tu<s n="prn"/></l><r>tu<s n="prn"/></r></p></e>
+            <e><p><l>il<s n="prn"/></l><r>illo<s n="prn"/></r></p></e>
+            <e><p><l>nous<s n="prn"/></l><r>nos<s n="prn"/></r></p></e>
+            <e><p><l>vous<s n="prn"/></l><r>vos<s n="prn"/></r></p></e>
+            <e><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/></r></p></e>
+
+
+<!--
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
+-->
+           
+            <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+
+            <e r="LR"><p><l>tout<s n="predet"/><s n="m"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>toute<s n="predet"/><s n="f"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+<!--
+            <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+            <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+            <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+-->
+           
            <e><p><l>parler<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
+           <e><p><l>manger<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>
+           <e><p><l>lire<s n="vblex"/></l><r>leger<s n="vblex"/></r></p></e>
+           <e><p><l>boire<s n="vblex"/></l><r>biber<s n="vblex"/></r></p></e>
+           <e><p><l>marcher<s n="vblex"/></l><r>ambular<s n="vblex"/></r></p></e>
+           <e><p><l>courir<s n="vblex"/></l><r>currer<s n="vblex"/></r></p></e>
+           <e><p><l>nager<s n="vblex"/></l><r>natar<s n="vblex"/></r></p></e>
+           <e><p><l>croire<s n="vblex"/></l><r>creder<s n="vblex"/></r></p></e>
        </section>
 </dictionary>
