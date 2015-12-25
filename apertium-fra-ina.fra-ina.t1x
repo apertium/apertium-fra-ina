@@ -42,10 +42,12 @@
         <def-attr n="case">
            <attr-item tags="nom"/>
         </def-attr>
-       <def-attr n="type_mot">
-          <attr-item tags="n"/>
-          <attr-item tags="det"/>
-        </def-attr>
+    <def-attr n="word_type">
+      <attr-item tags="prn"/>
+      <attr-item tags="vblex"/>
+      <attr-item tags="n"/>
+      <attr-item tags="det"/>
+    </def-attr>
 
         <def-attr n="gender">
           <attr-item tags="m"/>
@@ -121,9 +123,14 @@
        </tags>
        <lu>
          <clip pos="1" side="tl" part="lem"/>
+         <clip pos="1" side="tl" part="word_type"/>
+         <lit-tag v="nom"/> 
          <clip pos="1" side="tl" part="pers"/>
+        <clip pos="1" side="tl" part="gender"/>
+
          <clip pos="1" side="tl" part="nbr"/>
-         <clip pos="1" side="tl" part="case"/>
+
+
        </lu>
          </chunk>
      </out>

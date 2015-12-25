@@ -26,40 +26,50 @@
     <sdef n="pr"    c="Pronoun"/>
     <sdef n="dem"    c="Demonstrative"/>
     <sdef n="adv"    c="Adverb"/>
+    <sdef n="adj"/>
     <sdef n="nom"    c="Nominative"/>
    </sdefs>
 
        <section id="main" type="standard">
-           <e><p><l>chien<s n="n"/></l><r>can<s n="n"/></r></p></e>
-           <e><p><l>homme<s n="n"/></l><r>homine<s n="n"/></r></p></e>
+           <e><p><l>chien<s n="m"/><s n="n"/></l><r>can<s n="n"/></r></p></e>
+           <e><p><l>homme<s n="m"/><s n="n"/></l><r>homine<s n="n"/></r></p></e>
            <e><p><l>femme<s n="n"/><s n="f"/></l><r>femina<s n="n"/></r></p></e>
-           <e><p><l>animal<s n="n"/></l><r>animal<s n="n"/></r></p></e>
-           <e><p><l>arbre<s n="n"/></l><r>arbore<s n="n"/></r></p></e>
-           <e><p><l>oiseau<s n="n"/></l><r>ave<s n="n"/></r></p></e>
-           <e><p><l>bâton<s n="n"/></l><r>bastion<s n="n"/></r></p></e>
-           <e><p><l>écorce<s n="n"/></l><r>cortice<s n="n"/></r></p></e>
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
-           
-            <e><p><l>je<s n="prn"/></l><r>io<s n="prn"/></r></p></e>
-            <e><p><l>tu<s n="prn"/></l><r>tu<s n="prn"/></r></p></e>
-            <e><p><l>il<s n="prn"/></l><r>illo<s n="prn"/></r></p></e>
-            <e><p><l>nous<s n="prn"/></l><r>nos<s n="prn"/></r></p></e>
-            <e><p><l>vous<s n="prn"/></l><r>vos<s n="prn"/></r></p></e>
-            <e><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/></r></p></e>
+           <e><p><l>animal<s n="m"/><s n="n"/></l><r>animal<s n="n"/></r></p></e>
+           <e><p><l>arbre<s n="f"/><s n="n"/></l><r>arbore<s n="n"/></r></p></e>
+           <e><p><l>oiseau<s n="m"/><s n="n"/></l><r>ave<s n="n"/></r></p></e>
+           <e><p><l>bâton<s n="m"/><s n="n"/></l><r>bastion<s n="n"/></r></p></e>
+           <e><p><l>écorce<s n="f"/><s n="n"/></l><r>cortice<s n="n"/></r></p></e>
+           <e><p><l>feuille<s n="f"/><s n="n"/></l><r>folio<s n="n"/></r></p></e>
+           <e><p><l>forêt<s n="m"/><s n="n"/></l><r>foreste<s n="n"/></r></p></e>
+           <e><p><l>fruit<s n="m"/><s n="n"/></l><r>fructo<s n="n"/></r></p></e>
+           <e><p><l>enfant<s n="m"/><s n="n"/></l><r>infante<s n="n"/></r></p></e>
+           <e><p><l>femme<s n="f"/><s n="n"/></l><r>marita<s n="n"/></r></p></e>
+           <e><p><l>mari<s n="m"/><s n="n"/></l><r>marito<s n="n"/></r></p></e>
+           <e><p><l>mère<s n="f"/><s n="n"/></l><r>matre<s n="n"/></r></p></e>
+           <e><p><l>père<s n="m"/><s n="n"/></l><r>patre<s n="n"/></r></p></e>
+           <e><p><l>pied<s n="m"/><s n="n"/></l><r>pediculo<s n="n"/></r></p></e>
+           <e><p><l>poisson<s n="m"/><s n="n"/></l><r>pisce<s n="n"/></r></p></e>
+           <e><p><l>racine<s n="f"/><s n="n"/></l><r>radice<s n="n"/></r></p></e>
+           <e><p><l>semence<s n="f"/><s n="n"/></l><r>semine<s n="n"/></r></p></e>
+           <e><p><l>serpent<s n="m"/><s n="n"/></l><r>serpente<s n="n"/></r></p></e>
+           <e><p><l>ver<s n="m"/><s n="n"/></l><r>verme<s n="n"/></r></p></e>
+           <e><p><l>cheval<s n="m"/><s n="n"/></l><r>equo<s n="n"/></r></p></e>
+           <e><p><l>voiture<s n="f"/><s n="n"/></l><r>carro<s n="n"/></r></p></e>
 
 
-<!--
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
-           <e><p><l>feuille<s n="n"/></l><r>folio<s n="n"/></r></p></e>
--->
+            <e><p><l>je<s n="prn"/></l><r>io<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>tu<s n="prn"/></l><r>tu<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>il<s n="prn"/></l><r>illo<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>nous<s n="prn"/></l><r>nos<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>vous<s n="prn"/></l><r>vos<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
+
+           <e><p><l>excellent<s n="adj"/></l><r>excellente<s n="adj"/></r></p></e>
            
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
-            <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>la<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
             <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+
 
             <e r="LR"><p><l>tout<s n="predet"/><s n="m"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
             <e r="LR"><p><l>toute<s n="predet"/><s n="f"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -68,7 +78,7 @@
             <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
             <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
 -->
-           
+           <e><p><l>être<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
            <e><p><l>parler<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
            <e><p><l>chanter<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
            <e><p><l>manger<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>
@@ -78,5 +88,15 @@
            <e><p><l>courir<s n="vblex"/></l><r>currer<s n="vblex"/></r></p></e>
            <e><p><l>nager<s n="vblex"/></l><r>natar<s n="vblex"/></r></p></e>
            <e><p><l>croire<s n="vblex"/></l><r>creder<s n="vblex"/></r></p></e>
+           <e><p><l>aimer<s n="vblex"/></l><r>amar<s n="vblex"/></r></p></e>
+           <e><p><l>envisager<s n="vblex"/></l><r>contemplar<s n="vblex"/></r></p></e>
+           <e><p><l>renoncer<s n="vblex"/></l><r>renunciar<s n="vblex"/></r></p></e>
+           <e><p><l>demander<s n="vblex"/></l><r>demandar<s n="vblex"/></r></p></e>
+           <e><p><l>voir<s n="vblex"/></l><r>vider<s n="vblex"/></r></p></e>
+           <e><p><l>partir<s n="vblex"/></l><r>partir<s n="vblex"/></r></p></e>
+           <e><p><l>mourir<s n="vblex"/></l><r>morir<s n="vblex"/></r></p></e>
+           <e><p><l>entendre<s n="vblex"/></l><r>audir<s n="vblex"/></r></p></e>
+           <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
+
        </section>
 </dictionary>
