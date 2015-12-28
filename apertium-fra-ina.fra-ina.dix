@@ -65,6 +65,8 @@
             <e><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
 
            <e><p><l>excellent<s n="adj"/></l><r>excellente<s n="adj"/></r></p></e>
+            <e><p><l>et<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+
            
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
             <e r="LR"><p><l>la<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
