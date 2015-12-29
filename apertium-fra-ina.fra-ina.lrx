@@ -5,9 +5,8 @@
   -->
 
   <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
+    <match tags="vblex.*">
+      <select tags="vblex.pri"/>
     </match>
   </rule>
 </rules>
