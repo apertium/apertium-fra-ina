@@ -31,6 +31,7 @@
    </sdefs>
 
        <section id="main" type="standard">
+            <!-- Nouns       -->
            <e><p><l>chien<s n="n"/><s n="m"/></l><r>can<s n="n"/></r></p></e>
            <e><p><l>homme<s n="n"/><s n="m"/></l><r>homine<s n="n"/></r></p></e>
            <e><p><l>femme<s n="n"/><s n="f"/></l><r>femina<s n="n"/></r></p></e>
@@ -66,6 +67,7 @@
 
            <e><p><l>excellent<s n="adj"/></l><r>excellente<s n="adj"/></r></p></e>
             <e><p><l>et<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+
 
            
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
