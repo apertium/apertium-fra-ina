@@ -27,6 +27,13 @@
         </def-attr>
         <def-attr n="temps">
            <attr-item tags="pri"/>
+           <attr-item tags="imp"/>
+           <attr-item tags="inf"/>
+           <attr-item tags="past"/>
+           <attr-item tags="fut"/>
+           <attr-item tags="cni"/>
+           <attr-item tags="pprs"/>
+           <attr-item tags="pp"/>
         </def-attr>
         <def-attr n="lem">
            <attr-item tags="lm"/>
