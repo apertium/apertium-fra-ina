@@ -7,6 +7,10 @@
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="noun">
+      <cat-item tags="n.*"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
     <def-cat n="vrb">
        <cat-item tags="vblex.*"/>
     </def-cat>
@@ -27,10 +31,12 @@
         </def-attr>
         <def-attr n="temps">
            <attr-item tags="pri"/>
+           <attr-item tags="pii"/>
            <attr-item tags="imp"/>
            <attr-item tags="inf"/>
            <attr-item tags="past"/>
            <attr-item tags="fut"/>
+           <attr-item tags="fti"/>
            <attr-item tags="cni"/>
            <attr-item tags="pprs"/>
            <attr-item tags="pp"/>
@@ -104,6 +110,20 @@
      <pattern-item n="vrb"/>
    </pattern>
    <action>
+       <choose>
+        <when>
+            <test>
+               <equal>
+                  <clip pos="1" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pri"/>
+            </let>
+          </when>
+       </choose>
      <out>
        <chunk name="n">
        <tags>
@@ -142,6 +162,7 @@
          </chunk>
      </out>
    </action>
-</rule>
+</rule>   
+        
 </section-rules>
 </transfer>

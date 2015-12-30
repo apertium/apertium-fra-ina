@@ -19,6 +19,9 @@
     <def-cat n="adj">
         <cat-item tags="adj"/> 
     </def-cat>
+    <def-cat n="past">
+        <cat-item tags="vblex.past.*"/> 
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -26,7 +29,16 @@
       <attr-item tags="nom"/>
     </def-attr>
     <def-attr n="temps">
-        <attr-item tags="pri"/>
+           <attr-item tags="pri"/>
+           <attr-item tags="pii"/>
+           <attr-item tags="imp"/>
+           <attr-item tags="inf"/>
+           <attr-item tags="past"/>
+           <attr-item tags="fut"/>
+           <attr-item tags="fti"/>
+           <attr-item tags="cni"/>
+           <attr-item tags="pprs"/>
+           <attr-item tags="pp"/>
     </def-attr>
     <def-attr n="tn">
         <attr-item tags="tn"/> 
@@ -229,7 +241,7 @@
         <out>
         <chunk name="n">
        <tags>
-         <tag><lit-tag v="SN"/></tag>
+         <tag><lit-tag v="SN.SV"/></tag>
        </tags>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
@@ -334,8 +346,42 @@
         </out>
       </action>
     </rule>
+    <rule>
+    <pattern>
+            <pattern-item n="past"/>
+        </pattern>
+    <action>
+        <out>
+        <chunk name="v">
+       <tags>
+         <tag><lit-tag v="SV"/></tag>
+       </tags>      
+            <lu>
+                <get-case-from pos="1">
+                    <lit v="avoir"/>
+                </get-case-from>
+                <lit-tag v="vblex"/>
+                <lit-tag v="past"/>
+                <clip pos="1" side="sl" part="pers"/>
+                <clip pos="1" side="sl" part="nbr"/>
+                </lu>
+                <b/>
+                <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="inf"/>
+                <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            </chunk>
+        </out>
+    </action>
+        
+      </rule>
   </section-rules>
 </transfer>
+      
+                 
+
 
 <!--
 Resources:

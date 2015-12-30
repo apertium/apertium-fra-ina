@@ -60,19 +60,29 @@
 
             <e><p><l>je<s n="prn"/></l><r>io<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>tu<s n="prn"/></l><r>tu<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>il<s n="prn"/></l><r>illo<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>il<s n="prn"/></l><r>ille<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>il<s n="prn"/></l><r>illa<s n="prn"/><s n="nom"/></r></p></e>
+            <e r="RL"><p><l>il<s n="prn"/></l><r>illo<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>nous<s n="prn"/></l><r>nos<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>vous<s n="prn"/></l><r>vos<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
-
+            <e><p><l>ils<s n="prn"/></l><r>illes<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>elles<s n="prn"/></l><r>illas<s n="prn"/><s n="nom"/></r></p></e>
+            <e r="RL"><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
            <e><p><l>excellent<s n="adj"/></l><r>excellente<s n="adj"/></r></p></e>
             <e><p><l>et<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+            <e><p><l>ou<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
+            <e><p><l>mais<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
+
+
 
 
            
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
-            <e r="LR"><p><l>la<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+
             <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+
 
 
             <e r="LR"><p><l>tout<s n="predet"/><s n="m"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -101,6 +111,7 @@
            <e><p><l>mourir<s n="vblex"/></l><r>morir<s n="vblex"/></r></p></e>
            <e><p><l>entendre<s n="vblex"/></l><r>audir<s n="vblex"/></r></p></e>
            <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
+           <e><p><l>avoir<s n="vblex"/></l><r>haber<s n="vblex"/></r></p></e>
 
        </section>
 </dictionary>
