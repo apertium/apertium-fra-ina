@@ -4,6 +4,7 @@
 /ChangeLog -text
 /Makefile.am -text
 /NEWS -text
+/PROGRESS -text
 /README -text
 /apertium-fra-ina.fra-ina.dix -text
 /apertium-fra-ina.fra-ina.lrx -text

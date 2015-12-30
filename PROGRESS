@@ -1,0 +1,24 @@
+Sentences that translate correctly:
+
+fra -> ina
+
+$   echo "Je mange." | apertium -d . fra-ina	
+Io mangia.
+
+$   echo "Les chiens parlent." | apertium -d . fra-ina
+Le canes parla.
+
+$   echo "Tu nageras." | apertium -d . fra-ina
+Tu natara.
+
+
+ina -> fra
+
+$   echo "Io mangia." | apertium -d . ina-fra
+Je mange.
+
+$   echo "Le canes parla." | apertium -d . ina-fra
+Les chiens parlent.
+
+$   echo "Tu natara." | apertium -d . ina-fra
+Tu nageras.
