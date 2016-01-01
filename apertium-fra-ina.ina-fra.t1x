@@ -15,13 +15,16 @@
     </def-cat>
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
+      <cat-item tags="vbmod.*"/>
+      <cat-item tags="vbser.*"/>
+
     </def-cat>
     <def-cat n="adj">
         <cat-item tags="adj"/> 
     </def-cat>
     <def-cat n="past">
         <cat-item tags="vblex.past.*"/> 
-    </def-cat>
+    </def-cat> 
   </section-def-cats>
 
   <section-def-attrs>
@@ -58,7 +61,7 @@
     </def-attr>
     <def-attr n="defindef">
       <attr-item tags="def"/>
-      <attr-item tags="indef"/>
+      <attr-item tags="ind"/>
     </def-attr>
            
 
@@ -113,7 +116,20 @@
       </pattern>
 
       <action>  
-
+        <choose>
+          <when>
+            <test>
+               <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="pii"/>
+            </let>
+          </when>
+        </choose>
 
         <out>
         <chunk name="n">
@@ -175,6 +191,7 @@
         </out>
       </action>
     </rule>
+
         <rule>
           <pattern>
         <pattern-item n="nom"/>
@@ -221,6 +238,55 @@
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+          <rule>
+          <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="adj"/>
+      </pattern>
+
+      <action>  
+
+
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN.SV"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <clip pos="3" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
             <clip pos="2" side="tl" part="gender"/>
             <clip pos="2" side="tl" part="nbr"/>
           </lu>
@@ -346,37 +412,7 @@
         </out>
       </action>
     </rule>
-    <rule>
-    <pattern>
-            <pattern-item n="past"/>
-        </pattern>
-    <action>
-        <out>
-        <chunk name="v">
-       <tags>
-         <tag><lit-tag v="SV"/></tag>
-       </tags>      
-            <lu>
-                <get-case-from pos="1">
-                    <lit v="avoir"/>
-                </get-case-from>
-                <lit-tag v="vblex"/>
-                <lit-tag v="past"/>
-                <clip pos="1" side="sl" part="pers"/>
-                <clip pos="1" side="sl" part="nbr"/>
-                </lu>
-                <b/>
-                <lu>
-                <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <lit-tag v="inf"/>
-                <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-            </chunk>
-        </out>
-    </action>
-        
-      </rule>
+
   </section-rules>
 </transfer>
       

@@ -9,12 +9,16 @@
     <sdef n="mf"     c="Masculine/feminine"/>
     <sdef n="pl"    c="Plural"/>
     <sdef n="vblex" c="Verb"/>
+    <sdef n="vbmod" c="Verb"/>
+    <sdef n="vbser" c="Verb"/>
+
     <sdef n="p1"    c="1st person"/>
     <sdef n="p2"    c="2nd person"/>
     <sdef n="p3"    c="3rd person"/>
     <sdef n="prn"   c="Pronoun"/>
     <sdef n="pri"   c="Present indicative"/>
     <sdef n="def"   c="Definite"/>
+    <sdef n="ind"   c="Indefinite"/>
     <sdef n="det"   c="Determiner"/>
     <sdef n="sp"    c="Singular/plural"/>
     <sdef n="nd"    c="Singular/plural"/>
@@ -23,10 +27,11 @@
     <sdef n="predet"  c="Pre-determiner"/>
     <sdef n="cnjcoo"  c="Coordinating conjunction"/>
     <sdef n="cnjadv"  c="Conjunctive adverb"/>
-    <sdef n="pr"    c="Pronoun"/>
+    <sdef n="pr"    c="Preposition"/>
     <sdef n="dem"    c="Demonstrative"/>
     <sdef n="adv"    c="Adverb"/>
     <sdef n="adj"/>
+    <sdef n="tn"/>
     <sdef n="nom"    c="Nominative"/>
    </sdefs>
 
@@ -56,25 +61,31 @@
            <e><p><l>ver<s n="n"/><s n="m"/></l><r>verme<s n="n"/></r></p></e>
            <e><p><l>cheval<s n="n"/><s n="m"/></l><r>equo<s n="n"/></r></p></e>
            <e><p><l>voiture<s n="n"/><s n="f"/></l><r>carro<s n="n"/></r></p></e>
+           <e><p><l>famille<s n="n"/><s n="f"/></l><r>familia<s n="n"/></r></p></e>
+           <e><p><l>maison<s n="n"/><s n="f"/></l><r>domo<s n="n"/></r></p></e>
+           <e><p><l>campagne<s n="n"/><s n="f"/></l><r>campania<s n="n"/></r></p></e>
 
-
+            <!-- Personal pronouns   -->
             <e><p><l>je<s n="prn"/></l><r>io<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>tu<s n="prn"/></l><r>tu<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>il<s n="prn"/></l><r>ille<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>il<s n="prn"/></l><r>illa<s n="prn"/><s n="nom"/></r></p></e>
-            <e r="RL"><p><l>il<s n="prn"/></l><r>illo<s n="prn"/><s n="nom"/></r></p></e>
+            <e><p><l>il<s n="prn"/></l><r>ill<s n="prn"/><s n="nom"/></r></p></e>
+            <e r="RL"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>illo<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>nous<s n="prn"/></l><r>nos<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>vous<s n="prn"/></l><r>vos<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>ils<s n="prn"/></l><r>illes<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>elles<s n="prn"/></l><r>illas<s n="prn"/><s n="nom"/></r></p></e>
-            <e r="RL"><p><l>ils<s n="prn"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
+            <e r="RL"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
            <e><p><l>excellent<s n="adj"/></l><r>excellente<s n="adj"/></r></p></e>
             <e><p><l>et<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
             <e><p><l>ou<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
             <e><p><l>mais<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
 
 
+            <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+            <e><p><l>à<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+            <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+            <e><p><l>avec<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
 
+            <e><p><l>très<s n="preadv"/></l><r>multo<s n="preadv"/></r></p></e>
+            <e><p><l>ne<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
 
            
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
@@ -83,16 +94,53 @@
 
             <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
 
+            <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>un<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+            <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>un<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+
+            <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="nd"/><s n="gd"/></l><r>un<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
 
 
             <e r="LR"><p><l>tout<s n="predet"/><s n="m"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
-            <e r="LR"><p><l>toute<s n="predet"/><s n="f"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
-<!--
-            <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
-            <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
-            <e r="RL"><p><l>toute<s n="predet"/><s n="ND"/><s n="GD"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
--->
+            <e r="LR"><p><l>tout<s n="predet"/><s n="f"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+            <e r="RL"><p><l>tout<s n="predet"/><s n="nd"/><s n="gd"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+            <e r="RL"><p><l>tout<s n="predet"/><s n="nd"/><s n="gd"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
+            <e r="RL"><p><l>tout<s n="predet"/><s n="nd"/><s n="gd"/></l><r>tote<s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
            <e><p><l>être<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+           <e><p><l>pouvoir<s n="vbmod"/></l><r>poter<s n="vbmod"/></r></p></e>
+           <e><p><l>faire<s n="vblex"/></l><r>facer<s n="vblex"/></r></p></e>
+           <e><p><l>mettre<s n="vblex"/></l><r>mitter<s n="vblex"/></r></p></e>
+           <e><p><l>dire<s n="vblex"/></l><r>dicer<s n="vblex"/></r></p></e>
+           <e><p><l>devoir<s n="vblex"/></l><r>deber<s n="vblex"/></r></p></e>
+           <e><p><l>devoir<s n="vbmod"/></l><r>deber<s n="vbmod"/></r></p></e>
+           <e><p><l>prendre<s n="vblex"/></l><r>prender<s n="vblex"/></r></p></e>
+           <e><p><l>donner<s n="vblex"/></l><r>dar<s n="vblex"/></r></p></e>
+           <e><p><l>aller<s n="vblex"/></l><r>ambular<s n="vblex"/></r></p></e>
+           <e><p><l>vouloir<s n="vblex"/></l><r>voler<s n="vblex"/></r></p></e>
+           <e><p><l>savoir<s n="vblex"/></l><r>saper<s n="vblex"/></r></p></e>
+<!--           <e><p><l>falloir<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>-->
+           <e><p><l>voir<s n="vblex"/></l><r>vider<s n="vblex"/></r></p></e>
+           <e><p><l>demander<s n="vblex"/></l><r>demandar<s n="vblex"/></r></p></e>
+           <e><p><l>trouver<s n="vblex"/></l><r>trovar<s n="vblex"/></r></p></e>
+           <e><p><l>rendre<s n="vblex"/></l><r>render<s n="vblex"/></r></p></e>
+           <e><p><l>venir<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+           <e><p><l>passer<s n="vblex"/></l><r>passar<s n="vblex"/></r></p></e>
+           <e><p><l>comprendre<s n="vblex"/></l><r>comprehender<s n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>restar<s n="vblex"/></r></p></e>
+           <e><p><l>tenir<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+           <e><p><l>porter<s n="vblex"/></l><r>portar<s n="vblex"/></r></p></e>
+           <e><p><l>montrer<s n="vblex"/></l><r>monstrar<s n="vblex"/></r></p></e>
+<!--
+           <e><p><l>rester<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>esser< n="vblex"/></r></p></e>
+           <e><p><l>rester<s n="vblex"/></l><r>esser<s n="vblex"/></r></p></e>
+-->
+
+
            <e><p><l>parler<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
            <e><p><l>chanter<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
            <e><p><l>manger<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>
@@ -112,6 +160,28 @@
            <e><p><l>entendre<s n="vblex"/></l><r>audir<s n="vblex"/></r></p></e>
            <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
            <e><p><l>avoir<s n="vblex"/></l><r>haber<s n="vblex"/></r></p></e>
+           <e><p><l>habiter<s n="vblex"/></l><r>habitar<s n="vblex"/></r></p></e>
+           <e><p><l>chercher<s n="vblex"/></l><r>cercar<s n="vblex"/></r></p></e>
 
+           <e><p><l>amical<s n="adj"/></l><r>amic<s n="adj"/></r></p></e>
+           <e><p><l>ancien<s n="adj"/></l><r>ancian<s n="adj"/></r></p></e>
+           <e><p><l>argenté<s n="adj"/></l><r>argentee<s n="adj"/></r></p></e>
+           <e><p><l>autre<s n="adj"/></l><r>altere<s n="adj"/></r></p></e>
+           <e><p><l>bel<s n="adj"/></l><r>belle<s n="adj"/></r></p></e>
+           <e><p><l>bizarre<s n="adj"/></l><r>bizarre<s n="adj"/></r></p></e>
+           <e><p><l>blanc<s n="adj"/></l><r>albe<s n="adj"/></r></p></e>
+           <e><p><l>bleu<s n="adj"/></l><r>azur<s n="adj"/></r></p></e>
+           <e><p><l>bon<s n="adj"/></l><r>bon<s n="adj"/></r></p></e>
+           <e><p><l>brun<s n="adj"/></l><r>brun<s n="adj"/></r></p></e>
+           <e><p><l>certain<s n="adj"/></l><r>certe<s n="adj"/></r></p></e>
+           <e><p><l>chaud<s n="adj"/></l><r>calide<s n="adj"/></r></p></e>
+           <e><p><l>cher<s n="adj"/></l><r>car<s n="adj"/></r></p></e>
+           <e><p><l>clair<s n="adj"/></l><r>clar<s n="adj"/></r></p></e>
+           <e><p><l>confus<s n="adj"/></l><r>confuse<s n="adj"/></r></p></e>
+           <e><p><l>content<s n="adj"/></l><r>satisfacte<s n="adj"/></r></p></e>
+           <e><p><l>courageux<s n="adj"/></l><r>brave<s n="adj"/></r></p></e>
+           <e><p><l>gentil<s n="adj"/></l><r>gentil<s n="adj"/></r></p></e>
+
+           
        </section>
 </dictionary>

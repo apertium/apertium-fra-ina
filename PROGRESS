@@ -11,6 +11,13 @@ Le canes parla.
 $   echo "Tu nageras." | apertium -d . fra-ina
 Tu natara.
 
+$   echo "J'habite avec une famille très gentille." | apertium -d . fra-ina
+Io habita con un familia multo gentil.
+
+$   echo "Je trouve la maison très belle." | apertium -d . fra-ina
+Io trova le domo multo belle.
+
+$ echo "La femme n'est pas content avec le maison et elle cherche une autre maison à la campagne." | apertium -d . fra-ina
 
 ina -> fra
 
@@ -22,3 +29,12 @@ Les chiens parlent.
 
 $   echo "Tu natara." | apertium -d . ina-fra
 Tu nageras.
+
+$   echo "Io debe mangiar." | apertium -d . ina-fra
+Je dois manger.
+
+$   echo "Io amava." | apertium -d . ina-fra
+J'aimais.
+
+$   echo "Io natara." | apertium -d . ina-fra
+Je nagerai.
