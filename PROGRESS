@@ -19,6 +19,10 @@ Io trova le domo multo belle.
 
 $ echo "La femme n'est pas content avec le maison et elle cherche une autre maison à la campagne." | apertium -d . fra-ina
 
+$ echo "Je répondrai à quatre-vingt-dix-neuf hommes." | apertium -d . fra-ina
+Io respondera a novanta-nove homines.
+
+
 ina -> fra
 
 $   echo "Io mangia." | apertium -d . ina-fra
@@ -38,3 +42,4 @@ J'aimais.
 
 $   echo "Io natara." | apertium -d . ina-fra
 Je nagerai.
+

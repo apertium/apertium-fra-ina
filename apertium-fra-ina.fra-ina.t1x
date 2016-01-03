@@ -22,6 +22,12 @@
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="ger">
+      <cat-item tags="vblex.ger.*"/>
+    </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
   </section-def-cats>
 
     <section-def-attrs>
@@ -45,6 +51,8 @@
            <attr-item tags="cni"/>
            <attr-item tags="pprs"/>
            <attr-item tags="pp"/>
+           <attr-item tags="ger"/>
+
         </def-attr>
         <def-attr n="lem">
            <attr-item tags="lm"/>
@@ -66,6 +74,7 @@
       <attr-item tags="n"/>
       <attr-item tags="det"/>
       <attr-item tags="adj"/>
+      <attr-item tags="num"/>
     </def-attr>
 
         <def-attr n="gender">
@@ -92,7 +101,7 @@
   </section-def-macros>
 -->
 <section-rules>
-    <rule>
+    <rule comment="RULE: Remove gender information for nouns">
        <pattern>
          <pattern-item n="nom"/>
        </pattern>
@@ -111,7 +120,7 @@
          </out>
        </action>
     </rule>
-    <rule>
+    <rule comment="RULE: Conjugate verbs">
    <pattern>
      <pattern-item n="vrb"/>
    </pattern>
@@ -131,7 +140,7 @@
           </when>
        </choose>
      <out>
-       <chunk name="n">
+       <chunk name="vb">
        <tags>
          <tag><lit-tag v="SV"/></tag>
        </tags>
@@ -144,13 +153,13 @@
      </out>
    </action>
 </rule>
-    <rule>
+    <rule comment="RULE: Conjugate pronouns properly">
    <pattern>
      <pattern-item n="prn"/>
    </pattern>
    <action>
      <out>
-       <chunk name="n">
+       <chunk name="prn">
        <tags>
          <tag><lit-tag v="SN"/></tag>
        </tags>
@@ -169,7 +178,7 @@
      </out>
    </action>
 </rule>   
-    <rule>
+    <rule comment="RULE: Remove gender information for adjectives">
    <pattern>
      <pattern-item n="adj"/>
    </pattern>
@@ -188,6 +197,46 @@
          </chunk>
      </out>
    </action>
-</rule>         
+</rule>        
+<rule comment="RULE: output French gerunds as present participles">
+      <pattern>
+        <pattern-item n="ger"/>
+      </pattern>
+
+      <action>
+        <out>
+        <chunk name="adj">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+       </tags>            
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <lit-tag v="pp"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+              <rule comment="RULE: conjugate numerals properly">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+
+      <action>
+        <out>
+        <chunk name="adj">
+       <tags>
+         <tag><lit-tag v="ADJ"/></tag>
+       </tags>            
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>  
+      
 </section-rules>
 </transfer>
