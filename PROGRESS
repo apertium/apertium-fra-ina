@@ -14,14 +14,18 @@ Tu natara.
 $   echo "J'habite avec une famille très gentille." | apertium -d . fra-ina
 Io habita con un familia multo gentil.
 
-$   echo "Je trouve la maison très belle." | apertium -d . fra-ina
-Io trova le domo multo belle.
+$   echo "Je trouve la maison très bonne." | apertium -d . fra-ina
+Io trova le domo multo bon.
 
-$ echo "La femme n'est pas content avec le maison et elle cherche une autre maison à la campagne." | apertium -d . fra-ina
 
-$ echo "Je répondrai à quatre-vingt-dix-neuf hommes." | apertium -d . fra-ina
-Io respondera a novanta-nove homines.
+$   echo "La femme est content avec le maison." | apertium -d . fra-ina
+Le femina es satisfacte con le domo.
 
+$   echo "Je répondrai à quatre-vingt-dix hommes." | apertium -d . fra-ina
+Io respondera a novanta homines.
+
+$   echo "Elle cherche une maison à la campagne." | apertium -d . fra-ina
+Illa cerca un domo a le campania.
 
 ina -> fra
 
@@ -43,3 +47,14 @@ J'aimais.
 $   echo "Io natara." | apertium -d . ina-fra
 Je nagerai.
 
+$   echo "Io respondera a novanta homines." | apertium -d . ina-fra
+Je répondrai à quatre-vingt-dix hommes.
+
+$  echo "Le femina es satisfacte con le domo." | apertium -d . ina-fra
+La femme est contente avec la maison.
+
+$  echo "Illa cerca un domo a le campania." | apertium -d . ina-fra
+Elle cherche une maison à la campagne.
+
+$  echo "Io trova le domo multo bon." | apertium -d . ina-fra
+Je trouve la maison très bonne.

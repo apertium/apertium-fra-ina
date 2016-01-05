@@ -260,17 +260,7 @@
 
              <e><p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
             <!-- The numbers from one to one hundred -->
-            <e><p><l>un<s n="num"/></l><r>un<s n="num"/></r></p></e>
-            <e><p><l>deux<s n="num"/></l><r>duo<s n="num"/></r></p></e>
-            <e><p><l>trois<s n="num"/></l><r>tres<s n="num"/></r></p></e>
-            <e><p><l>quatre<s n="num"/></l><r>quatro<s n="num"/></r></p></e>
-            <e><p><l>cinq<s n="num"/></l><r>cinque<s n="num"/></r></p></e>
-            <e><p><l>six<s n="num"/></l><r>sex<s n="num"/></r></p></e>
-            <e><p><l>sept<s n="num"/></l><r>septe<s n="num"/></r></p></e>
-            <e><p><l>huit<s n="num"/></l><r>octo<s n="num"/></r></p></e>
-            <e><p><l>neuf<s n="num"/></l><r>nove<s n="num"/></r></p></e>
-            <e><p><l>dix<s n="num"/></l><r>dece<s n="num"/></r></p></e>
-            <e><p><l>un<s n="num"/></l><r>un<s n="num"/></r></p></e>
+<!--            <e><p><l>un<s n="num"/></l><r>un<s n="num"/></r></p></e>-->
             <e><p><l>deux<s n="num"/></l><r>duo<s n="num"/></r></p></e>
             <e><p><l>trois<s n="num"/></l><r>tres<s n="num"/></r></p></e>
             <e><p><l>quatre<s n="num"/></l><r>quatro<s n="num"/></r></p></e>
@@ -349,7 +339,7 @@
             <e><p><l>soixante-dix-sept<s n="num"/></l><r>septanta-septe<s n="num"/></r></p></e>
             <e><p><l>soixante-dix-huit<s n="num"/></l><r>septanta-octo<s n="num"/></r></p></e>
             <e><p><l>soixante-dix-neuf<s n="num"/></l><r>septanta-nove<s n="num"/></r></p></e>
-            <e><p><l>quatre-vingts<s n="num"/></l><r>octanta<s n="num"/></r></p></e>
+            <e><p><l>quatre-vingt<s n="num"/></l><r>octanta<s n="num"/></r></p></e>
             <e><p><l>quatre-vingt-un<s n="num"/></l><r>octanta-un<s n="num"/></r></p></e>
             <e><p><l>quatre-vingt-deux<s n="num"/></l><r>octanta-duo<s n="num"/></r></p></e>
             <e><p><l>quatre-vingt-trois<s n="num"/></l><r>octanta-tres<s n="num"/></r></p></e>
@@ -366,9 +356,11 @@
             <e><p><l>quatre-vingt-quatorze<s n="num"/></l><r>novanta-quatro<s n="num"/></r></p></e>
             <e><p><l>quatre-vingt-quinze<s n="num"/></l><r>novanta-cinque<s n="num"/></r></p></e>
             <e><p><l>quatre-vingt-seize<s n="num"/></l><r>novanta-sex<s n="num"/></r></p></e>
+<!--
             <e><p><l>quatre-vingt-dix-sept<s n="num"/></l><r>novanta-septe<s n="num"/></r></p></e>
             <e><p><l>quatre-vingt-dix-huit<s n="num"/></l><r>novanta-octo<s n="num"/></r></p></e>
-            <e><p><l>quatre-vingt-dix-neuf<s n="num"/></l><r>novanta-nove<s n="num"/></r></p></e>
+            <e><p><l>quatre-vingt-dix<s n="num"/></l><r>novanta-nove<s n="num"/></r></p></e>
+-->
             <e><p><l>cent<s n="num"/></l><r>cento<s n="num"/></r></p></e>
 
 <e><p><l>service<s n="n"/><s n="m"/></l><r>servicio<s n="n"/></r></p></e>

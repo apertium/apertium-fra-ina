@@ -28,6 +28,9 @@
     <def-cat n="num">
       <cat-item tags="num"/>
     </def-cat>
+    <def-cat n="preadv">
+      <cat-item tags="preadv"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -64,7 +67,7 @@
       <attr-item tags="det"/>
       <attr-item tags="adj"/>
       <attr-item tags="num"/>
-
+      <attr-item tags="preadv"/>
     </def-attr>
     <def-attr n="defindef">
       <attr-item tags="def"/>
@@ -380,6 +383,50 @@
         </out>
       </action>
     </rule>
+    <rule comment="RULE: conjugate DET NOM PREADV ADJ">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="preadv"/>
+        <pattern-item n="adj"/>
+      </pattern>
+
+      <action>
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+       </tags>            
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
           <rule comment="RULE: conjugate DET NOM ADJ">
       <pattern>
         <pattern-item n="det"/>
@@ -445,7 +492,8 @@
                           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="word_type"/>
-                  <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
                     </lu>
             <b/>
             <lu>
@@ -469,7 +517,8 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="word_type"/>
                   <lit-tag v="mf"/>
-           </lu>
+           <lit-tag v="sp"/>
+</lu>
             <b/>
             <lu>
             <clip pos="2" side="tl" part="lem"/>
@@ -488,7 +537,82 @@
           
 
 
-    </rule>  
+    </rule>
+<!--
+    <rule comment="RULE: conjugate two numerals before nouns">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+
+      <action>
+
+       
+
+            <choose>
+              <when>
+                <test>
+                   <equal>
+                      <clip pos="2" side="tl" part="lem"/>
+                      <lit v="un"/>
+                    </equal>
+                </test>
+                <out>
+                            <chunk name="SN">
+       <tags>
+         <tag><lit-tag v="n"/></tag>
+       </tags>     
+                          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+                    </lu>
+            <b/>
+            <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+                                </lu>
+                    </chunk>
+                </out>
+
+              </when>
+                <otherwise>
+
+                <out>
+            <chunk name="SN">
+       <tags>
+         <tag><lit-tag v="n"/></tag>
+       </tags>     
+       <lu>                   
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+                  <lit-tag v="mf"/>
+           <lit-tag v="sp"/>
+</lu>
+            <b/>
+            <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+                </lu>
+                    </chunk>
+                </out>  
+
+                </otherwise>
+            </choose>
+        </action>
+            
+
+          
+
+
+    </rule> 
+-->
 
   </section-rules>
 </transfer>
