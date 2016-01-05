@@ -373,13 +373,13 @@
 <e><p><l>abordage<s n="n"/><s n="m"/></l><r>abbordage<s n="n"/></r></p></e>
 <e><p><l>silence<s n="n"/><s n="m"/></l><r>silentio<s n="n"/></r></p></e>
 <e><p><l>absence<s n="n"/><s n="f"/></l><r>absentia<s n="n"/></r></p></e>
-<e><p><l>baguette<s n="f"/><s n="m"/></l><r>bacchetta<s n="n"/></r></p></e>
+<e><p><l>baguette<s n="n"/><s n="f"/></l><r>bacchetta<s n="n"/></r></p></e>
 
 <e><p><l>bain<s n="n"/><s n="m"/></l><r>banio<s n="n"/></r></p></e>
 <e><p><l>banc<s n="n"/><s n="m"/></l><r>banco<s n="n"/></r></p></e>
-<e><p><l>bâton<s n="n"/><s n="m"/></l><r>baston<s n="n"/></r></p></e>
+<e r="LR"><p><l>bâton<s n="n"/><s n="m"/></l><r>baston<s n="n"/></r></p></e>
 <e><p><l>bassin<s n="n"/><s n="m"/></l><r>bassino<s n="n"/></r></p></e>
-<e><p><l>bouche<s n="n"/><s n="m"/></l><r>bucca<s n="n"/></r></p></e>
+<e><p><l>bouche<s n="n"/><s n="f"/></l><r>bucca<s n="n"/></r></p></e>
 
 <e><p><l>calme<s n="n"/><s n="m"/></l><r>calma<s n="n"/></r></p></e>
 <e><p><l>campement<s n="n"/><s n="m"/></l><r>campamento<s n="n"/></r></p></e>
@@ -405,19 +405,19 @@
 <e><p><l>fermeture<s n="n"/><s n="f"/></l><r>clausura<s n="n"/></r></p></e>
 <e><p><l>fête<s n="n"/><s n="f"/></l><r>festa<s n="n"/></r></p></e>
 
-<e><p><l>gangster<s n="n"/><s n="m"/></l><r>gangster<s n="n"/></r></p></e>
-<e><p><l>garage<s n="n"/><s n="f"/></l><r>garage<s n="n"/></r></p></e>
+<e><p><l>gangster<s n="n"/><s n="mf"/></l><r>gangster<s n="n"/></r></p></e>
+<e><p><l>garage<s n="n"/><s n="m"/></l><r>garage<s n="n"/></r></p></e>
 <e><p><l>gastronome<s n="n"/><s n="m"/></l><r>gastronomo<s n="n"/></r></p></e>
 <e><p><l>général<s n="n"/><s n="m"/></l><r>general<s n="n"/></r></p></e>
 <e><p><l>genre<s n="n"/><s n="m"/></l><r>sorta<s n="n"/></r></p></e>
 
 <e><p><l>geste<s n="n"/><s n="m"/></l><r>gesto<s n="n"/></r></p></e>
-<e><p><l>grief<s n="n"/><s n="m"/></l><r>gravamine<s n="n"/></r></p></e>
+<e r="LR"><p><l>grief<s n="n"/><s n="m"/></l><r>gravamine<s n="n"/></r></p></e>
 <e><p><l>habitant<s n="n"/><s n="m"/></l><r>habitante<s n="n"/></r></p></e>
 <e><p><l>heure<s n="n"/><s n="f"/></l><r>hora<s n="n"/></r></p></e>
 <e><p><l>histoire<s n="n"/><s n="f"/></l><r>historia<s n="n"/></r></p></e>
 
-<e><p><l>horloge<s n="n"/><s n="f"/></l><r>horologio<s n="n"/></r></p></e>
+<e r="LR"><p><l>horloge<s n="n"/><s n="f"/></l><r>horologio<s n="n"/></r></p></e>
 <e><p><l>idée<s n="n"/><s n="f"/></l><r>idea<s n="n"/></r></p></e>
 <e><p><l>image<s n="n"/><s n="f"/></l><r>imagine<s n="n"/></r></p></e>
 <e><p><l>immigration<s n="n"/><s n="f"/></l><r>immigration<s n="n"/></r></p></e>
