@@ -253,7 +253,12 @@
            <e><p><l>courageux<s n="adj"/></l><r>brave<s n="adj"/></r></p></e>
            <e><p><l>gentil<s n="adj"/></l><r>gentil<s n="adj"/></r></p></e>
            <e><p><l>stupide<s n="adj"/><s n="mf"/><s n="sg"/></l><r>stupide<s n="adj"/></r></p></e>
-           <e><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/></r></p></e>
+<!--           <e><p><l>gros<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>-->
+<!--           <e><p><l>gros<s n="adj"/><s n="f"/></l><r>grande<s n="adj"/></r></p></e>-->
+<!--            <e r="LR"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/><s n="m"/><s n="ND"/></r></p></e>-->
+            <e r="RL"><p><l>gros<s n="adj"/><s n="f"/><s n="sg"/></l><r>grande<s n="adj"/></r></p></e>
+            <e r="RL"><p><l>gros<s n="adj"/><s n="f"/><s n="pl"/></l><r>grande<s n="adj"/></r></p></e>
+            <e r="RL"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/></r></p></e>
            <e><p><l>terrestre<s n="adj"/><s n="mf"/></l><r>terrestre<s n="adj"/></r></p></e>
            <e><p><l>exact<s n="adj"/></l><r>exacte<s n="adj"/></r></p></e>
            <e><p><l>libre<s n="adj"/></l><r>libere<s n="adj"/></r></p></e>

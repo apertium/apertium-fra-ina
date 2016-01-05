@@ -264,8 +264,28 @@
       </pattern>
 
       <action>  
-
-
+          <choose>
+              <when>
+	  <test>
+          <and>
+                <equal>
+                  <clip pos="4" side="tl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="tl" part="gender"/>
+                  <clip pos="2" side="tl" part="gender"/>
+                </equal>
+              </and>
+	  </test>
+</when>
+	<otherwise>
+	  <let>
+		  <clip pos="4" side="tl" part="nbr"/>
+        <clip pos="2" side="tl" part="nbr"/>
+	  </let>
+	</otherwise>
+              </choose>
         <out>
         <chunk name="det_nom_verb">
        <tags>
@@ -298,7 +318,7 @@
             <clip pos="4" side="tl" part="lem"/>
             <clip pos="4" side="tl" part="word_type"/>
             <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
+            <clip pos="4" side="tl" part="nbr"/>
           </lu>
             </chunk>
         </out>
@@ -436,6 +456,34 @@
       </pattern>
 
       <action>
+      <choose>
+	<when>
+	  <test>
+          <and>
+                <equal>
+                  <clip pos="3" side="tl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="tl" part="gender"/>
+                  <clip pos="2" side="tl" part="gender"/>
+                </equal>
+              </and>
+	  </test>
+<!--
+	  <let>
+	    <var n="concTercero"/>
+	    <lit v="true"/>
+	  </let>
+-->
+	</when>
+	<otherwise>
+	  <let>
+		  <clip pos="3" side="tl" part="nbr"/>
+        <clip pos="2" side="tl" part="nbr"/>
+	  </let>
+	</otherwise>
+      </choose>
         <out>
         <chunk name="n">
        <tags>
@@ -460,7 +508,8 @@
             <clip pos="3" side="tl" part="lem"/>
             <clip pos="3" side="tl" part="word_type"/>
             <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
+		  <clip pos="3" side="tl" part="nbr"/>
+
           </lu>
             </chunk>
         </out>

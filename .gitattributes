@@ -16,11 +16,11 @@
 /apertium-fra-ina.ina-fra.t2x -text
 /apertium-fra-ina.ina-fra.t3x -text
 /autogen.sh -text
+/config.sh -text
 /configure.ac -text
 /modes.xml -text
+/pending-tests -text
+/regression-tests -text
 t/README.org -text
-t/config.sh -text
-t/pending-tests -text
-t/regression-tests -text
-t/update-latest -text
-t/wiki-tests -text
+/update-latest -text
+/wiki-tests -text

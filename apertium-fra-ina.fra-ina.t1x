@@ -198,6 +198,7 @@
      </out>
    </action>
 </rule>        
+<!--
 <rule comment="RULE: output French gerunds as present participles">
       <pattern>
         <pattern-item n="ger"/>
@@ -218,6 +219,7 @@
         </out>
       </action>
     </rule>
+-->
               <rule comment="RULE: conjugate numerals properly">
       <pattern>
         <pattern-item n="num"/>
