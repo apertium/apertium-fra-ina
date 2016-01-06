@@ -35,6 +35,7 @@
     <sdef n="cnjsub"/>
     <sdef n="pos"/>
     <sdef n="num"/>
+    <sdef n="ND"/>
 
     <sdef n="nom"    c="Nominative"/>
    </sdefs>
@@ -255,7 +256,7 @@
            <e><p><l>stupide<s n="adj"/><s n="mf"/><s n="sg"/></l><r>stupide<s n="adj"/></r></p></e>
 <!--           <e><p><l>gros<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>-->
 <!--           <e><p><l>gros<s n="adj"/><s n="f"/></l><r>grande<s n="adj"/></r></p></e>-->
-<!--            <e r="LR"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/><s n="m"/><s n="ND"/></r></p></e>-->
+            <e r="LR"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/><s n="m"/><s n="ND"/></r></p></e>
             <e r="RL"><p><l>gros<s n="adj"/><s n="f"/><s n="sg"/></l><r>grande<s n="adj"/></r></p></e>
             <e r="RL"><p><l>gros<s n="adj"/><s n="f"/><s n="pl"/></l><r>grande<s n="adj"/></r></p></e>
             <e r="RL"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/></r></p></e>

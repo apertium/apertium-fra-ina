@@ -13,6 +13,11 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="gros_adj">
+      <cat-item lemma="grand" tags="adj"/>
+      <cat-item lemma="gras" tags="*"/>
+      <cat-item lemma="bas" tags="*"/>
+    </def-cat>
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbmod.*"/>
@@ -90,7 +95,13 @@
   <section-def-vars>
     <def-var n="number"/>
   </section-def-vars>
-
+    <section-def-lists>
+        <def-list n="gros_adjs">
+    <list-item v="gros"/>
+        <list-item v="bas"/>
+        <list-item v="gras"/>
+            </def-list>
+    </section-def-lists>
   <section-def-macros>
     <def-macro n="test" npar="1">
           <let>
@@ -99,6 +110,8 @@
           </let>
     </def-macro>
   </section-def-macros>
+
+    
 
   <section-rules>
     <rule comment="REGLA: SENT">
@@ -255,6 +268,22 @@
         </out>
       </action>
     </rule>
+<!--
+          <rule comment="RULE: conjugate determiners, nouns, verbs, adjectives">
+          <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="gros_adj"/>
+      </pattern>
+
+      <action>  
+
+
+
+      </action>
+    </rule>
+-->
           <rule comment="RULE: conjugate determiners, nouns, verbs, adjectives">
           <pattern>
         <pattern-item n="det"/>
@@ -264,28 +293,17 @@
       </pattern>
 
       <action>  
-          <choose>
+
+
+
+            <choose>
               <when>
-	  <test>
-          <and>
-                <equal>
-                  <clip pos="4" side="tl" part="nbr"/>
-                  <lit-tag v="sp"/>
-                </equal>
-                <equal>
-                  <clip pos="4" side="tl" part="gender"/>
-                  <clip pos="2" side="tl" part="gender"/>
-                </equal>
-              </and>
-	  </test>
-</when>
-	<otherwise>
-	  <let>
-		  <clip pos="4" side="tl" part="nbr"/>
-        <clip pos="2" side="tl" part="nbr"/>
-	  </let>
-	</otherwise>
-              </choose>
+                <test>
+                   <in>
+                      <clip pos="4" side="tl" part="lem"/>
+                      <list n="gros_adjs"/>
+                    </in>
+                </test>
         <out>
         <chunk name="det_nom_verb">
        <tags>
@@ -322,8 +340,54 @@
           </lu>
             </chunk>
         </out>
+
+              </when>
+                <otherwise>
+
+        <out>
+        <chunk name="det_nom_verb">
+       <tags>
+         <tag><lit-tag v="SN.SV"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <clip pos="3" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+
+                </otherwise>
+            </choose>
+
+
       </action>
     </rule>
+
 <rule comment="RULE: conjugate DET NOM VERB">
 <pattern>
         <pattern-item n="det"/>
@@ -442,6 +506,7 @@
             <clip pos="4" side="tl" part="word_type"/>
             <clip pos="2" side="tl" part="gender"/>
             <clip pos="2" side="tl" part="nbr"/>
+              
           </lu>
             </chunk>
         </out>
@@ -456,39 +521,20 @@
       </pattern>
 
       <action>
-      <choose>
-	<when>
-	  <test>
-          <and>
-                <equal>
-                  <clip pos="3" side="tl" part="nbr"/>
-                  <lit-tag v="sp"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="tl" part="gender"/>
-                  <clip pos="2" side="tl" part="gender"/>
-                </equal>
-              </and>
-	  </test>
-<!--
-	  <let>
-	    <var n="concTercero"/>
-	    <lit v="true"/>
-	  </let>
--->
-	</when>
-	<otherwise>
-	  <let>
-		  <clip pos="3" side="tl" part="nbr"/>
-        <clip pos="2" side="tl" part="nbr"/>
-	  </let>
-	</otherwise>
-      </choose>
+          
+            <choose>
+              <when>
+                <test>
+                   <in>
+                      <clip pos="3" side="tl" part="lem"/>
+                      <list n="gros_adjs"/>
+                    </in>
+                </test>
         <out>
-        <chunk name="n">
+        <chunk name="det_nom_verb">
        <tags>
-         <tag><lit-tag v="SN"/></tag>
-       </tags>            
+         <tag><lit-tag v="SN.SV"/></tag>
+       </tags>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="word_type"/>
@@ -509,11 +555,45 @@
             <clip pos="3" side="tl" part="word_type"/>
             <clip pos="2" side="tl" part="gender"/>
 		  <clip pos="3" side="tl" part="nbr"/>
-
-          </lu>
+            </lu>
             </chunk>
         </out>
-      </action>
+
+              </when>
+                <otherwise>
+
+        <out>
+        <chunk name="det_nom_verb">
+       <tags>
+         <tag><lit-tag v="SN.SV"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            </chunk>
+        </out>
+
+                </otherwise>
+            </choose>
+              </action>
     </rule>
     <rule comment="RULE: conjugate numerals before nouns">
       <pattern>
