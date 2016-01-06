@@ -2,6 +2,7 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
+/INSTALL -text
 /Makefile.am -text
 /NEWS -text
 /PROGRESS -text
@@ -18,9 +19,12 @@
 /autogen.sh -text
 /config.sh -text
 /configure.ac -text
+/fra-ina.prob -text svneol=unset#unset
+/ina-fra.prob -text svneol=unset#unset
+/latest-pending.results -text
+/latest-regression.results -text
 /modes.xml -text
 /pending-tests -text
 /regression-tests -text
-t/README.org -text
 /update-latest -text
 /wiki-tests -text

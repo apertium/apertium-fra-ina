@@ -1,0 +1,92 @@
+Revision: 64534
+Running Regression-tests with mode "fra-ina" with updated tests ...
+
+fra-ina	  Je mange.
+WORKS	  Io mangia.
+
+
+fra-ina	  Les chiens parlent.
+WORKS	  Le canes parla.
+
+
+fra-ina	  Tu nageras.
+WORKS	  Tu natara.
+
+
+fra-ina	  La femme est contente avec la maison.
+WORKS	  Le femina es satisfacte con le domo.
+
+
+fra-ina	  J'habite avec une famille très gentille.
+WORKS	  Io habita con un familia multo gentil.
+
+
+fra-ina	  Je trouve la maison très bonne.
+WORKS	  Io trova le domo multo bon.
+
+
+fra-ina	  Je répondrai à quatre-vingt-dix hommes.
+WORKS	  Io respondera a novanta homines.
+
+
+fra-ina	  Elle cherche une maison à la campagne.
+WORKS	  Illa cerca un domo a le campania.
+
+
+fra-ina	  Le fruit est bon.
+WORKS	  Le fructo es bon.
+
+
+fra-ina	  Le chien est gros.
+WORKS	  Le can es grande.
+
+
+fra-ina	  Les hommes gros.
+WORKS	  Le homines grande.
+
+
+11 / 11
+Revision: 64534
+Running Regression-tests with mode "ina-fra" with updated tests ...
+
+ina-fra	  Io mangia.
+WORKS	  Je mange.
+
+
+ina-fra	  Le canes parla.
+WORKS	  Les chiens parlent.
+
+
+ina-fra	  Tu natara.
+WORKS	  Tu nageras.
+
+
+ina-fra	  Le femina es satisfacte con le domo.
+WORKS	  La femme est contente avec la maison.
+
+
+ina-fra	  Io habita con un familia multo gentil.
+WORKS	  J'habite avec une famille très gentille.
+
+
+ina-fra	  Io trova le domo multo bon.
+WORKS	  Je trouve la maison très bonne.
+
+
+ina-fra	  Io respondera a novanta homines.
+WORKS	  Je répondrai à quatre-vingt-dix hommes.
+
+
+ina-fra	  Illa cerca un domo a le campania.
+WORKS	  Elle cherche une maison à la campagne.
+
+
+ina-fra	  Le can es grande.
+WORKS	  Le chien est gros.
+
+
+ina-fra	  Le homines grande.
+WORKS	  Les hommes gros.
+
+
+10 / 10
