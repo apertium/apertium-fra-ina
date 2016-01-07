@@ -93,7 +93,8 @@
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="adj_gender"/>
+    <def-var n="adj_number"/>
   </section-def-vars>
     <section-def-lists>
         <def-list n="gros_adjs">
@@ -102,15 +103,42 @@
         <list-item v="gras"/>
             </def-list>
     </section-def-lists>
-  <section-def-macros>
-    <def-macro n="test" npar="1">
-          <let>
-            <var n="number"/>
-            <lit v=""/>
-          </let>
+    <section-def-macros>
+    <def-macro n="adj_agreement" npar="2">
+<!-- par. 1: noun; par. 2: adj-->
+          <choose>
+            <when>
+                <test>
+                    <and>
+                   <in>
+                      <clip pos="2" side="tl" part="lem"/>
+                      <list n="gros_adjs"/>
+                    </in>
+                   <equal>
+                      <clip pos="1" side="tl" part="gender"/>
+                      <lit-tag v="m"/>
+                    </equal>
+                        </and>
+                </test>
+                <let>
+                    <var n="adj_number"/>
+                    <clip pos="2" side="tl" part="nbr"/>
+
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                    <var n="adj_number"/>
+                    <clip pos="1" side="tl" part="nbr"/>
+                </let>
+              </otherwise>
+        </choose>
+        <let>
+            <var n="adj_gender"/>
+            <clip pos="1" side="tl" part="gender"/>
+        </let>
     </def-macro>
   </section-def-macros>
-
     
 
   <section-rules>
@@ -239,6 +267,41 @@
         </out>
       </action>
     </rule>
+      
+        <rule comment="RULE: conjugate NOM ADJ">
+          <pattern>
+        <pattern-item n="nom"/>
+<pattern-item n="adj"/>
+      </pattern>
+
+      <action>  
+          <call-macro n="adj_agreement">
+            <with-param pos="1"/>
+            <with-param pos="2"/>
+          </call-macro>
+
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="gender"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="RULE: conjugate determiners">
       <pattern>
         <pattern-item n="det"/>
@@ -295,15 +358,10 @@
       <action>  
 
 
-
-            <choose>
-              <when>
-                <test>
-                   <in>
-                      <clip pos="4" side="tl" part="lem"/>
-                      <list n="gros_adjs"/>
-                    </in>
-                </test>
+          <call-macro n="adj_agreement">
+            <with-param pos="2"/>
+            <with-param pos="4"/>
+          </call-macro>
         <out>
         <chunk name="det_nom_verb">
        <tags>
@@ -335,54 +393,13 @@
           <lu>
             <clip pos="4" side="tl" part="lem"/>
             <clip pos="4" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="4" side="tl" part="nbr"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
           </lu>
             </chunk>
         </out>
 
-              </when>
-                <otherwise>
-
-        <out>
-        <chunk name="det_nom_verb">
-       <tags>
-         <tag><lit-tag v="SN.SV"/></tag>
-       </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="word_type"/>
-            <clip pos="1" side="tl" part="defindef"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="2" side="tl" part="lem"/>
-            <clip pos="2" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="3" side="tl" part="lem"/>
-            <clip pos="3" side="tl" part="word_type"/>
-            <clip pos="3" side="tl" part="temps"/>
-            <lit-tag v="p3"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="4" side="tl" part="lem"/>
-            <clip pos="4" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-            </chunk>
-        </out>
-
-                </otherwise>
-            </choose>
+              
 
 
       </action>
@@ -437,6 +454,10 @@
       </pattern>
 
       <action>
+          <call-macro n="adj_agreement">
+            <with-param pos="3"/>
+            <with-param pos="2"/>
+          </call-macro>
         <out>
         <chunk name="n">
        <tags>
@@ -460,8 +481,8 @@
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="word_type"/>
-            <clip pos="3" side="tl" part="gender"/>
-            <clip pos="3" side="tl" part="nbr"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
           </lu>
             </chunk>
         </out>
@@ -476,6 +497,10 @@
       </pattern>
 
       <action>
+          <call-macro n="adj_agreement">
+            <with-param pos="2"/>
+            <with-param pos="4"/>
+          </call-macro>
         <out>
         <chunk name="n">
        <tags>
@@ -504,8 +529,8 @@
           <lu>
             <clip pos="4" side="tl" part="lem"/>
             <clip pos="4" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>            
               
           </lu>
             </chunk>
@@ -521,15 +546,10 @@
       </pattern>
 
       <action>
-          
-            <choose>
-              <when>
-                <test>
-                   <in>
-                      <clip pos="3" side="tl" part="lem"/>
-                      <list n="gros_adjs"/>
-                    </in>
-                </test>
+            <call-macro n="adj_agreement">
+            <with-param pos="2"/>
+            <with-param pos="3"/>
+          </call-macro>
         <out>
         <chunk name="det_nom_verb">
        <tags>
@@ -553,46 +573,12 @@
           <lu>
             <clip pos="3" side="tl" part="lem"/>
             <clip pos="3" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-		  <clip pos="3" side="tl" part="nbr"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
             </lu>
             </chunk>
         </out>
 
-              </when>
-                <otherwise>
-
-        <out>
-        <chunk name="det_nom_verb">
-       <tags>
-         <tag><lit-tag v="SN.SV"/></tag>
-       </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="word_type"/>
-            <clip pos="1" side="tl" part="defindef"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="2" side="tl" part="lem"/>
-            <clip pos="2" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="3" side="tl" part="lem"/>
-            <clip pos="3" side="tl" part="word_type"/>
-            <clip pos="2" side="tl" part="gender"/>
-		  <clip pos="2" side="tl" part="nbr"/>
-            </lu>
-            </chunk>
-        </out>
-
-                </otherwise>
-            </choose>
               </action>
     </rule>
     <rule comment="RULE: conjugate numerals before nouns">
