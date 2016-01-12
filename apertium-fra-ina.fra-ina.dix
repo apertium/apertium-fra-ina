@@ -200,7 +200,7 @@
            <e><p><l>croire<s n="vblex"/></l><r>creder<s n="vblex"/></r></p></e>
            <e><p><l>aimer<s n="vblex"/></l><r>amar<s n="vblex"/></r></p></e>
            <e><p><l>envisager<s n="vblex"/></l><r>contemplar<s n="vblex"/></r></p></e>
-           <e><p><l>renoncer<s n="vblex"/></l><r>renunciar<s n="vblex"/></r></p></e>
+<!--           <e><p><l>renoncer<s n="vblex"/></l>"rien"<r>renunciar<s n="vblex"/></r></p></e> -->
            <e><p><l>demander<s n="vblex"/></l><r>demandar<s n="vblex"/></r></p></e>
            <e><p><l>voir<s n="vblex"/></l><r>vider<s n="vblex"/></r></p></e>
            <e><p><l>partir<s n="vblex"/></l><r>partir<s n="vblex"/></r></p></e>
@@ -258,12 +258,12 @@
 <!--           <e><p><l>gros<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>-->
 <!--           <e><p><l>gros<s n="adj"/><s n="f"/></l><r>grande<s n="adj"/></r></p></e>-->
             <e r="LR"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/><s n="m"/><s n="ND"/></r></p></e>
-            <e r="RL"><p><l>gros<s n="adj"/><s n="f"/><s n="sg"/></l><r>grande<s n="adj"/></r></p></e>
+<!--            <e r="RL"><p><l>gros<s n="adj"/><s"rien" n="f"/><s n="sg"/></l><r>grande<s n="adj"/></r></p></e>
             <e r="RL"><p><l>gros<s n="adj"/><s n="f"/><s n="pl"/></l><r>grande<s n="adj"/></r></p></e>
             <e r="RL"><p><l>gros<s n="adj"/><s n="m"/><s n="sp"/></l><r>grande<s n="adj"/></r></p></e>
            <e><p><l>terrestre<s n="adj"/><s n="mf"/></l><r>terrestre<s n="adj"/></r></p></e>
            <e><p><l>exact<s n="adj"/></l><r>exacte<s n="adj"/></r></p></e>
-           <e><p><l>libre<s n="adj"/></l><r>libere<s n="adj"/></r></p></e>
+           <e><p><l>libre<s n="adj"/></l><r>libere<s n="adj"/></r></p></e> -->
 
              <e><p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
             <!-- The numbers from one to one hundred -->
@@ -431,6 +431,74 @@
 <e><p><l>immigration<s n="n"/><s n="f"/></l><r>immigration<s n="n"/></r></p></e>
 <e><p><l>implantation<s n="n"/><s n="f"/></l><r>implantation<s n="n"/></r></p></e>
 
+<!-- Darkgaia 50 words -->
+
+<e><p><l>chat<s n="n"/><s n="m"/></l><r>catto<s n="n"/></r></p></e>
+<e><p><l>chatte<s n="n"/><s n="f"/></l><r>catto<s n="n"/></r></p></e>
+<e><p><l>eau<s n="n"/><s n="f"/></l><r>aqua<s n="n"/></r></p></e>
+<e><p><l>déclaration<s n="n"/><s n="f"/></l><r>declaration<s n="n"/></r></p></e>
+<e><p><l>droit<s n="n"/><s n="m"/></l><r>derecto<s n="n"/></r></p></e>
+<e><p><l>autobus<s n="n"/><s n="m"/></l><r>autobus<s n="n"/></r></p></e>
+<e><p><l>bus<s n="n"/><s n="m"/></l><r>autobus<s n="n"/></r></p></e>
+<e><p><l>train<s n="n"/><s n="m"/></l><r>traino<s n="n"/></r></p></e>
+<e><p><l>téléphone<s n="n"/><s n="m"/></l><r>telephono<s n="n"/></r></p></e>
+<e><p><l>mouton<s n="n"/><s n="m"/></l><r>ove<s n="n"/></r></p></e>
+<e><p><l>central<s n="n"/><s n="m"/></l><r>central<s n="n"/></r></p></e>
+<e><p><l>cheval<s n="n"/><s n="m"/></l><r>cavallo<s n="n"/></r></p></e>
+<e><p><l>étable<s n="n"/><s n="f"/></l><r>stabulo<s n="n"/></r></p></e>
+<e><p><l>oie<s n="n"/><s n="f"/></l><r>oca<s n="n"/></r></p></e>
+<e><p><l>théâtre<s n="n"/><s n="m"/></l><r>theatro<s n="n"/></r></p></e>
+<e><p><l>firme<s n="n"/><s n="f"/></l><r>firma<s n="n"/></r></p></e>
+<e><p><l>opéra<s n="n"/><s n="m"/></l><r>opera<s n="n"/></r></p></e>
+<e><p><l>annonce<s n="n"/><s n="f"/></l><r>annuncio<s n="n"/></r></p></e>
+<e><p><l>pub<s n="n"/><s n="f"/></l><r>annuncio<s n="n"/></r></p></e>
+<e><p><l>publicité<s n="n"/><s n="f"/></l><r>annuncio<s n="n"/></r></p></e>
+<e><p><l>ligne<s n="n"/><s n="f"/></l><r>linea<s n="n"/></r></p></e>
+<e><p><l>célébration<s n="n"/><s n="f"/></l><r>celebration<s n="n"/></r></p></e>
+<e><p><l>cellule<s n="n"/><s n="f"/></l><r>cella<s n="n"/></r></p></e>
+<e><p><l>céramique<s n="n"/><s n="f"/></l><r>ceramica<s n="n"/></r></p></e>
+<e><p><l>chaise<s n="n"/><s n="f"/></l><r>sedia<s n="n"/></r></p></e>
+<e><p><l>chance<s n="n"/><s n="f"/></l><r>sorte<s n="n"/></r></p></e>
+<e><p><l>chapeau<s n="n"/><s n="m"/></l><r>cappello<s n="n"/></r></p></e>
+<e><p><l>minorité<s n="n"/><s n="f"/></l><r>minoritate<s n="n"/></r></p></e>
+<e><p><l>mode<s n="n"/><s n="f"/></l><r>moda<s n="n"/></r></p></e>
+<e><p><l>mode<s n="n"/><s n="m"/></l><r>voga<s n="n"/></r></p></e>
+<e><p><l>moitié<s n="n"/><s n="f"/></l><r>medie<s n="n"/></r></p></e>
+<e><p><l>molécule<s n="n"/><s n="f"/></l><r>molecula<s n="n"/></r></p></e>
+<e><p><l>momie<s n="n"/><s n="f"/></l><r>mumia<s n="n"/></r></p></e>
+<e><p><l>montant<s n="n"/><s n="m"/></l><r>amonta<s n="n"/></r></p></e>
+<e><p><l>montre<s n="n"/><s n="f"/></l><r>horologio<s n="n"/></r></p></e>
+<e><p><l>mosquée<s n="n"/><s n="f"/></l><r>moschea<s n="n"/></r></p></e>
+<e><p><l>mot<s n="n"/><s n="m"/></l><r>parola<s n="n"/></r></p></e>
+<e><p><l>mouche<s n="n"/><s n="f"/></l><r>musca<s n="n"/></r></p></e>
+<e><p><l>moule<s n="n"/><s n="m"/></l><r>musculo<s n="n"/></r></p></e>
+<e><p><l>mouvement<s n="n"/><s n="m"/></l><r>movimento<s n="n"/></r></p></e>
+<e><p><l>mur<s n="n"/><s n="m"/></l><r>muro<s n="n"/></r></p></e>
+<e><p><l>musée<s n="n"/><s n="m"/></l><r>museo<s n="n"/></r></p></e>
+<e><p><l>mythe<s n="n"/><s n="m"/></l><r>mytho<s n="n"/></r></p></e>
+<e><p><l>moyen<s n="n"/><s n="m"/></l><r>medio<s n="n"/></r></p></e>
+<e><p><l>nature<s n="n"/><s n="f"/></l><r>natura<s n="n"/></r></p></e>
+<e><p><l>nausée<s n="n"/><s n="f"/></l><r>nausea<s n="n"/></r></p></e>
+<e><p><l>nazisme<s n="n"/><s n="m"/></l><r>nazismo<s n="n"/></r></p></e>
+<e><p><l>nerf<s n="n"/><s n="m"/></l><r>nervo<s n="n"/></r></p></e>
+<e><p><l>neutralité<s n="n"/><s n="f"/></l><r>neutralitate<s n="n"/></r></p></e>
+<e><p><l>note<s n="n"/><s n="f"/></l><r>nota<s n="n"/></r></p></e>
+<e><p><l>noyau<s n="n"/><s n="m"/></l><r>nucleo<s n="n"/></r></p></e>
+<e><p><l>nuage<s n="n"/><s n="m"/></l><r>nube<s n="n"/></r></p></e>
+<e><p><l>nuit<s n="n"/><s n="f"/></l><r>nocte<s n="n"/></r></p></e>
+<e><p><l>objectif<s n="n"/><s n="m"/></l><r>objectivo<s n="n"/></r></p></e>
+<e><p><l>occupation<s n="n"/><s n="f"/></l><r>activitate<s n="n"/></r></p></e>
+<e><p><l>océan<s n="n"/><s n="m"/></l><r>oceano<s n="n"/></r></p></e>
+<e><p><l>odeur<s n="n"/><s n="m"/></l><r>odor<s n="n"/></r></p></e>
+<e><p><l>offre<s n="n"/><s n="f"/></l><r>offerta<s n="n"/></r></p></e>
+
+<e><p><l>rien<s n="prn"/><s n="tn"/></l><r>nihil<s n="prn"/></r></p></e>
+
+<e><p><l>continuer<s n="vblex"/></l><r>continuar<s n="vblex"/></r></p></e>
+<e><p><l>céder<s n="vblex"/></l><r>ceder<s n="vblex"/></r></p></e>
+
+
+<e><p><l>centième<s n="adj"/></l><r>centesime<s n="adj"/></r></p></e>
 	  </section>
 	  
 </dictionary>
