@@ -439,10 +439,9 @@
 <e><p><l>déclaration<s n="n"/><s n="f"/></l><r>declaration<s n="n"/></r></p></e>
 <e><p><l>droit<s n="n"/><s n="m"/></l><r>derecto<s n="n"/></r></p></e>
 <e><p><l>autobus<s n="n"/><s n="m"/></l><r>autobus<s n="n"/></r></p></e>
-<e><p><l>bus<s n="n"/><s n="m"/></l><r>autobus<s n="n"/></r></p></e>
 <e><p><l>train<s n="n"/><s n="m"/></l><r>traino<s n="n"/></r></p></e>
 <e><p><l>téléphone<s n="n"/><s n="m"/></l><r>telephono<s n="n"/></r></p></e>
-<e><p><l>mouton<s n="n"/><s n="m"/></l><r>ove<s n="n"/></r></p></e>
+<e><p><l>brebis<s n="n"/><s n="m"/></l><r>ove<s n="n"/></r></p></e>
 <e><p><l>central<s n="n"/><s n="m"/></l><r>central<s n="n"/></r></p></e>
 <e><p><l>cheval<s n="n"/><s n="m"/></l><r>cavallo<s n="n"/></r></p></e>
 <e><p><l>étable<s n="n"/><s n="f"/></l><r>stabulo<s n="n"/></r></p></e>
@@ -451,8 +450,6 @@
 <e><p><l>firme<s n="n"/><s n="f"/></l><r>firma<s n="n"/></r></p></e>
 <e><p><l>opéra<s n="n"/><s n="m"/></l><r>opera<s n="n"/></r></p></e>
 <e><p><l>annonce<s n="n"/><s n="f"/></l><r>annuncio<s n="n"/></r></p></e>
-<e><p><l>pub<s n="n"/><s n="f"/></l><r>annuncio<s n="n"/></r></p></e>
-<e><p><l>publicité<s n="n"/><s n="f"/></l><r>annuncio<s n="n"/></r></p></e>
 <e><p><l>ligne<s n="n"/><s n="f"/></l><r>linea<s n="n"/></r></p></e>
 <e><p><l>célébration<s n="n"/><s n="f"/></l><r>celebration<s n="n"/></r></p></e>
 <e><p><l>cellule<s n="n"/><s n="f"/></l><r>cella<s n="n"/></r></p></e>
@@ -462,7 +459,6 @@
 <e><p><l>chapeau<s n="n"/><s n="m"/></l><r>cappello<s n="n"/></r></p></e>
 <e><p><l>minorité<s n="n"/><s n="f"/></l><r>minoritate<s n="n"/></r></p></e>
 <e><p><l>mode<s n="n"/><s n="f"/></l><r>moda<s n="n"/></r></p></e>
-<e><p><l>mode<s n="n"/><s n="m"/></l><r>voga<s n="n"/></r></p></e>
 <e><p><l>moitié<s n="n"/><s n="f"/></l><r>medie<s n="n"/></r></p></e>
 <e><p><l>molécule<s n="n"/><s n="f"/></l><r>molecula<s n="n"/></r></p></e>
 <e><p><l>momie<s n="n"/><s n="f"/></l><r>mumia<s n="n"/></r></p></e>
@@ -492,7 +488,6 @@
 <e><p><l>odeur<s n="n"/><s n="m"/></l><r>odor<s n="n"/></r></p></e>
 <e><p><l>offre<s n="n"/><s n="f"/></l><r>offerta<s n="n"/></r></p></e>
 
-<e><p><l>rien<s n="prn"/><s n="tn"/></l><r>nihil<s n="prn"/></r></p></e>
 
 <e><p><l>continuer<s n="vblex"/></l><r>continuar<s n="vblex"/></r></p></e>
 <e><p><l>céder<s n="vblex"/></l><r>ceder<s n="vblex"/></r></p></e>
