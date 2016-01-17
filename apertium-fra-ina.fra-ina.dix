@@ -489,9 +489,63 @@
 <e><p><l>offre<s n="n"/><s n="f"/></l><r>offerta<s n="n"/></r></p></e>
 
 
+           
+           
 <e><p><l>continuer<s n="vblex"/></l><r>continuar<s n="vblex"/></r></p></e>
 <e><p><l>céder<s n="vblex"/></l><r>ceder<s n="vblex"/></r></p></e>
 
+
+<e><p><l>démarrer<s n="vblex"/></l><r>accender<s n="vblex"/></r></p></e>
+<e><p><l>agir<s n="vblex"/></l><r>ager<s n="vblex"/></r></p></e>
+<e><p><l>vendre<s n="vblex"/></l><r>vender<s n="vblex"/></r></p></e>
+<e><p><l>traduire<s n="vblex"/></l><r>traducer<s n="vblex"/></r></p></e>
+<e><p><l>tirer<s n="vblex"/></l><r>traher<s n="vblex"/></r></p></e>
+<e><p><l>craindre<s n="vblex"/></l><r>timer<s n="vblex"/></r></p></e>
+<e><p><l>taire<s n="vblex"/></l><r>tacer<s n="vblex"/></r></p></e>
+<e><p><l>supposer<s n="vblex"/></l><r>supponer<s n="vblex"/></r></p></e>
+<e><p><l>choisir<s n="vblex"/></l><r>seliger<s n="vblex"/></r></p></e>
+<e><p><l>écrire<s n="vblex"/></l><r>scriber<s n="vblex"/></r></p></e>
+<e><p><l>joindre<s n="vblex"/></l><r>junger<s n="vblex"/></r></p></e>
+<e><p><l>répéter<s n="vblex"/></l><r>repeter<s n="vblex"/></r></p></e>
+<e><p><l>rester<s n="vblex"/></l><r>remaner<s n="vblex"/></r></p></e>
+<e><p><l>exprimer<s n="vblex"/></l><r>exprimer<s n="vblex"/></r></p></e>
+<e><p><l>proposer<s n="vblex"/></l><r>proponer<s n="vblex"/></r></p></e>
+<e><p><l>promettre<s n="vblex"/></l><r>promitter<s n="vblex"/></r></p></e>
+<e><p><l>mettre<s n="vblex"/></l><r>mitter<s n="vblex"/></r></p></e>
+<e><p><l>poser<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e>
+<e><p><l>compiler<s n="vblex"/></l><r>colliger<s n="vblex"/></r></p></e>
+<e><p><l>situer<s n="vblex"/></l><r>placer<s n="vblex"/></r></p></e>
+<e><p><l>demander<s n="vblex"/></l><r>peter<s n="vblex"/></r></p></e>
+<e><p><l>appartenir<s n="vblex"/></l><r>pertiner<s n="vblex"/></r></p></e>
+<e><p><l>perdre<s n="vblex"/></l><r>perder<s n="vblex"/></r></p></e>
+<e><p><l>préparer<s n="vblex"/></l><r>parer<s n="vblex"/></r></p></e>
+<e><p><l>arriver<s n="vblex"/></l><r>occurrer<s n="vblex"/></r></p></e>
+<e><p><l>obtenir<s n="vblex"/></l><r>obtener<s n="vblex"/></r></p></e>
+<e><p><l>naître<s n="vblex"/></l><r>nascer<s n="vblex"/></r></p></e>
+<e><p><l>mouvoir<s n="vblex"/></l><r>mover<s n="vblex"/></r></p></e>
+<e><p><l>gésir<s n="vblex"/></l><r>jacer<s n="vblex"/></r></p></e>
+<e><p><l>faire<s n="vblex"/></l><r>imprimer<s n="vblex"/></r></p></e>
+<e><p><l>teindre<s n="vblex"/></l><r>gauder<s n="vblex"/></r></p></e>
+<e><p><l>acheter<s n="vblex"/></l><r>emer<s n="vblex"/></r></p></e>
+<e><p><l>mener<s n="vblex"/></l><r>ducer<s n="vblex"/></r></p></e>
+<e><p><l>disparaître<s n="vblex"/></l><r>disparer<s n="vblex"/></r></p></e>
+<e><p><l>creisser<s n="vblex"/></l><r>crescer<s n="vblex"/></r></p></e>
+<e><p><l>contenir<s n="vblex"/></l><r>continer<s n="vblex"/></r></p></e>
+<e><p><l>fermer<s n="vblex"/></l><r>clauder<s n="vblex"/></r></p></e>
+<e><p><l>tomber<s n="vblex"/></l><r>cader<s n="vblex"/></r></p></e>
+<e><p><l>rebatter<s n="vblex"/></l><r>batter<s n="vblex"/></r></p></e>
+<e><p><l>aider<s n="vblex"/></l><r>adjutar<s n="vblex"/></r></p></e>
+<e><p><l>voler<s n="vblex"/></l><r>volar<s n="vblex"/></r></p></e>
+<e><p><l>visiter<s n="vblex"/></l><r>visitar<s n="vblex"/></r></p></e>
+<e><p><l>voyager<s n="vblex"/></l><r>viagiar<s n="vblex"/></r></p></e>
+<e><p><l>vtiliser<s n="vblex"/></l><r>usar<s n="vblex"/></r></p></e>
+<e><p><l>traiter<s n="vblex"/></l><r>tractar<s n="vblex"/></r></p></e>
+<e><p><l>toucher<s n="vblex"/></l><r>toccar<s n="vblex"/></r></p></e>
+<e><p><l>tourmenter<s n="vblex"/></l><r>travaliar<s n="vblex"/></r></p></e>
+<e><p><l>retourner<s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
+<e><p><l>jeter<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
+<e><p><l>espérer<s n="vblex"/></l><r>sperar<s n="vblex"/></r></p></e>
+<e><p><l>coûter<s n="vblex"/></l><r>costar<s n="vblex"/></r></p></e> 
 
 <e><p><l>centième<s n="adj"/></l><r>centesime<s n="adj"/></r></p></e>
 	  </section>
