@@ -95,6 +95,8 @@
   <section-def-vars>
     <def-var n="adj_gender"/>
     <def-var n="adj_number"/>
+    <def-var n="noun_number"/>
+
   </section-def-vars>
     <section-def-lists>
         <def-list n="gros_adjs">
@@ -104,6 +106,9 @@
         </def-list>
         <def-list n="difficile_adjs">
             <list-item v="difficile"/>
+        </def-list>
+        <def-list n="temps_noms">
+            <list-item v="temps"/>
         </def-list>
     </section-def-lists>
     <section-def-macros>
@@ -163,6 +168,29 @@
               </otherwise>
         </choose>
 
+    </def-macro>
+    <def-macro n="nouns_macro" npar="2">
+          <choose>
+            <when>
+                <test>
+                   <in>
+                      <clip pos="1" side="tl" part="lem"/>
+                      <list n="temps_noms"/>
+                    </in>
+                </test>
+                <let>
+                    <var n="noun_number"/>
+                    <lit-tag v="sp"/>
+
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                    <var n="noun_number"/>
+                    <clip pos="1" side="sl" part="nbr"/>
+                </let>
+              </otherwise>
+        </choose>
     </def-macro>
   </section-def-macros>
     
@@ -242,7 +270,9 @@
       </pattern>
 
       <action>  
-
+          <call-macro n="nouns_macro">
+            <with-param pos="1"/>
+          </call-macro>
 
         <out>
         <chunk name="n">
@@ -253,7 +283,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="word_type"/>
             <clip pos="1" side="tl" part="pers"/>
-            <clip pos="1" side="tl" part="gender"/>
+            <var n="noun_number"/>
             <clip pos="1" side="tl" part="nbr"/>
           </lu>
           <b/>
@@ -330,7 +360,9 @@
       </pattern>
 
       <action>  
-
+          <call-macro n="nouns_macro">
+            <with-param pos="1"/>
+          </call-macro>
 
         <out>
         <chunk name="n">
@@ -340,9 +372,9 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="word_type"/>
-            <clip pos="1" side="tl" part="pers"/>
             <clip pos="1" side="tl" part="gender"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <var n="noun_number"/>  
+
           </lu>
             </chunk>
         </out>
@@ -360,7 +392,9 @@
             <with-param pos="1"/>
             <with-param pos="2"/>
           </call-macro>
-
+          <call-macro n="nouns_macro">
+            <with-param pos="1"/>
+          </call-macro>
         <out>
         <chunk name="n">
        <tags>
@@ -389,6 +423,9 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
+          </call-macro>
         <out>
                     <chunk name="n">
        <tags>
@@ -443,6 +480,9 @@
             <with-param pos="2"/>
             <with-param pos="4"/>
           </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
+          </call-macro>
         <out>
         <chunk name="det_nom_verb">
        <tags>
@@ -495,7 +535,9 @@
 
       <action>  
 
-
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
+          </call-macro>
         <out>
         <chunk name="n">
        <tags>
@@ -539,6 +581,9 @@
             <with-param pos="3"/>
             <with-param pos="2"/>
           </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="3"/>
+          </call-macro>
         <out>
         <chunk name="n">
        <tags>
@@ -581,6 +626,9 @@
           <call-macro n="adj_agreement">
             <with-param pos="2"/>
             <with-param pos="4"/>
+          </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
           </call-macro>
         <out>
         <chunk name="n">
@@ -631,6 +679,9 @@
             <with-param pos="2"/>
             <with-param pos="3"/>
           </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
+          </call-macro>
         <out>
         <chunk name="det_nom_verb">
        <tags>
@@ -669,7 +720,9 @@
       </pattern>
 
       <action>
-
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
+          </call-macro>
        
 
             <choose>
