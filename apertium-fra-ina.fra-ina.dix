@@ -69,6 +69,7 @@
            <e><p><l>voiture<s n="n"/><s n="f"/></l><r>carro<s n="n"/></r></p></e>
            <e><p><l>famille<s n="n"/><s n="f"/></l><r>familia<s n="n"/></r></p></e>
            <e><p><l>maison<s n="n"/><s n="f"/></l><r>domo<s n="n"/></r></p></e>
+           <e r="RL"><p><l>maison<s n="n"/><s n="f"/></l><r>casa<s n="n"/></r></p></e>
            <e><p><l>campagne<s n="n"/><s n="f"/></l><r>campania<s n="n"/></r></p></e>
            <e><p><l>éléphant<s n="n"/><s n="m"/></l><r>elephante<s n="n"/></r></p></e>
            <e><p><l>vie<s n="n"/><s n="f"/></l><r>vita<s n="n"/></r></p></e>
