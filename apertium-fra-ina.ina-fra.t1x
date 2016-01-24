@@ -144,7 +144,7 @@
                       <clip pos="2" side="tl" part="lem"/>
                       <list n="difficile_adjs"/>
                     </in>
-                   <equal>
+                   <equal>  
                       <clip pos="2" side="tl" part="nbr"/>
                       <clip pos="2" side="tl" part="nbr"/>
                     </equal>
@@ -269,6 +269,61 @@
       </action>
     </rule>
 
+        <rule comment="RULE: conjugate bare adjectives (defaulting to masculine gender)">
+          <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+
+      <action>  
+          <choose>
+            <when>
+                <test>
+                    <and>
+                   <in>
+                      <clip pos="1" side="tl" part="lem"/>
+                      <list n="difficile_adjs"/>
+                    </in>
+                   <equal>  
+                      <clip pos="1" side="tl" part="nbr"/>
+                      <clip pos="1" side="tl" part="nbr"/>
+                    </equal>
+                        </and>
+                </test>
+                    <out>
+                    <chunk name="a">
+                   <tags>
+                     <tag><lit-tag v="SN"/></tag>
+                   </tags>
+                      <lu>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <clip pos="1" side="tl" part="word_type"/>
+                        <clip pos="1" side="tl" part="gender"/>
+                        <lit-tag v="sg"/>
+                      </lu>
+                        </chunk>
+                    </out>
+              </when>
+              <otherwise>
+                    <out>
+                    <chunk name="a">
+                   <tags>
+                     <tag><lit-tag v="SN"/></tag>
+                   </tags>
+                      <lu>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <clip pos="1" side="tl" part="word_type"/>
+                        <lit-tag v="m"/>
+                        <lit-tag v="sg"/>
+                      </lu>
+                        </chunk>
+                    </out>
+              </otherwise>
+        </choose>
+
+
+      </action>
+    </rule>
+      
         <rule comment="RULE: conjugate nouns with gender">
           <pattern>
         <pattern-item n="nom"/>
