@@ -74,6 +74,10 @@
            <e><p><l>vie<s n="n"/><s n="f"/></l><r>vita<s n="n"/></r></p></e>
            <e><p><l>science<s n="n"/><s n="f"/></l><r>scientia<s n="n"/></r></p></e>
            <e><p><l>art<s n="n"/><s n="mf"/></l><r>arte<s n="n"/></r></p></e>
+           <e><p><l>temps<s n="n"/><s n="m"/><s n="sp"/></l><r>tempore<s n="n"/></r></p></e>
+           <e><p><l>langue<s n="n"/><s n="f"/></l><r>lingua<s n="n"/></r></p></e>
+           <e><p><l>année<s n="n"/><s n="f"/></l><r>anno<s n="n"/></r></p></e>
+
 <!--           <e><p><l>éducation<s n="n"/><s n="mf"/></l><r>educati<s n="n"/></r></p></e>-->
 
 
@@ -110,6 +114,8 @@
             <e><p><l>à<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
             <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
             <e><p><l>avec<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+            <e><p><l>sans<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
+            <e><p><l>durant<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
 
             <e><p><l>très<s n="preadv"/></l><r>multo<s n="preadv"/></r></p></e>
             <e><p><l>si<s n="cnjadv"/></l><r>si<s n="cnjadv"/></r></p></e>
@@ -120,6 +126,7 @@
 
             <e><p><l>plus<s n="adv"/></l><r>plus<s n="preadv"/></r></p></e>
             <e><p><l>actuellement<s n="adv"/></l><r>actualmente<s n="adv"/></r></p></e>
+            <e><p><l>seulment<s n="adv"/></l><r>solmente<s n="adv"/></r></p></e>
 
             
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
@@ -254,6 +261,10 @@
            <e><p><l>content<s n="adj"/></l><r>satisfacte<s n="adj"/></r></p></e>
            <e><p><l>courageux<s n="adj"/></l><r>brave<s n="adj"/></r></p></e>
            <e><p><l>gentil<s n="adj"/></l><r>gentil<s n="adj"/></r></p></e>
+           <e><p><l>mort<s n="adj"/></l><r>morte<s n="adj"/></r></p></e>
+           <e><p><l>meilleur<s n="adj"/></l><r>melior<s n="adj"/></r></p></e>
+           <e><p><l>difficile<s n="adj"/></l><r>difficile<s n="adj"/></r></p></e>
+
            <e><p><l>stupide<s n="adj"/><s n="mf"/><s n="sg"/></l><r>stupide<s n="adj"/></r></p></e>
 <!--           <e><p><l>gros<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>-->
 <!--           <e><p><l>gros<s n="adj"/><s n="f"/></l><r>grande<s n="adj"/></r></p></e>-->
