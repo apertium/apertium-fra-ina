@@ -265,7 +265,7 @@
            <e><p><l>gentil<s n="adj"/></l><r>gentil<s n="adj"/></r></p></e>
            <e><p><l>mort<s n="adj"/></l><r>morte<s n="adj"/></r></p></e>
            <e><p><l>meilleur<s n="adj"/></l><r>melior<s n="adj"/></r></p></e>
-           <e><p><l>difficile<s n="adj"/></l><r>difficile<s n="adj"/></r></p></e>
+           <e><p><l>difficile<s n="adj"/><s n="mf"/></l><r>difficile<s n="adj"/></r></p></e>
 
            <e><p><l>stupide<s n="adj"/><s n="mf"/><s n="sg"/></l><r>stupide<s n="adj"/></r></p></e>
 <!--           <e><p><l>gros<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>-->

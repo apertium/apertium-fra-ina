@@ -98,10 +98,13 @@
   </section-def-vars>
     <section-def-lists>
         <def-list n="gros_adjs">
-    <list-item v="gros"/>
-        <list-item v="bas"/>
-        <list-item v="gras"/>
-            </def-list>
+            <list-item v="gros"/>
+            <list-item v="bas"/>
+            <list-item v="gras"/>
+        </def-list>
+        <def-list n="difficile_adjs">
+            <list-item v="difficile"/>
+        </def-list>
     </section-def-lists>
     <section-def-macros>
     <def-macro n="adj_agreement" npar="2">
@@ -133,10 +136,33 @@
                 </let>
               </otherwise>
         </choose>
-        <let>
-            <var n="adj_gender"/>
-            <clip pos="1" side="tl" part="gender"/>
-        </let>
+          <choose>
+            <when>
+                <test>
+                    <and>
+                   <in>
+                      <clip pos="2" side="tl" part="lem"/>
+                      <list n="difficile_adjs"/>
+                    </in>
+                   <equal>
+                      <clip pos="2" side="tl" part="nbr"/>
+                      <clip pos="2" side="tl" part="nbr"/>
+                    </equal>
+                        </and>
+                </test>
+                <let>
+                    <var n="adj_gender"/>
+                    <clip pos="2" side="tl" part="gender"/>
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                    <var n="adj_gender"/>
+                    <clip pos="1" side="tl" part="gender"/>
+                </let>
+              </otherwise>
+        </choose>
+
     </def-macro>
   </section-def-macros>
     
