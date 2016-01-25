@@ -36,6 +36,9 @@
     <sdef n="pos"/>
     <sdef n="num"/>
     <sdef n="ND"/>
+    <sdef n="rel"/>
+    <sdef n="ij"/>
+
 
     <sdef n="nom"    c="Nominative"/>
    </sdefs>
@@ -78,6 +81,18 @@
            <e><p><l>temps<s n="n"/><s n="m"/><s n="sp"/></l><r>tempore<s n="n"/></r></p></e>
            <e><p><l>langue<s n="n"/><s n="f"/></l><r>lingua<s n="n"/></r></p></e>
            <e><p><l>année<s n="n"/><s n="f"/></l><r>anno<s n="n"/></r></p></e>
+           <e><p><l>besoin<s n="n"/><s n="m"/></l><r>necessitate<s n="n"/></r></p></e>
+           <e><p><l>problème<s n="n"/><s n="m"/></l><r>problema<s n="n"/></r></p></e>
+           <e><p><l>ami<s n="n"/><s n="m"/></l><r>amico<s n="n"/></r></p></e>
+           <e><p><l>ami<s n="n"/><s n="f"/></l><r>amica<s n="n"/></r></p></e>
+           <e><p><l>corps<s n="n"/><s n="m"/></l><r>corpore<s n="n"/></r></p></e>
+           <e><p><l>soir<s n="n"/><s n="m"/></l><r>vespera<s n="n"/></r></p></e>
+           <e><p><l>personne<s n="n"/><s n="f"/></l><r>persona<s n="n"/></r></p></e>
+           <e><p><l>peur<s n="n"/><s n="f"/></l><r>pavor<s n="n"/></r></p></e>
+           <e><p><l>bonjour<s n="n"/><s n="m"/></l><r>hallo<s n="n"/></r></p></e>
+           <e><p><l>monsieur<s n="n"/><s n="m"/></l><r>senior<s n="n"/></r></p></e>
+           <e><p><l>Mme<s n="n"/><s n="f"/></l><r>seniora<s n="n"/></r></p></e>
+           <e><p><l>cause<s n="n"/><s n="f"/></l><r>causa<s n="n"/></r></p></e>
 
 <!--           <e><p><l>éducation<s n="n"/><s n="mf"/></l><r>educati<s n="n"/></r></p></e>-->
 
@@ -109,25 +124,57 @@
             <e><p><l>et<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
             <e><p><l>ou<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
             <e><p><l>mais<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
+            <e><p><l>ni<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
+
+            <e><p><l>merci<s n="ij"/></l><r>gratias<s n="ij"/></r></p></e>
 
 
             <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
             <e><p><l>à<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
             <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
             <e><p><l>avec<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+            <e><p><l>dans<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+            <e><p><l>sur<s n="pr"/></l><r>sur<s n="pr"/></r></p></e>
+            <e><p><l>par<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
+            <e><p><l>près<s n="pr"/></l><r>prope<s n="pr"/></r></p></e>
+
             <e><p><l>sans<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
             <e><p><l>durant<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+            <e><p><l>pendant<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
 
             <e><p><l>très<s n="preadv"/></l><r>multo<s n="preadv"/></r></p></e>
             <e><p><l>si<s n="cnjadv"/></l><r>si<s n="cnjadv"/></r></p></e>
+            <e><p><l>car<s n="cnjadv"/></l><r>ab<s n="cnjadv"/></r></p></e>
 
             <e><p><l>ne<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
+            <e><p><l>non<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
+            <e><p><l>oui<s n="adv"/></l><r>si<s n="adv"/></r></p></e>
+            <e><p><l>si<s n="adv"/></l><r>si<s n="adv"/></r></p></e>
+            <e><p><l>bien<s n="adv"/></l><r>ben<s n="adv"/></r></p></e>
+            <e><p><l>mal<s n="adv"/></l><r>mal<s n="adv"/></r></p></e>
+            <e><p><l>puis<s n="adv"/></l><r>tunc<s n="adv"/></r></p></e>
+
+           <e><p><l>comme<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
+           <e><p><l>quand<s n="adv"/></l><r>quando<s n="adv"/></r></p></e>
+           <e><p><l>pourquoi<s n="adv"/></l><r>proque<s n="adv"/></r></p></e>
+           <e><p><l>où<s n="adv"/></l><r>ubi<s n="adv"/></r></p></e>
+           <e><p><l>sur<s n="adv"/></l><r>sur<s n="adv"/></r></p></e>
+
+           <e><p><l>encore<s n="adv"/></l><r>ancora<s n="adv"/></r></p></e>
+           <e><p><l>tojours<s n="adv"/></l><r>semper<s n="adv"/></r></p></e>
+           <e><p><l>peu<s n="adv"/></l><r>poco<s n="adv"/></r></p></e>
+
+            <e><p><l>comme<s n="rel"/><s n="adv"/></l><r>como<s n="rel"/><s n="adv"/></r></p></e>
+
             <e><p><l>jamais<s n="adv"/></l><r>jammais<s n="adv"/></r></p></e>
+            <e><p><l>déjà<s n="adv"/></l><r>jam<s n="adv"/></r></p></e>
+
             <e><p><l>aujourd'hui<s n="adv"/></l><r>hodie<s n="adv"/></r></p></e>
 
             <e><p><l>plus<s n="adv"/></l><r>plus<s n="preadv"/></r></p></e>
             <e><p><l>actuellement<s n="adv"/></l><r>actualmente<s n="adv"/></r></p></e>
             <e><p><l>seulement<s n="adv"/></l><r>solmente<s n="adv"/></r></p></e>
+            <e><p><l>vraiment<s n="adv"/></l><r>vermente<s n="adv"/></r></p></e>
 
             
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></l><r>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
@@ -241,6 +288,11 @@
             <e><p><l>recevoir<s n="vblex"/></l><r>reciper<s n="vblex"/></r></p></e>
             <e><p><l>répondre<s n="vblex"/></l><r>responder<s n="vblex"/></r></p></e>
             <e><p><l>rappeler<s n="vblex"/></l><r>recordar<s n="vblex"/></r></p></e>
+            <e><p><l>importer<s n="vblex"/></l><r>importar<s n="vblex"/></r></p></e>
+
+                    <e><p><l>souvenir<s n="vblex"/></l><r>memorar<s n="vblex"/></r></p></e>
+            <e><p><l>esperer<s n="vblex"/></l><r>sperar<s n="vblex"/></r></p></e>
+
 
            
            <e><p><l>amical<s n="adj"/></l><r>amic<s n="adj"/></r></p></e>
@@ -252,6 +304,7 @@
            <e><p><l>blanc<s n="adj"/></l><r>albe<s n="adj"/></r></p></e>
            <e><p><l>bleu<s n="adj"/></l><r>azur<s n="adj"/></r></p></e>
            <e><p><l>bon<s n="adj"/></l><r>bon<s n="adj"/></r></p></e>
+           <e><p><l>jeune<s n="adj"/></l><r>juvene<s n="adj"/></r></p></e>
 
            <e><p><l>brun<s n="adj"/></l><r>brun<s n="adj"/></r></p></e>
            <e><p><l>certain<s n="adj"/></l><r>certe<s n="adj"/></r></p></e>
@@ -266,6 +319,7 @@
            <e><p><l>mort<s n="adj"/></l><r>morte<s n="adj"/></r></p></e>
            <e><p><l>meilleur<s n="adj"/></l><r>melior<s n="adj"/></r></p></e>
            <e><p><l>difficile<s n="adj"/><s n="mf"/></l><r>difficile<s n="adj"/></r></p></e>
+           <e><p><l>nouveau<s n="adj"/></l><r>nove<s n="adj"/></r></p></e>
 
            <e><p><l>stupide<s n="adj"/><s n="mf"/><s n="sg"/></l><r>stupide<s n="adj"/></r></p></e>
 <!--           <e><p><l>gros<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>-->
@@ -501,6 +555,67 @@
 <e><p><l>odeur<s n="n"/><s n="m"/></l><r>odor<s n="n"/></r></p></e>
 <e><p><l>offre<s n="n"/><s n="f"/></l><r>offerta<s n="n"/></r></p></e>
 
+<e><p><l>calme<s n="n"/><s n="mf"/></l><r>calma<s n="n"/></r></p></e>
+<e><p><l>campement<s n="n"/><s n="m"/></l><r>campamento<s n="n"/></r></p></e>
+<e><p><l>chiffre<s n="n"/><s n="m"/></l><r>cifra<s n="n"/></r></p></e>
+<e><p><l>cinéma<s n="n"/><s n="m"/></l><r>cinema<s n="n"/></r></p></e>
+<e><p><l>cigare<s n="n"/><s n="m"/></l><r>cigarro<s n="n"/></r></p></e>
+<e><p><l>dame<s n="n"/><s n="m"/></l><r>dama<s n="n"/></r></p></e>
+<e><p><l>données<s n="n"/><s n="f"/></l><r>data<s n="n"/></r></p></e>
+<e><p><l>face<s n="n"/><s n="f"/></l><r>facie<s n="n"/></r></p></e>
+<e><p><l>démon<s n="n"/><s n="m"/></l><r>demon<s n="n"/></r></p></e>
+<e><p><l>démonstration<s n="n"/><s n="m"/></l><r>demonstration<s n="n"/></r></p></e>
+<e><p><l>désastre<s n="n"/><s n="m"/></l><r>disastro<s n="n"/></r></p></e>
+<e><p><l>détail<s n="n"/><s n="m"/></l><r>detalio<s n="n"/></r></p></e>
+<e><p><l>différence<s n="n"/><s n="f"/></l><r>differentia<s n="n"/></r></p></e>
+<e><p><l>diplomatie<s n="n"/><s n="f"/></l><r>diplomatia<s n="n"/></r></p></e>
+<e><p><l>façade<s n="n"/><s n="f"/></l><r>faciada<s n="n"/></r></p></e>
+<e><p><l>manière<s n="n"/><s n="f"/></l><r>maniera<s n="n"/></r></p></e>
+<e><p><l>fédération<s n="n"/><s n="f"/></l><r>federation<s n="n"/></r></p></e>
+<e><p><l>clôture<s n="n"/><s n="f"/></l><r>clausura<s n="n"/></r></p></e>
+<e><p><l>fête<s n="n"/><s n="f"/></l><r>festa<s n="n"/></r></p></e>
+<e><p><l>gangster<s n="n"/><s n="m"/></l><r>gangster<s n="n"/></r></p></e>
+<e><p><l>bâtiment<s n="n"/><s n="m"/></l><r>garage<s n="n"/></r></p></e>
+<e><p><l>gastronome<s n="n"/><s n="m"/></l><r>gastronomo<s n="n"/></r></p></e>
+<e><p><l>général<s n="n"/><s n="m"/></l><r>general<s n="n"/></r></p></e>
+<e><p><l>sorte<s n="n"/><s n="f"/></l><r>sorta<s n="n"/></r></p></e>
+<e><p><l>geste<s n="n"/><s n="m"/></l><r>gesto<s n="n"/></r></p></e>
+<e><p><l>plainte<s n="n"/><s n="f"/></l><r>gravamine<s n="n"/></r></p></e>
+<e><p><l>habitant<s n="n"/><s n="m"/></l><r>habitante<s n="n"/></r></p></e>
+<e><p><l>danse<s n="n"/><s n="f"/></l><r>hora<s n="n"/></r></p></e>
+<e><p><l>histoire<s n="n"/><s n="f"/></l><r>historia<s n="n"/></r></p></e>
+<e><p><l>horloge<s n="n"/><s n="f"/></l><r>horologio<s n="n"/></r></p></e>
+<e><p><l>idée<s n="n"/><s n="f"/></l><r>idea<s n="n"/></r></p></e>
+<e><p><l>image<s n="n"/><s n="m"/></l><r>imagine<s n="n"/></r></p></e>
+<e><p><l>immigration<s n="n"/><s n="f"/></l><r>immigration<s n="n"/></r></p></e>
+<e><p><l>implantation<s n="n"/><s n="f"/></l><r>implantation<s n="n"/></r></p></e>
+<e><p><l>ligne<s n="n"/><s n="f"/></l><r>linea<s n="n"/></r></p></e>
+<e><p><l>café<s n="n"/><s n="m"/></l><r>café<s n="n"/></r></p></e>
+<e><p><l>cellule<s n="n"/><s n="f"/></l><r>cella<s n="n"/></r></p></e>
+<e><p><l>céramique<s n="n"/><s n="mf"/></l><r>ceramica<s n="n"/></r></p></e>
+<e><p><l>espèce<s n="n"/><s n="f"/></l><r>sorte<s n="n"/></r></p></e>
+<e><p><l>chapeau<s n="n"/><s n="m"/></l><r>cappello<s n="n"/></r></p></e>
+<e><p><l>minorité<s n="n"/><s n="f"/></l><r>minoritate<s n="n"/></r></p></e>
+<e><p><l>mode<s n="n"/><s n="m"/></l><r>moda<s n="n"/></r></p></e>
+<e><p><l>moitié<s n="n"/><s n="f"/></l><r>medie<s n="n"/></r></p></e>
+<e><p><l>molécule<s n="n"/><s n="m"/></l><r>molecula<s n="n"/></r></p></e>
+<e><p><l>quanitité<s n="n"/><s n="f"/></l><r>amonta<s n="n"/></r></p></e>
+<e><p><l>horloge<s n="n"/><s n="f"/></l><r>horologio<s n="n"/></r></p></e>
+<e><p><l>mosquée<s n="n"/><s n="f"/></l><r>moschea<s n="n"/></r></p></e>
+<e><p><l>oral<s n="n"/><s n="m"/></l><r>parola<s n="n"/></r></p></e>
+<e><p><l>mouche<s n="n"/><s n="f"/></l><r>musca<s n="n"/></r></p></e>
+<e><p><l>muscle<s n="n"/><s n="m"/></l><r>musculo<s n="n"/></r></p></e>
+<e><p><l>mouvement<s n="n"/><s n="m"/></l><r>movimento<s n="n"/></r></p></e>
+<e><p><l>mur<s n="n"/><s n="m"/></l><r>muro<s n="n"/></r></p></e>
+<e><p><l>musée<s n="n"/><s n="f"/></l><r>museo<s n="n"/></r></p></e>
+<e><p><l>moitié<s n="n"/><s n="f"/></l><r>medio<s n="n"/></r></p></e>
+<e><p><l>nature<s n="n"/><s n="f"/></l><r>natura<s n="n"/></r></p></e>
+<e><p><l>nausée<s n="n"/><s n="f"/></l><r>nausea<s n="n"/></r></p></e>
+<e><p><l>nazisme<s n="n"/><s n="f"/></l><r>nazismo<s n="n"/></r></p></e>
+<e><p><l>neutralité<s n="n"/><s n="f"/></l><r>neutralitate<s n="n"/></r></p></e>
+<e><p><l>nuage<s n="n"/><s n="m"/></l><r>nube<s n="n"/></r></p></e>
+<e><p><l>activité<s n="n"/><s n="f"/></l><r>activitate<s n="n"/></r></p></e>
+
 
            
            
@@ -614,6 +729,181 @@
 <e><p><l>vociférer<s n="vblex"/></l><r>vociferar<s n="vblex"/></r></p></e> 
 <e><p><l>échanger<s n="vblex"/></l><r>trocar<s n="vblex"/></r></p></e>
 <e><p><l>étouffer<s n="vblex"/></l><r>suffocar<s n="vblex"/></r></p></e>
+
+<e><p><l>abaisser<s n="vblex"/></l><r>abassar<s n="vblex"/></r></p></e>
+<e><p><l>abréger<s n="vblex"/></l><r>abbreviar<s n="vblex"/></r></p></e>
+<e><p><l>abdiquer<s n="vblex"/></l><r>abdicar<s n="vblex"/></r></p></e>
+<e><p><l>avorter<s n="vblex"/></l><r>abortar<s n="vblex"/></r></p></e>
+<e><p><l>abonder<s n="vblex"/></l><r>abundar<s n="vblex"/></r></p></e>
+<e><p><l>acclamer<s n="vblex"/></l><r>acclamar<s n="vblex"/></r></p></e>
+<e><p><l>accommoder<s n="vblex"/></l><r>accomodar<s n="vblex"/></r></p></e>
+<e><p><l>accompagner<s n="vblex"/></l><r>accompaniar<s n="vblex"/></r></p></e>
+<e><p><l>accréditer<s n="vblex"/></l><r>accreditar<s n="vblex"/></r></p></e>
+<e><p><l>reculer<s n="vblex"/></l><r>accular<s n="vblex"/></r></p></e>
+<e><p><l>raccourcir<s n="vblex"/></l><r>accurtar<s n="vblex"/></r></p></e>
+<e><p><l>accuser<s n="vblex"/></l><r>accusar<s n="vblex"/></r></p></e>
+<e><p><l>adapter<s n="vblex"/></l><r>adaptar<s n="vblex"/></r></p></e>
+<e><p><l>additioner<s n="vblex"/></l><r>additionar<s n="vblex"/></r></p></e>
+<e><p><l>recommander<s n="vblex"/></l><r>advocar<s n="vblex"/></r></p></e>
+<e><p><l>agiter<s n="vblex"/></l><r>agitar<s n="vblex"/></r></p></e>
+<e><p><l>ajourner<s n="vblex"/></l><r>ajornar<s n="vblex"/></r></p></e>
+<e><p><l>aliéner<s n="vblex"/></l><r>alienar<s n="vblex"/></r></p></e>
+<e><p><l>allonger<s n="vblex"/></l><r>allargar<s n="vblex"/></r></p></e>
+<e><p><l>altérer<s n="vblex"/></l><r>alterar<s n="vblex"/></r></p></e>
+<e><p><l>avoir<s n="vblex"/></l><r>altercar<s n="vblex"/></r></p></e>
+<e><p><l>amalgamer<s n="vblex"/></l><r>amalgamar<s n="vblex"/></r></p></e>
+<e><p><l>amasser<s n="vblex"/></l><r>amassar<s n="vblex"/></r></p></e>
+<e><p><l>amblador<s n="vblex"/></l><r>amblar<s n="vblex"/></r></p></e>
+<e><p><l>aboutir<s n="vblex"/></l><r>amontar<s n="vblex"/></r></p></e>
+<e><p><l>amplifier<s n="vblex"/></l><r>amplificar<s n="vblex"/></r></p></e>
+<e><p><l>retrancher<s n="vblex"/></l><r>amputar<s n="vblex"/></r></p></e>
+<e><p><l>amuser<s n="vblex"/></l><r>amusar<s n="vblex"/></r></p></e>
+<e><p><l>analyser<s n="vblex"/></l><r>analysar<s n="vblex"/></r></p></e>
+<e><p><l>encourager<s n="vblex"/></l><r>animar<s n="vblex"/></r></p></e>
+<e><p><l>annexer<s n="vblex"/></l><r>annexar<s n="vblex"/></r></p></e>
+<e><p><l>anéantir<s n="vblex"/></l><r>annihilar<s n="vblex"/></r></p></e>
+<e><p><l>annuler<s n="vblex"/></l><r>annullar<s n="vblex"/></r></p></e>
+<e><p><l>annoncer<s n="vblex"/></l><r>annunciar<s n="vblex"/></r></p></e>
+<e><p><l>apparaître<s n="vblex"/></l><r>apparer<s n="vblex"/></r></p></e>
+<e><p><l>appeler<s n="vblex"/></l><r>appellar<s n="vblex"/></r></p></e>
+<e><p><l>appuyer<s n="vblex"/></l><r>appoiar<s n="vblex"/></r></p></e>
+<e><p><l>apporter<s n="vblex"/></l><r>apportar<s n="vblex"/></r></p></e>
+<e><p><l>approvisionner<s n="vblex"/></l><r>approvisionar<s n="vblex"/></r></p></e>
+<e><p><l>arbitrer<s n="vblex"/></l><r>arbitrar<s n="vblex"/></r></p></e>
+<e><p><l>arrêter<s n="vblex"/></l><r>arrestar<s n="vblex"/></r></p></e>
+<e><p><l>retarder<s n="vblex"/></l><r>arretrar<s n="vblex"/></r></p></e>
+<e><p><l>assiéger<s n="vblex"/></l><r>assediar<s n="vblex"/></r></p></e>
+<e><p><l>assimiler<s n="vblex"/></l><r>assimilar<s n="vblex"/></r></p></e>
+<e><p><l>attester<s n="vblex"/></l><r>attestar<s n="vblex"/></r></p></e>
+<e><p><l>prévenir<s n="vblex"/></l><r>avisar<s n="vblex"/></r></p></e>
+<e><p><l>danser<s n="vblex"/></l><r>balar<s n="vblex"/></r></p></e>
+<e><p><l>port<s n="vblex"/></l><r>bandar<s n="vblex"/></r></p></e>
+<e><p><l>baptiser<s n="vblex"/></l><r>baptisar<s n="vblex"/></r></p></e>
+<e><p><l>barbare<s n="vblex"/></l><r>barbar<s n="vblex"/></r></p></e>
+<e><p><l>bâtonner<s n="vblex"/></l><r>bastonar<s n="vblex"/></r></p></e>
+<e><p><l>bénéficier<s n="vblex"/></l><r>beneficiar<s n="vblex"/></r></p></e>
+<e><p><l>blasphémer<s n="vblex"/></l><r>blasphemar<s n="vblex"/></r></p></e>
+<e><p><l>bloquejar<s n="vblex"/></l><r>blocar<s n="vblex"/></r></p></e>
+<e><p><l>bluffer<s n="vblex"/></l><r>bluffar<s n="vblex"/></r></p></e>
+<e><p><l>boxer<s n="vblex"/></l><r>boxar<s n="vblex"/></r></p></e>
+<e><p><l>brasser<s n="vblex"/></l><r>brasar<s n="vblex"/></r></p></e>
+<e><p><l>braver<s n="vblex"/></l><r>bravar<s n="vblex"/></r></p></e>
+<e><p><l>bronzer<s n="vblex"/></l><r>bronzar<s n="vblex"/></r></p></e>
+<e><p><l>budgéter<s n="vblex"/></l><r>budgetar<s n="vblex"/></r></p></e>
+<e><p><l>calculer<s n="vblex"/></l><r>calcular<s n="vblex"/></r></p></e>
+<e><p><l>calmer<s n="vblex"/></l><r>calmar<s n="vblex"/></r></p></e>
+<e><p><l>camper<s n="vblex"/></l><r>campar<s n="vblex"/></r></p></e>
+<e><p><l>canceller<s n="vblex"/></l><r>cancellar<s n="vblex"/></r></p></e>
+<e><p><l>bâtonner<s n="vblex"/></l><r>cannar<s n="vblex"/></r></p></e>
+<e><p><l>sceller<s n="vblex"/></l><r>capsular<s n="vblex"/></r></p></e>
+<e><p><l>attraper<s n="vblex"/></l><r>captivar<s n="vblex"/></r></p></e>
+<e><p><l>caresser<s n="vblex"/></l><r>caressar<s n="vblex"/></r></p></e>
+<e><p><l>charger<s n="vblex"/></l><r>cargar<s n="vblex"/></r></p></e>
+<e><p><l>punir<s n="vblex"/></l><r>castigar<s n="vblex"/></r></p></e>
+<e><p><l>castrer<s n="vblex"/></l><r>castrar<s n="vblex"/></r></p></e>
+<e><p><l>cataloguer<s n="vblex"/></l><r>catalogar<s n="vblex"/></r></p></e>
+<e><p><l>cassar<s n="vblex"/></l><r>causar<s n="vblex"/></r></p></e>
+<e><p><l>creuser<s n="vblex"/></l><r>cavar<s n="vblex"/></r></p></e>
+<e><p><l>dicecar<s n="vblex"/></l><r>cecar<s n="vblex"/></r></p></e>
+<e><p><l>centraliser<s n="vblex"/></l><r>centralisar<s n="vblex"/></r></p></e>
+<e><p><l>certifier<s n="vblex"/></l><r>certificar<s n="vblex"/></r></p></e>
+<e><p><l>cesser<s n="vblex"/></l><r>cessar<s n="vblex"/></r></p></e>
+<e><p><l>ceinturer<s n="vblex"/></l><r>cincturar<s n="vblex"/></r></p></e>
+<e><p><l>circularmen<s n="vblex"/></l><r>circular<s n="vblex"/></r></p></e>
+<e><p><l>citer<s n="vblex"/></l><r>citar<s n="vblex"/></r></p></e>
+<e><p><l>civiliser<s n="vblex"/></l><r>civilisar<s n="vblex"/></r></p></e>
+<e><p><l>clarifier<s n="vblex"/></l><r>clarar<s n="vblex"/></r></p></e>
+<e><p><l>classifier<s n="vblex"/></l><r>classificar<s n="vblex"/></r></p></e>
+<e><p><l>coaguler<s n="vblex"/></l><r>coagular<s n="vblex"/></r></p></e>
+<e><p><l>frapper<s n="vblex"/></l><r>colpar<s n="vblex"/></r></p></e>
+<e><p><l>commencer<s n="vblex"/></l><r>comenciar<s n="vblex"/></r></p></e>
+<e><p><l>commander<s n="vblex"/></l><r>commandar<s n="vblex"/></r></p></e>
+<e><p><l>compatir<s n="vblex"/></l><r>commiserar<s n="vblex"/></r></p></e>
+<e><p><l>charger<s n="vblex"/></l><r>commissionar<s n="vblex"/></r></p></e>
+<e><p><l>comporter<s n="vblex"/></l><r>comportar<s n="vblex"/></r></p></e>
+<e><p><l>condamner<s n="vblex"/></l><r>condemnar<s n="vblex"/></r></p></e>
+<e><p><l>jaser<s n="vblex"/></l><r>confabular<s n="vblex"/></r></p></e>
+<e><p><l>confirmer<s n="vblex"/></l><r>confirmar<s n="vblex"/></r></p></e>
+<e><p><l>fortifier<s n="vblex"/></l><r>confortar<s n="vblex"/></r></p></e>
+<e><p><l>conserver<s n="vblex"/></l><r>conservar<s n="vblex"/></r></p></e>
+<e><p><l>conseiller<s n="vblex"/></l><r>consiliar<s n="vblex"/></r></p></e>
+<e><p><l>assembler<s n="vblex"/></l><r>convocar<s n="vblex"/></r></p></e>
+<e><p><l>payer<s n="vblex"/></l><r>costear<s n="vblex"/></r></p></e>
+<e><p><l>couver<s n="vblex"/></l><r>covar<s n="vblex"/></r></p></e>
+<e><p><l>crier<s n="vblex"/></l><r>critar<s n="vblex"/></r></p></e>
+<e><p><l>encorvar<s n="vblex"/></l><r>curvar<s n="vblex"/></r></p></e>
+<e><p><l>danser<s n="vblex"/></l><r>dansar<s n="vblex"/></r></p></e>
+<e><p><l>déclarer<s n="vblex"/></l><r>declarar<s n="vblex"/></r></p></e>
+<e><p><l>défier<s n="vblex"/></l><r>defiar<s n="vblex"/></r></p></e>
+<e><p><l>dégrader<s n="vblex"/></l><r>degradar<s n="vblex"/></r></p></e>
+<e><p><l>limiter<s n="vblex"/></l><r>demarcar<s n="vblex"/></r></p></e>
+<e><p><l>demeurer<s n="vblex"/></l><r>demorar<s n="vblex"/></r></p></e>
+<e><p><l>ruiner<s n="vblex"/></l><r>deramar<s n="vblex"/></r></p></e>
+<e><p><l>dériver<s n="vblex"/></l><r>derivar<s n="vblex"/></r></p></e>
+<e><p><l>déserter<s n="vblex"/></l><r>desertar<s n="vblex"/></r></p></e>
+<e><p><l>destiner<s n="vblex"/></l><r>destinar<s n="vblex"/></r></p></e>
+<e><p><l>dévaster<s n="vblex"/></l><r>devastar<s n="vblex"/></r></p></e>
+<e><p><l>déloger<s n="vblex"/></l><r>discampar<s n="vblex"/></r></p></e>
+<e><p><l>déconcerter<s n="vblex"/></l><r>disconcertar<s n="vblex"/></r></p></e>
+<e><p><l>défigurer<s n="vblex"/></l><r>disfigurar<s n="vblex"/></r></p></e>
+<e><p><l>désorienter<s n="vblex"/></l><r>disorientar<s n="vblex"/></r></p></e>
+<e><p><l>parsemer<s n="vblex"/></l><r>disseminar<s n="vblex"/></r></p></e>
+<e><p><l>divulguer<s n="vblex"/></l><r>divulgar<s n="vblex"/></r></p></e>
+<e><p><l>éduquer<s n="vblex"/></l><r>educar<s n="vblex"/></r></p></e>
+<e><p><l>réaliser<s n="vblex"/></l><r>effectuar<s n="vblex"/></r></p></e>
+<e><p><l>lever<s n="vblex"/></l><r>elevar<s n="vblex"/></r></p></e>
+<e><p><l>élucider<s n="vblex"/></l><r>elucidar<s n="vblex"/></r></p></e>
+<e><p><l>imposer<s n="vblex"/></l><r>emendar<s n="vblex"/></r></p></e>
+<e><p><l>hérisser<s n="vblex"/></l><r>ericiar<s n="vblex"/></r></p></e>
+<e><p><l>errer<s n="vblex"/></l><r>errar<s n="vblex"/></r></p></e>
+<e><p><l>roter<s n="vblex"/></l><r>eructar<s n="vblex"/></r></p></e>
+<e><p><l>esc<s n="vblex"/></l><r>escar<s n="vblex"/></r></p></e>
+<e><p><l>éviter<s n="vblex"/></l><r>evitar<s n="vblex"/></r></p></e>
+<e><p><l>expirer<s n="vblex"/></l><r>expirar<s n="vblex"/></r></p></e>
+<e><p><l>fabriquer<s n="vblex"/></l><r>fabricar<s n="vblex"/></r></p></e>
+<e><p><l>favoriser<s n="vblex"/></l><r>favorar<s n="vblex"/></r></p></e>
+<e><p><l>rendre<s n="vblex"/></l><r>filiar<s n="vblex"/></r></p></e>
+<e><p><l>fixer<s n="vblex"/></l><r>fixar<s n="vblex"/></r></p></e>
+<e><p><l>arder<s n="vblex"/></l><r>flagrar<s n="vblex"/></r></p></e>
+
+<e><p><l>fragmenter<s n="vblex"/></l><r>fragmentar<s n="vblex"/></r></p></e>
+<e><p><l>frauder<s n="vblex"/></l><r>fraudar<s n="vblex"/></r></p></e>
+<e><p><l>freiner<s n="vblex"/></l><r>frenar<s n="vblex"/></r></p></e>
+<e><p><l>fréquenter<s n="vblex"/></l><r>frequentar<s n="vblex"/></r></p></e>
+<e><p><l>frictionner<s n="vblex"/></l><r>frictionar<s n="vblex"/></r></p></e>
+<e><p><l>fructifier<s n="vblex"/></l><r>fructar<s n="vblex"/></r></p></e>
+<e><p><l>diviser<s n="vblex"/></l><r>furcar<s n="vblex"/></r></p></e>
+<e><p><l>fustegar<s n="vblex"/></l><r>fustigar<s n="vblex"/></r></p></e>
+<e><p><l>bavarder<s n="vblex"/></l><r>garrular<s n="vblex"/></r></p></e>
+<e><p><l>veiller<s n="vblex"/></l><r>guardar<s n="vblex"/></r></p></e>
+<e><p><l>abimer<s n="vblex"/></l><r>guastar<s n="vblex"/></r></p></e>
+<e><p><l>hacher<s n="vblex"/></l><r>hachar<s n="vblex"/></r></p></e>
+<e><p><l>emballer<s n="vblex"/></l><r>imballar<s n="vblex"/></r></p></e>
+<e><p><l>implorer<s n="vblex"/></l><r>implorar<s n="vblex"/></r></p></e>
+<e><p><l>intéresser<s n="vblex"/></l><r>importar<s n="vblex"/></r></p></e>
+<e><p><l>déranger<s n="vblex"/></l><r>importunar<s n="vblex"/></r></p></e>
+<e><p><l>enchaîner<s n="vblex"/></l><r>incatenar<s n="vblex"/></r></p></e>
+<e><p><l>incliner<s n="vblex"/></l><r>inclinar<s n="vblex"/></r></p></e>
+<e><p><l>rencontrer<s n="vblex"/></l><r>incontrar<s n="vblex"/></r></p></e>
+<e><p><l>informer<s n="vblex"/></l><r>informar<s n="vblex"/></r></p></e>
+<e><p><l>ensacher<s n="vblex"/></l><r>insaccar<s n="vblex"/></r></p></e>
+<e><p><l>inspirer<s n="vblex"/></l><r>inspirar<s n="vblex"/></r></p></e>
+<e><p><l>intimider<s n="vblex"/></l><r>intimidar<s n="vblex"/></r></p></e>
+<e><p><l>irriter<s n="vblex"/></l><r>irritar<s n="vblex"/></r></p></e>
+<e><p><l>petit-déjeuner<s n="vblex"/></l><r>jentar<s n="vblex"/></r></p></e>
+<e><p><l>fondre<s n="vblex"/></l><r>legar<s n="vblex"/></r></p></e>
+<e><p><l>ralentir<s n="vblex"/></l><r>lentar<s n="vblex"/></r></p></e>
+<e><p><l>espèce<s n="vblex"/></l><r>ligar<s n="vblex"/></r></p></e>
+<e><p><l>briller<s n="vblex"/></l><r>lustrar<s n="vblex"/></r></p></e>
+<e><p><l>salir<s n="vblex"/></l><r>macular<s n="vblex"/></r></p></e>
+<e><p><l>manifester<s n="vblex"/></l><r>manifestar<s n="vblex"/></r></p></e>
+<e><p><l>mastiquer<s n="vblex"/></l><r>masticar<s n="vblex"/></r></p></e>
+<e><p><l>abattre<s n="vblex"/></l><r>matar<s n="vblex"/></r></p></e>
+<e><p><l>réfléchir<s n="vblex"/></l><r>meditar<s n="vblex"/></r></p></e>
+<e><p><l>améliorer<s n="vblex"/></l><r>meliorar<s n="vblex"/></r></p></e>
+<e><p><l>mendier<s n="vblex"/></l><r>mendicar<s n="vblex"/></r></p></e>
+<e><p><l>mériter<s n="vblex"/></l><r>meriter<s n="vblex"/></r></p></e>
+
 
 	  </section>
 	  
