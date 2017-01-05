@@ -38,7 +38,7 @@
     <sdef n="ND"/>
     <sdef n="rel"/>
     <sdef n="ij"/>
-
+    <sdef n="vbhaver"/>
 
     <sdef n="nom"    c="Nominative"/>
    </sdefs>
@@ -98,13 +98,37 @@
 
 
             <!-- Personal pronouns   -->
-            <e><p><l>je<s n="prn"/><s n="tn"/></l><r>io<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tu<s n="prn"/><s n="nom"/></r></p></e>
-            <e><p><l>il<s n="prn"/><s n="tn"/></l><r>ill<s n="prn"/><s n="nom"/></r></p></e>
+<!--
+            <e><p><l>je<s n="prn"/><s n="tn"/></l><r>io<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tu<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e r="LR"><p><l>il<s n="prn"/><s n="tn"/></l><r>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+           <e r="LR"><p><l>il<s n="prn"/><s n="tn"/></l><r>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+           <e r="RL"><p><l>il<s n="prn"/><s n="tn"/></l><r>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
             <e r="RL"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>illo<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>nous<s n="prn"/><s n="tn"/></l><r>nos<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>vous<s n="prn"/><s n="tn"/></l><r>vos<s n="prn"/><s n="nom"/></r></p></e>
             <e r="RL"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>illos<s n="prn"/><s n="nom"/></r></p></e>
+-->
+           
+                <e><p><l>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>io<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e><p><l>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>tu<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>illo<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e r="LR"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>illo<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e r="LR"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>illo<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e r="RL"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+            <e r="RL"><p><l>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+
+            <e><p><l>nos<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>nos<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+
+            <e><p><l>vos<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>vos<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+
+                   <e><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+            <e r="LR"><p><l>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="LR"><p><l>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>                    
 <!--
             <e><p><l>me<s n="prn"/></l><r>io<s n="prn"/><s n="nom"/></r></p></e>
             <e><p><l>te<s n="prn"/></l><r>tu<s n="prn"/><s n="nom"/></r></p></e>
@@ -265,6 +289,7 @@
            <e><p><l>entendre<s n="vblex"/></l><r>audir<s n="vblex"/></r></p></e>
            <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
            <e><p><l>avoir<s n="vblex"/></l><r>haber<s n="vblex"/></r></p></e>
+           <e><p><l>avoir<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
            <e><p><l>habiter<s n="vblex"/></l><r>habitar<s n="vblex"/></r></p></e>
            <e><p><l>chercher<s n="vblex"/></l><r>cercar<s n="vblex"/></r></p></e>
            <e><p><l>penser<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
@@ -294,6 +319,7 @@
 
             <e><p><l>souvenir<s n="vblex"/></l><r>memorar<s n="vblex"/></r></p></e>
             <e><p><l>espérer<s n="vblex"/></l><r>sperar<s n="vblex"/></r></p></e>
+            <e><p><l>nascer<s n="vblex"/></l><r>naître<s n="vblex"/></r></p></e>
 
 
            
@@ -307,6 +333,7 @@
            <e><p><l>bleu<s n="adj"/></l><r>azur<s n="adj"/></r></p></e>
            <e><p><l>bon<s n="adj"/></l><r>bon<s n="adj"/></r></p></e>
            <e><p><l>jeune<s n="adj"/></l><r>juvene<s n="adj"/></r></p></e>
+           <e><p><l>humain<s n="adj"/></l><r>human<s n="adj"/></r></p></e>
 
            <e><p><l>brun<s n="adj"/></l><r>brun<s n="adj"/></r></p></e>
            <e><p><l>certain<s n="adj"/></l><r>certe<s n="adj"/></r></p></e>
@@ -317,6 +344,9 @@
            <e><p><l>content<s n="adj"/></l><r>satisfacte<s n="adj"/></r></p></e>
            <e><p><l>content<s n="adj"/></l><r>felice<s n="adj"/></r></p></e>
            <e><p><l>courageux<s n="adj"/></l><r>brave<s n="adj"/></r></p></e>
+           <e><p><l>égal<s n="adj"/></l><r>equal<s n="adj"/></r></p></e>
+
+           <e><p><l>libre<s n="adj"/></l><r>libere<s n="adj"/></r></p></e>
            <e><p><l>gentil<s n="adj"/></l><r>gentil<s n="adj"/></r></p></e>
            <e><p><l>mort<s n="adj"/></l><r>morte<s n="adj"/></r></p></e>
            <e><p><l>meilleur<s n="adj"/></l><r>melior<s n="adj"/></r></p></e>
@@ -442,6 +472,8 @@
 
 
 <e><p><l>service<s n="n"/><s n="m"/></l><r>servicio<s n="n"/></r></p></e>
+<e><p><l>dignité<s n="n"/><s n="f"/></l><r>dignitate<s n="n"/></r></p></e>
+
 <e><p><l>livre<s n="n"/><s n="m"/></l><r>libro<s n="n"/></r></p></e>
 <e><p><l>littérature<s n="n"/><s n="f"/></l><r>litteratura<s n="n"/></r></p></e>
 <e><p><l>invitation<s n="n"/><s n="f"/></l><r>invitation<s n="n"/></r></p></e>
@@ -455,7 +487,7 @@
 
 <e><p><l>bain<s n="n"/><s n="m"/></l><r>banio<s n="n"/></r></p></e>
 <e><p><l>banc<s n="n"/><s n="m"/></l><r>banco<s n="n"/></r></p></e>
-<e r="LR"><p><l>bâton<s n="n"/><s n="m"/></l><r>baston<s n="n"/></r></p></e>
+<e><p><l>bâton<s n="n"/><s n="m"/></l><r>baston<s n="n"/></r></p></e>
 <e><p><l>bassin<s n="n"/><s n="m"/></l><r>bassino<s n="n"/></r></p></e>
 <e><p><l>bouche<s n="n"/><s n="f"/></l><r>bucca<s n="n"/></r></p></e>
 
@@ -558,6 +590,7 @@
 <e><p><l>océan<s n="n"/><s n="m"/></l><r>oceano<s n="n"/></r></p></e>
 <e><p><l>odeur<s n="n"/><s n="m"/></l><r>odor<s n="n"/></r></p></e>
 <e><p><l>offre<s n="n"/><s n="f"/></l><r>offerta<s n="n"/></r></p></e>
+<e><p><l>être<s n="n"/><s n="m"/></l><r>esser<s n="n"/></r></p></e>
 
 <e><p><l>calme<s n="n"/><s n="mf"/></l><r>calma<s n="n"/></r></p></e>
 <e><p><l>campement<s n="n"/><s n="m"/></l><r>campamento<s n="n"/></r></p></e>

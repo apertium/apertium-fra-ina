@@ -4,6 +4,9 @@
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
+    <def-cat n="prn">
+      <cat-item name="prn"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -18,6 +21,18 @@
 
   <section-rules>
     <rule comment="CHUNK:">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule comment="pronouns">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>

@@ -1,8 +1,11 @@
-Revision: 64534
+Revision: 75386
+AP_SRC1 Revision: 74632
+AP_SRC2 Revision: 75209
 Running Regression-tests with mode "fra-ina" with updated tests ...
 
 fra-ina	  Je mange.
-WORKS	  Io mangia.
+	- Io mangia.
+	+ #Io mangia.
 
 
 fra-ina	  Les chiens parlent.
@@ -10,27 +13,33 @@ WORKS	  Le canes parla.
 
 
 fra-ina	  Tu nageras.
-WORKS	  Tu natara.
+	- Tu natara.
+	+ #Tu natara.
 
 
 fra-ina	  La femme est contente avec la maison.
-WORKS	  Le femina es satisfacte con le domo.
+	- Le femina es satisfacte con le domo.
+	+ Le femina es felice con le domo.
 
 
 fra-ina	  J'habite avec une famille très gentille.
-WORKS	  Io habita con un familia multo gentil.
+	- Io habita con un familia multo gentil.
+	+ #Io habita con un familia multo gentil.
 
 
 fra-ina	  Je trouve la maison très bonne.
-WORKS	  Io trova le domo multo bon.
+	- Io trova le domo multo bon.
+	+ #Io trova le domo multo bon.
 
 
 fra-ina	  Je répondrai à quatre-vingt-dix hommes.
-WORKS	  Io respondera a novanta homines.
+	- Io respondera a novanta homines.
+	+ #Io respondera a novanta homines.
 
 
 fra-ina	  Elle cherche une maison à la campagne.
-WORKS	  Illa cerca un domo a le campania.
+	- Illa cerca un domo a le campania.
+	+ #Illo cerca un domo a le campania.
 
 
 fra-ina	  Le fruit est bon.
@@ -45,8 +54,10 @@ fra-ina	  Les hommes gros.
 WORKS	  Le homines grande.
 
 
-11 / 11
-Revision: 64534
+4 / 11
+Revision: 75386
+AP_SRC1 Revision: 74632
+AP_SRC2 Revision: 75209
 Running Regression-tests with mode "ina-fra" with updated tests ...
 
 ina-fra	  Io mangia.
@@ -61,8 +72,8 @@ ina-fra	  Tu natara.
 WORKS	  Tu nageras.
 
 
-ina-fra	  Le femina es satisfacte con le domo.
-WORKS	  La femme est contente avec la maison.
+ina-fra	  Le femina es satisfacte.
+WORKS	  La femme est contente.
 
 
 ina-fra	  Io habita con un familia multo gentil.
@@ -81,12 +92,16 @@ ina-fra	  Illa cerca un domo a le campania.
 WORKS	  Elle cherche une maison à la campagne.
 
 
-ina-fra	  Le can es grande.
-WORKS	  Le chien est gros.
+ina-fra	  Io vide e pensa.
+WORKS	  Je vois et pense.
 
 
-ina-fra	  Le homines grande.
-WORKS	  Les hommes gros.
+ina-fra	  Io vide le femina e selige le homine.
+WORKS	  Je vois la femme et choisis l'homme.
 
 
-10 / 10
+ina-fra	  Le femina gentil e albe.
+WORKS	  La femme gentille et blanche.
+
+
+11 / 11
