@@ -75,8 +75,7 @@ WORKS	  L'homme est vu.
 
 
 ina-fra	  Le gentil e albe femina.
-	- La femme gentille et blanche.
-	+ Lafemmegentilleetblanche.
+WORKS	  La femme gentille et blanche.
 
 
 ina-fra	  Le multo gentil femina.
@@ -95,18 +94,16 @@ ina-fra	  Le femina e le homine.
 WORKS	  La femme et l'homme.
 
 
+ina-fra	  Le femina canta e vide le can.
+WORKS	  La femme chante et voit le chien.
+
+
 ina-fra	  Le homine vide le femina e le catto.
 WORKS	  L'homme voit la femme et le chat.
 
 
 ina-fra	  Le femina vide le homine e canta.
-	- La femme voit l'homme et chante.
-	+ La femme voit l'homme et chante La femme #chanter et #voir le chien.
+WORKS	  La femme voit l'homme et chante.
 
 
-ina-fra	  Le femina canta e vide le can.
-	- La femme chante e voit le chien.
-	+ 
-
-
-8 / 11
+11 / 11

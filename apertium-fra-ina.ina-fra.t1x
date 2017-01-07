@@ -1440,27 +1440,27 @@
             <clip pos="5" side="tl" part="gender"/>
             <clip pos="5" side="tl" part="nbr"/>
           </lu>
-          <b />
+          <b pos="1"/>
           <lu>
             <clip pos="5" side="tl" part="lem"/>
             <clip pos="5" side="tl" part="word_type"/>
             <clip pos="5" side="tl" part="gender"/>
             <clip pos="5" side="tl" part="nbr"/>
           </lu>
-          <b />
+          <b pos="2"/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="word_type"/>
             <var n="adj_gender"/>
             <var n="adj_number"/>
             </lu>
-          <b />
+          <b pos="3"/>
           <lu>
             <clip pos="3" side="tl" part="lem"/>
             <clip pos="3" side="tl" part="word_type"/>
 
             </lu>
-          <b />
+          <b pos="4"/>
           <lu>
             <clip pos="4" side="tl" part="lem"/>
             <clip pos="4" side="tl" part="word_type"/>

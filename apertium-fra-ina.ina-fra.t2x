@@ -324,7 +324,7 @@
       </action>
     </rule>
       
-   <rule comment="REGLA: SN SV SN conj SV SN">
+   <rule comment="REGLA: SN SV SN conj SV ">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SV"/>
@@ -363,7 +363,6 @@
             <clip pos="5" part="chcontent"/>
           </chunk>
         </out>
-
       </action>
     </rule>
       
@@ -389,7 +388,6 @@
             <clip pos="1" part="number"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
-            <b/>
             <b/>
           <chunk>
             <clip pos="3" part="whole"/>
