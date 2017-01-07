@@ -324,6 +324,132 @@
       </action>
     </rule>
       
+   <rule comment="REGLA: SN SV SN conj SV SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="CNJ"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="1" part="person"/>
+            <clip pos="1" part="number"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="1" part="person"/>
+            <clip pos="1" part="number"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+        </out>
+
+      </action>
+    </rule>
+      
+   <rule comment="REGLA: SN SV conj SV SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="CNJ"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="1" part="person"/>
+            <clip pos="1" part="number"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+            <b/>
+            <b/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="1" part="person"/>
+            <clip pos="1" part="number"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+            <b/>
+                      <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+        </out>
+
+      </action>
+    </rule>
+
+   <rule comment="REGLA: SN SV SN conj SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="CNJ"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="1" part="person"/>
+            <clip pos="1" part="number"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+            <b/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+        </out>
+
+      </action>
+    </rule>
+      
 
   </section-rules>
 </interchunk>

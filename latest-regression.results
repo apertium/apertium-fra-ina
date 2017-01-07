@@ -19,7 +19,7 @@ fra-ina	  Tu nageras.
 
 fra-ina	  La femme est contente avec la maison.
 	- Le femina es satisfacte con le domo.
-	+ Le femina es felice con le domo.
+	+ Le femina #esser felice con le domo.
 
 
 fra-ina	  J'habite avec une famille très gentille.
@@ -43,65 +43,70 @@ fra-ina	  Elle cherche une maison à la campagne.
 
 
 fra-ina	  Le fruit est bon.
-WORKS	  Le fructo es bon.
+	- Le fructo es bon.
+	+ Le fructo #esser bon.
 
 
 fra-ina	  Le chien est gros.
-WORKS	  Le can es grande.
+	- Le can es grande.
+	+ Le can #esser grande.
 
 
 fra-ina	  Les hommes gros.
 WORKS	  Le homines grande.
 
 
-4 / 11
+2 / 11
 Revision: 75386
 AP_SRC1 Revision: 74632
 AP_SRC2 Revision: 75209
 Running Regression-tests with mode "ina-fra" with updated tests ...
 
-ina-fra	  Io mangia.
-WORKS	  Je mange.
-
-
-ina-fra	  Le canes parla.
-WORKS	  Les chiens parlent.
-
-
-ina-fra	  Tu natara.
-WORKS	  Tu nageras.
-
-
-ina-fra	  Le femina es satisfacte.
-WORKS	  La femme est contente.
-
-
-ina-fra	  Io habita con un familia multo gentil.
-WORKS	  J'habite avec une famille très gentille.
-
-
-ina-fra	  Io trova le domo multo bon.
-WORKS	  Je trouve la maison très bonne.
-
-
-ina-fra	  Io respondera a novanta homines.
-WORKS	  Je répondrai à quatre-vingt-dix hommes.
-
-
-ina-fra	  Illa cerca un domo a le campania.
-WORKS	  Elle cherche une maison à la campagne.
-
-
-ina-fra	  Io vide e pensa.
-WORKS	  Je vois et pense.
-
-
-ina-fra	  Io vide le femina e selige le homine.
-WORKS	  Je vois la femme et choisis l'homme.
-
-
 ina-fra	  Le femina gentil e albe.
 WORKS	  La femme gentille et blanche.
 
 
-11 / 11
+ina-fra	  Io ha vidite le femina.
+WORKS	  J'ai vu la femme.
+
+
+ina-fra	  Le homine es vidite.
+WORKS	  L'homme est vu.
+
+
+ina-fra	  Le gentil e albe femina.
+	- La femme gentille et blanche.
+	+ Lafemmegentilleetblanche.
+
+
+ina-fra	  Le multo gentil femina.
+WORKS	  La femme très gentille.
+
+
+ina-fra	  Le albe gentil femina.
+WORKS	  La femme blanche gentille.
+
+
+ina-fra	  Le femina e le homine e le catto.
+WORKS	  La femme et l'homme et le chat.
+
+
+ina-fra	  Le femina e le homine.
+WORKS	  La femme et l'homme.
+
+
+ina-fra	  Le homine vide le femina e le catto.
+WORKS	  L'homme voit la femme et le chat.
+
+
+ina-fra	  Le femina vide le homine e canta.
+	- La femme voit l'homme et chante.
+	+ La femme voit l'homme et chante La femme #chanter et #voir le chien.
+
+
+ina-fra	  Le femina canta e vide le can.
+	- La femme chante e voit le chien.
+	+ 
+
+
+8 / 11

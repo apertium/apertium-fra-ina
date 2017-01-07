@@ -16,6 +16,9 @@
     <def-cat n="vbhaver">
       <cat-item tags="vbhaver.*"/>
     </def-cat>
+    <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
         <cat-item tags="predet"/>
@@ -50,6 +53,9 @@
     <def-cat n="preadv">
       <cat-item tags="preadv"/>
     </def-cat>
+    <def-cat n="third-person-singular">
+      <cat-item tags="prn.p3.*.sg.nom"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -83,6 +89,7 @@
       <attr-item tags="prn"/>
       <attr-item tags="vblex"/>
       <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
 
       <attr-item tags="n"/>
       <attr-item tags="det"/>
@@ -96,9 +103,13 @@
       <attr-item tags="def"/>
       <attr-item tags="ind"/>
     </def-attr>
-                   <def-attr n="pp">
+    <def-attr n="pp">
            <attr-item tags="pp"/>
-        </def-attr>
+     </def-attr>
+    <def-attr n="infinite">
+           <attr-item tags="pp"/>
+     </def-attr>
+
 
         <def-attr n="gender">
           <attr-item tags="m"/>
@@ -110,6 +121,7 @@
            <attr-item tags="p2"/>
            <attr-item tags="p3"/>
         </def-attr>
+
 
   </section-def-attrs>
 
@@ -220,6 +232,34 @@
                    <clip pos="1" side="sl" part="gender"/>
         </let>
     </def-macro>
+    <def-macro n="double_nouns_macro" npar="2">
+          <choose>
+            <when>
+                <test>
+                   <in>
+                      <clip pos="1" side="tl" part="lem"/>
+                      <list n="temps_noms"/>
+                    </in>
+                </test>
+                <let>
+                    <var n="noun_number"/>
+                    <lit-tag v="sp"/>
+
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                    <var n="noun_number"/>
+                    <clip pos="1" side="sl" part="nbr"/>
+
+                </let>
+              </otherwise>
+        </choose>
+        <let>
+                            <var n="noun_gender"/>
+                   <clip pos="1" side="sl" part="gender"/>
+        </let>
+    </def-macro>
   </section-def-macros>
     
 
@@ -242,6 +282,110 @@
       </action>
     </rule>
    
+
+      
+              <rule comment="RULE: chunk pronouns">
+          <pattern>
+        <pattern-item n="prn"/>
+      </pattern>
+
+      <action>  
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><clip pos="1" side="tl" part="pers"/></tag>
+
+
+           <tag><clip pos="1" side="tl" part="gender"/></tag>
+        <tag><clip pos="1" side="tl" part="nbr"/></tag>
+
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+         <lit-tag v="tn"/>
+
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+            <lit-tag v="4"/>
+            <lit-tag v="5"/>
+
+
+
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+      
+
+<rule comment="RULE: chunk N CNJ 3ps">
+          <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="cnj"/>
+        <pattern-item n="third-person-singular"/>
+
+      </pattern>
+
+      <action>  
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><clip pos="1" side="tl" part="pers"/></tag>
+           <tag><clip pos="1" side="tl" part="gender"/></tag>
+        <tag><lit-tag v="pl"/></tag>
+
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+         <lit-tag v="tn"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+            <lit-tag v="4"/>
+            <lit-tag v="5"/>
+          </lu>
+            <b/>
+            
+            </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="Chunk compound tenses">
+        <pattern>
+            <pattern-item n="vbhaver"/>
+            <pattern-item n="verb"/>
+      </pattern>
+      <action>  
+        <out>
+        <chunk name="v">
+       <tags>
+         <tag><lit-tag v="SV"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <lit-tag v="pp"/>
+            <lit-tag v="m"/>
+            <lit-tag v="sg"/>
+          </lu>  
+            </chunk>
+        </out>
+      </action>
+    </rule>
+
       
       
     <rule comment="Chunk verbs">
@@ -280,11 +424,11 @@
       </action>
     </rule>
       
-   
+         
 
-    <rule comment="Chunk compound tenses">
+    <rule comment="Chunk passive tenses">
         <pattern>
-            <pattern-item n="vbhaver"/>
+            <pattern-item n="vbser"/>
             <pattern-item n="verb"/>
       </pattern>
       <action>  
@@ -312,7 +456,6 @@
         </out>
       </action>
     </rule>
-
 
       
       
@@ -451,41 +594,7 @@
       
 
       
-        <rule comment="RULE: chunk pronouns">
-          <pattern>
-        <pattern-item n="prn"/>
-      </pattern>
 
-      <action>  
-        <out>
-        <chunk name="n">
-       <tags>
-         <tag><lit-tag v="SN"/></tag>
-           <tag><clip pos="1" side="tl" part="pers"/></tag>
-
-
-           <tag><clip pos="1" side="tl" part="gender"/></tag>
-        <tag><clip pos="1" side="tl" part="nbr"/></tag>
-
-       </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="word_type"/>
-         <lit-tag v="tn"/>
-
-            <lit-tag v="2"/>
-            <lit-tag v="3"/>
-            <lit-tag v="4"/>
-            <lit-tag v="5"/>
-
-
-
-          </lu>
-            </chunk>
-        </out>
-      </action>
-    </rule>
-      
  <rule comment="RULE: conjugate NOM ADJ">
           <pattern>
         <pattern-item n="nom"/>
@@ -526,6 +635,81 @@
       </action>
     </rule>
       
+<rule comment="RULE: conjugate DET PREADV ADJ NOM CNJ ADJ NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="preadv"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="cnj"/>
+        <pattern-item n="preadv"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+
+      <action>
+          <call-macro n="adj_agreement">
+            <with-param pos="7"/>
+            <with-param pos="3"/>
+          </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="7"/>
+          </call-macro>
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><var n="noun_number"/></tag>
+             <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>            
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="7" side="tl" part="gender"/>
+            <clip pos="7" side="tl" part="nbr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="7" side="tl" part="lem"/>
+            <clip pos="7" side="tl" part="word_type"/>
+            <clip pos="7" side="tl" part="gender"/>
+            <clip pos="7" side="tl" part="nbr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>            
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="5" side="tl" part="lem"/>
+            <clip pos="5" side="tl" part="word_type"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="6" side="tl" part="lem"/>
+            <clip pos="6" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>            
+            
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
 
  <rule comment="RULE: conjugate NOM ADJ CNJ ADJ">
           <pattern>
@@ -577,6 +761,110 @@
             <clip pos="4" side="tl" part="word_type"/>
             <var n="adj_gender"/>
             <var n="adj_number"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+
+ <rule comment="RULE: conjugate NOM  CNJ NOM">
+          <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="cnj"/>
+        <pattern-item n="nom"/>
+
+      </pattern>
+
+      <action>  
+          <call-macro n="nouns_macro">
+            <with-param pos="1"/>
+          </call-macro>
+        <out>
+        <chunk name="n">
+       <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><var n="noun_number"/></tag>
+            <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="gender"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+            <b/>
+
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <clip pos="3" side="tl" part="gender"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+
+ <rule comment="RULE: conjugate NOM CNJ NOM CNJ NOM">
+          <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="cnj"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="cnj"/>
+        <pattern-item n="nom"/>
+
+      </pattern>
+
+      <action>  
+          <call-macro n="nouns_macro">
+            <with-param pos="1"/>
+          </call-macro>
+        <out>
+        <chunk name="n">
+       <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><var n="noun_number"/></tag>
+            <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="gender"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+            <b/>
+
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <clip pos="3" side="tl" part="gender"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="5" side="tl" part="lem"/>
+            <clip pos="5" side="tl" part="word_type"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
           </lu>
             </chunk>
         </out>
@@ -637,7 +925,152 @@
         </out>
       </action>
     </rule>
+      
+    <rule comment="RULE: conjugate DET NOM CNJ DET NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+          <pattern-item n="cnj"/>
+<pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+          <call-macro n="double_nouns_macro">
+            <with-param pos="2"/>
+            <with-param pos="5"/>
+          </call-macro>
+        <out>
+                    <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><lit-tag v="pl"/></tag>
+            <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+           <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            
+          </lu>
+           <b/>
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            <clip pos="4" side="tl" part="defindef"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="5" side="tl" part="lem"/>
+            <clip pos="5" side="tl" part="word_type"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
 
+
+    <rule comment="RULE: conjugate DET NOM CNJ DET NOM CNJ DET NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+          <pattern-item n="cnj"/>
+          <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+          <pattern-item n="cnj"/>
+          <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+          <call-macro n="double_nouns_macro">
+            <with-param pos="2"/>
+            <with-param pos="5"/>
+          </call-macro>
+        <out>
+                    <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><lit-tag v="pl"/></tag>
+            <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <clip pos="2" side="tl" part="gender"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+           <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+          </lu>
+           <b/>
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            <clip pos="4" side="tl" part="defindef"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="5" side="tl" part="lem"/>
+            <clip pos="5" side="tl" part="word_type"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
+          </lu>
+                        <b/>
+         <lu>
+            <clip pos="6" side="tl" part="lem"/>
+            <clip pos="6" side="tl" part="word_type"/>
+          </lu>
+           <b/>
+          <lu>
+            <clip pos="7" side="tl" part="lem"/>
+            <clip pos="7" side="tl" part="word_type"/>
+            <clip pos="7" side="tl" part="defindef"/>
+            <clip pos="8" side="tl" part="gender"/>
+            <clip pos="8" side="tl" part="nbr"/>
+          </lu>
+            <b/>
+          <lu>
+            <clip pos="8" side="tl" part="lem"/>
+            <clip pos="8" side="tl" part="word_type"/>
+            <clip pos="8" side="tl" part="gender"/>
+            <clip pos="8" side="tl" part="nbr"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+      
           <rule comment="RULE: switch order: DET ADJ NOM -> DET NOM ADJ">
       <pattern>
         <pattern-item n="det"/>
@@ -669,7 +1102,7 @@
             <clip pos="3" side="tl" part="gender"/>
             <clip pos="3" side="tl" part="nbr"/>
           </lu>
-          <b />
+          <b/>
           <lu>
             <clip pos="3" side="tl" part="lem"/>
             <clip pos="3" side="tl" part="word_type"/>
@@ -680,6 +1113,64 @@
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+
+          <rule comment="RULE: switch order: DET ADJ ADJ  NOM -> DET NOM ADJ ADJ">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+
+      <action>
+          <call-macro n="adj_agreement">
+            <with-param pos="4"/>
+            <with-param pos="2"/>
+          </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="2"/>
+          </call-macro>
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><var n="noun_number"/></tag>
+             <tag><var n="noun_gender"/></tag>
+                        <tag><lit-tag v="p3"/></tag>
+
+       </tags>            
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="4" side="tl" part="gender"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            <clip pos="4" side="tl" part="gender"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
+          </lu>
+        <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
             <var n="adj_gender"/>
             <var n="adj_number"/>
           </lu>
@@ -742,6 +1233,64 @@
         </out>
       </action>
     </rule>
+      
+ <rule comment="RULE: conjugate DET PREADV ADJ NOM ">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="preadv"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+
+      <action>
+          <call-macro n="adj_agreement">
+            <with-param pos="4"/>
+            <with-param pos="3"/>
+          </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="4"/>
+          </call-macro>
+        <out>
+        <chunk name="n">
+       <tags>
+         <tag><lit-tag v="SN"/></tag>
+           <tag><var n="noun_number"/></tag>
+             <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>            
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="4" side="tl" part="gender"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
+            <clip pos="4" side="tl" part="gender"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>            
+              
+          </lu>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+      
+ 
           <rule comment="RULE: conjugate DET NOM ADJ">
       <pattern>
         <pattern-item n="det"/>
@@ -849,6 +1398,72 @@
           <lu>
             <clip pos="5" side="tl" part="lem"/>
             <clip pos="5" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
+            </lu>
+            </chunk>
+        </out>
+
+              </action>
+    </rule>
+      
+     <rule comment="RULE: conjugate DET ADJ CNJ ADJ NOM">
+      <pattern>
+        <pattern-item n="det"/>
+          <pattern-item n="adj"/>
+          <pattern-item n="cnj"/>
+          <pattern-item n="adj"/>
+         <pattern-item n="nom"/>
+
+      </pattern>
+
+      <action>
+            <call-macro n="adj_agreement">
+            <with-param pos="5"/>
+            <with-param pos="2"/>
+          </call-macro>
+          <call-macro n="nouns_macro">
+            <with-param pos="5"/>
+          </call-macro>
+        <out>
+        <chunk name="det_nom_adj">
+       <tags>
+<tag><lit-tag v="SN"/></tag>
+           <tag><var n="noun_number"/></tag>
+            <tag><var n="noun_gender"/></tag>
+            <tag><lit-tag v="p3"/></tag>
+       </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="word_type"/>
+            <clip pos="1" side="tl" part="defindef"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="5" side="tl" part="lem"/>
+            <clip pos="5" side="tl" part="word_type"/>
+            <clip pos="5" side="tl" part="gender"/>
+            <clip pos="5" side="tl" part="nbr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="word_type"/>
+            <var n="adj_gender"/>
+            <var n="adj_number"/>
+            </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="word_type"/>
+
+            </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="word_type"/>
             <var n="adj_gender"/>
             <var n="adj_number"/>
             </lu>
