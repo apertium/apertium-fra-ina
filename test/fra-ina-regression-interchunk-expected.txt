@@ -1,0 +1,22 @@
+[5XnyV5lNkAm1#0] ^prn<SN>{^<prn><nom><p2><mf><sg>$}$ ^vb<SV>{^<vblex><fti>$}$.
+[/5XnyV5lNkAm1]
+[6a30-VUz_VuC#0] ^default<default>{^Le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$ ^vb<SV>{^<pri>$}$ ^n<SN>{^<adj>$}$ ^default<default>{^con<pr>$}$ ^default<default>{^le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$.
+[/6a30-VUz_VuC]
+[B_LIgRUxhqcm#0] ^default<default>{^Le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$ ^vb<SV>{^<pri>$}$ ^n<SN>{^<adj>$}$.
+[/B_LIgRUxhqcm]
+[OwI6_dk0Z8r2#0] ^default<default>{^Le<det><def><sp>$}$ ^n<SN>{^<n><pl>$}$ ^n<SN>{^<adj>$}$.
+[/OwI6_dk0Z8r2]
+[YVqzHSCs18y3#0] ^prn<SN>{^<prn><nom><p1><mf><sg>$}$ ^vb<SV>{^<vblex><pri>$}$ ^default<default>{^le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$ ^default<default>{^multo<preadv>$}$ ^n<SN>{^<adj>$}$.
+[/YVqzHSCs18y3]
+[bwGUb-B_BrMb#0] ^default<default>{^Le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$ ^vb<SV>{^<pri>$}$ ^n<SN>{^<adj>$}$.
+[/bwGUb-B_BrMb]
+[hZYZbxoAHKm1#0] ^prn<SN>{^<prn><nom><p3><mf><sg>$}$ ^vb<SV>{^<vblex><pri>$}$ ^default<default>{^un<det><ind><sp>$}$ ^n<SN>{^<n><sg>$}$ ^default<default>{^a<pr>$}$ ^default<default>{^le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$.
+[/hZYZbxoAHKm1]
+[o5EZMp5cJxuU#0] ^default<default>{^Le<det><def><sp>$}$ ^n<SN>{^<n><pl>$}$ ^vb<SV>{^<vblex><pri>$}$.
+[/o5EZMp5cJxuU]
+[oOMZApkSKmPz#0] ^prn<SN>{^<prn><nom><p1><mf><sg>$}$ ^vb<SV>{^<vblex><fti>$}$ ^default<default>{^a<pr>$}$ ^adj<ADJ>{^<num>$}$ ^n<SN>{^<n><pl>$}$.
+[/oOMZApkSKmPz]
+[tsRqMrhpS4tB#0] ^prn<SN>{^<prn><nom><p1><mf><sg>$}$ ^vb<SV>{^<vblex><pri>$}$.
+[/tsRqMrhpS4tB]
+[wFyVx_qwkdJQ#0] ^prn<SN>{^<prn><nom><p1><mf><sg>$}$ ^vb<SV>{^<vblex><pri>$}$ ^default<default>{^con<pr>$}$ ^default<default>{^un<det><ind><sp>$}$ ^n<SN>{^<n><sg>$}$ ^default<default>{^multo<preadv>$}$ ^n<SN>{^<adj>$}$.
+[/wFyVx_qwkdJQ]

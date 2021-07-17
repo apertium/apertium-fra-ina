@@ -1,0 +1,2 @@
+[Crt6ROELNEf5#0] ^La/le<det><def><f><sg>$ ^femme/femme<n><f><sg>$ ^est/être<vbser><pri><p3><sg>$ ^content/content<adj><m><sg>/conter<vblex><pri><p3><pl>/conter<vblex><prs><p3><pl>$ ^avec/avec<pr>$ ^le/le<det><def><m><sg>$ ^maison/maison<n><f><sg>$.
+[/Crt6ROELNEf5]

@@ -1,0 +1,22 @@
+[5XnyV5lNkAm1#0] ^Tu/tu<prn><tn><p2><mf><sg>/taire<vblex><pp><m><sg>$ ^nageras/nager<vblex><fti><p2><sg>$.
+[/5XnyV5lNkAm1]
+[6a30-VUz_VuC#0] ^La/le<det><def><f><sg>$ ^femme/femme<n><f><sg>$ ^est/être<vbser><pri><p3><sg>$ ^contente/content<adj><f><sg>$ ^avec/avec<pr>$ ^la/le<det><def><f><sg>$ ^maison/maison<n><f><sg>$.
+[/6a30-VUz_VuC]
+[B_LIgRUxhqcm#0] ^Le/le<det><def><m><sg>$ ^chien/chien<n><m><sg>$ ^est/être<vbser><pri><p3><sg>$ ^gros/gros<adj><m><sp>$.
+[/B_LIgRUxhqcm]
+[OwI6_dk0Z8r2#0] ^Les/le<det><def><mf><pl>$ ^hommes/homme<n><m><pl>$ ^gros/gros<adj><m><sp>$.
+[/OwI6_dk0Z8r2]
+[YVqzHSCs18y3#0] ^Je/je<prn><tn><p1><mf><sg>$ ^trouve/trouver<vblex><pri><p3><sg>/trouver<vblex><pri><p1><sg>/trouver<vblex><prs><p3><sg>/trouver<vblex><prs><p1><sg>/trouver<vblex><imp><p2><sg>$ ^la/le<det><def><f><sg>$ ^maison/maison<n><f><sg>$ ^très/très<preadv>$ ^bonne/bon<adj><f><sg>$.
+[/YVqzHSCs18y3]
+[bwGUb-B_BrMb#0] ^Le/le<det><def><m><sg>$ ^fruit/fruit<n><m><sg>$ ^est/être<vbser><pri><p3><sg>$ ^bon/bon<adj><m><sg>$.
+[/bwGUb-B_BrMb]
+[hZYZbxoAHKm1#0] ^Elle/il<prn><tn><p3><f><sg>$ ^cherche/chercher<vblex><pri><p3><sg>/chercher<vblex><pri><p1><sg>/chercher<vblex><prs><p3><sg>/chercher<vblex><prs><p1><sg>/chercher<vblex><imp><p2><sg>$ ^une/un<det><ind><f><sg>$ ^maison/maison<n><f><sg>$ ^à/à<pr>$ ^la/le<det><def><f><sg>$ ^campagne/campagne<n><f><sg>$.
+[/hZYZbxoAHKm1]
+[o5EZMp5cJxuU#0] ^Les/le<det><def><mf><pl>$ ^chiens/chien<n><m><pl>$ ^parlent/parler<vblex><pri><p3><pl>/parler<vblex><prs><p3><pl>$.
+[/o5EZMp5cJxuU]
+[oOMZApkSKmPz#0] ^Je/je<prn><tn><p1><mf><sg>$ ^répondrai/répondre<vblex><fti><p1><sg>$ ^à/à<pr>$ ^quatre-vingt-dix/quatre-vingt-dix<num><mf><sp>$ ^hommes/homme<n><m><pl>$.
+[/oOMZApkSKmPz]
+[tsRqMrhpS4tB#0] ^Je/je<prn><tn><p1><mf><sg>$ ^mange/manger<vblex><pri><p3><sg>/manger<vblex><pri><p1><sg>/manger<vblex><prs><p3><sg>/manger<vblex><prs><p1><sg>/manger<vblex><imp><p2><sg>$.
+[/tsRqMrhpS4tB]
+[wFyVx_qwkdJQ#0] ^J'/je<prn><tn><p1><mf><sg>$ ^habite/habiter<vblex><pri><p3><sg>/habiter<vblex><pri><p1><sg>/habiter<vblex><prs><p3><sg>/habiter<vblex><prs><p1><sg>/habiter<vblex><imp><p2><sg>$ ^avec/avec<pr>$ ^une/un<det><ind><f><sg>$ ^famille/famille<n><f><sg>$ ^très/très<preadv>$ ^gentille/gentil<adj><f><sg>$.
+[/wFyVx_qwkdJQ]

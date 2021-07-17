@@ -1,0 +1,22 @@
+[5XnyV5lNkAm1#0] ^<prn><nom><p2><mf><sg>$ ^<vblex><fti>$.
+[/5XnyV5lNkAm1]
+[6a30-VUz_VuC#0] ^Le<det><def><sp>$ ^<n><sg>$ ^<pri>$ ^<adj>$ ^con<pr>$ ^le<det><def><sp>$ ^<n><sg>$.
+[/6a30-VUz_VuC]
+[B_LIgRUxhqcm#0] ^Le<det><def><sp>$ ^<n><sg>$ ^<pri>$ ^<adj>$.
+[/B_LIgRUxhqcm]
+[OwI6_dk0Z8r2#0] ^Le<det><def><sp>$ ^<n><pl>$ ^<adj>$.
+[/OwI6_dk0Z8r2]
+[YVqzHSCs18y3#0] ^<prn><nom><p1><mf><sg>$ ^<vblex><pri>$ ^le<det><def><sp>$ ^<n><sg>$ ^multo<preadv>$ ^<adj>$.
+[/YVqzHSCs18y3]
+[bwGUb-B_BrMb#0] ^Le<det><def><sp>$ ^<n><sg>$ ^<pri>$ ^<adj>$.
+[/bwGUb-B_BrMb]
+[hZYZbxoAHKm1#0] ^<prn><nom><p3><mf><sg>$ ^<vblex><pri>$ ^un<det><ind><sp>$ ^<n><sg>$ ^a<pr>$ ^le<det><def><sp>$ ^<n><sg>$.
+[/hZYZbxoAHKm1]
+[o5EZMp5cJxuU#0] ^Le<det><def><sp>$ ^<n><pl>$ ^<vblex><pri>$.
+[/o5EZMp5cJxuU]
+[oOMZApkSKmPz#0] ^<prn><nom><p1><mf><sg>$ ^<vblex><fti>$ ^a<pr>$ ^<num>$ ^<n><pl>$.
+[/oOMZApkSKmPz]
+[tsRqMrhpS4tB#0] ^<prn><nom><p1><mf><sg>$ ^<vblex><pri>$.
+[/tsRqMrhpS4tB]
+[wFyVx_qwkdJQ#0] ^<prn><nom><p1><mf><sg>$ ^<vblex><pri>$ ^con<pr>$ ^un<det><ind><sp>$ ^<n><sg>$ ^multo<preadv>$ ^<adj>$.
+[/wFyVx_qwkdJQ]

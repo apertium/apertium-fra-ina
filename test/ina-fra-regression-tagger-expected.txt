@@ -1,0 +1,42 @@
+[0LS-OvVVUGMT#0] ^Le<det><def><sp>$ ^femina<n><sg>$ ^e<cnjcoo>$ ^le<det><def><sp>$ ^homine<n><sg>$.
+[/0LS-OvVVUGMT]
+[0tWKdIXdMjI-#0] ^Tu<prn><p2><mf><sg><nom>$ ^natar<vblex><fti>$.
+[/0tWKdIXdMjI-]
+[5osutOmUoXix#0] ^Ille<prn><p3><f><sg><nom>$ ^cercar<vblex><pri>$ ^un<det><ind><sp>$ ^domo<n><sg>$ ^a<pr>$ ^le<det><def><sp>$ ^campania<n><sg>$.
+[/5osutOmUoXix]
+[6BaLde_7TYOg#0] ^Io<prn><p1><mf><sg><nom>$ ^habitar<vblex><pri>$ ^con<pr>$ ^un<det><ind><sp>$ ^familia<n><sg>$ ^multo<preadv>$ ^gentil<adj>$.
+[/6BaLde_7TYOg]
+[7oMkdkO8F1RZ#0] ^Io<prn><p1><mf><sg><nom>$ ^haber<vbhaver><pri>$ ^vider<vblex><pp>$ ^le<det><def><sp>$ ^femina<n><sg>$.
+[/7oMkdkO8F1RZ]
+[CHl44J_bJkaF#0] ^Le<det><def><sp>$ ^femina<n><sg>$ ^esser<vbser><pri>$ ^satisfacte<adj>$
+[/CHl44J_bJkaF]
+[DO4VELZGvxvs#0] ^Io<prn><p1><mf><sg><nom>$ ^mangiar<vblex><pri>$.
+[/DO4VELZGvxvs]
+[F_oufHhPcX3e#0] ^Le<det><def><sp>$ ^homine<n><sg>$ ^vider<vblex><pri>$ ^le<det><def><sp>$ ^femina<n><sg>$ ^e<cnjcoo>$ ^le<det><def><sp>$ ^catto<n><sg>$.
+[/F_oufHhPcX3e]
+[ViRpSe7RKzRZ#0] ^Le<det><def><sp>$ ^multo<preadv>$ ^gentil<adj>$ ^femina<n><sg>$.
+[/ViRpSe7RKzRZ]
+[Y7cjr8FCU2Nf#0] ^Le<det><def><sp>$ ^homine<n><sg>$ ^esser<vbser><pri>$ ^vider<vblex><pp>$.
+[/Y7cjr8FCU2Nf]
+[ZnFwaFuUtF0u#0] ^Io<prn><p1><mf><sg><nom>$ ^responder<vblex><fti>$ ^a<pr>$ ^novanta<num>$ ^homine<n><pl>$.
+[/ZnFwaFuUtF0u]
+[_yZwGz1bF8_Y#0] ^Le<det><def><sp>$ ^albe<adj>$ ^gentil<adj>$ ^femina<n><sg>$.
+[/_yZwGz1bF8_Y]
+[dCkbNJguOehX#0] ^Le<det><def><sp>$ ^gentil<adj>$ ^e<cnjcoo>$ ^albe<adj>$ ^femina<n><sg>$.
+[/dCkbNJguOehX]
+[lRu3N3LbzwkE#0] ^Le<det><def><sp>$ ^femina<n><sg>$ ^cantar<vblex><pri>$ ^e<cnjcoo>$ ^vider<vblex><pri>$ ^le<det><def><sp>$ ^can<n><sg>$.
+[/lRu3N3LbzwkE]
+[lT18YLi-x15M#0] ^Io<prn><p1><mf><sg><nom>$ ^trovar<vblex><pri>$ ^le<det><def><sp>$ ^domo<n><sg>$ ^multo<preadv>$ ^bon<adj>$.
+[/lT18YLi-x15M]
+[oQ5VoZ4vxzWT#0] ^Io<prn><p1><mf><sg><nom>$ ^vider<vblex><pri>$ ^e<cnjcoo>$ ^pensar<vblex><pri>$.
+[/oQ5VoZ4vxzWT]
+[pSbr4_WIKp_x#0] ^Io<prn><p1><mf><sg><nom>$ ^vider<vblex><pri>$ ^le<det><def><sp>$ ^femina<n><sg>$ ^e<cnjcoo>$ ^seliger<vblex><pri>$ ^le<det><def><sp>$ ^homine<n><sg>$.
+[/pSbr4_WIKp_x]
+[tVpr78argAfz#0] ^Le<det><def><sp>$ ^femina<n><sg>$ ^vider<vblex><pri>$ ^le<det><def><sp>$ ^homine<n><sg>$ ^e<cnjcoo>$ ^cantar<vblex><pri>$.
+[/tVpr78argAfz]
+[vc_9DOmsWcX3#0] ^Le<det><def><sp>$ ^femina<n><sg>$ ^gentil<adj>$ ^e<cnjcoo>$ ^albe<adj>$.
+[/vc_9DOmsWcX3]
+[wHlGrLDcFkJ5#0] ^Le<det><def><sp>$ ^can<n><pl>$ ^parlar<vblex><pri>$.
+[/wHlGrLDcFkJ5]
+[wnNlVrUzucsP#0] ^Le<det><def><sp>$ ^femina<n><sg>$ ^e<cnjcoo>$ ^le<det><def><sp>$ ^homine<n><sg>$ ^e<cnjcoo>$ ^le<det><def><sp>$ ^catto<n><sg>$.
+[/wnNlVrUzucsP]

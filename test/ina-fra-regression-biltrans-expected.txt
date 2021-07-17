@@ -1,0 +1,42 @@
+[0LS-OvVVUGMT#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^e<cnjcoo>/et<cnjcoo>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^homine<n><sg>/homme<n><m><sg>$.
+[/0LS-OvVVUGMT]
+[0tWKdIXdMjI-#0] ^Tu<prn><p2><mf><sg><nom>/Tu<prn><tn><p2><mf><sg>$ ^natar<vblex><fti>/nager<vblex><fti>$.
+[/0tWKdIXdMjI-]
+[5osutOmUoXix#0] ^Ille<prn><p3><f><sg><nom>/Il<prn><tn><p3><f><sg>$ ^cercar<vblex><pri>/chercher<vblex><pri>$ ^un<det><ind><sp>/un<det><ind><nd><gd>$ ^domo<n><sg>/maison<n><f><sg>$ ^a<pr>/à<pr>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^campania<n><sg>/campagne<n><f><sg>$.
+[/5osutOmUoXix]
+[6BaLde_7TYOg#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^habitar<vblex><pri>/habiter<vblex><pri>/demeurer<vblex><pri>$ ^con<pr>/avec<pr>$ ^un<det><ind><sp>/un<det><ind><nd><gd>$ ^familia<n><sg>/famille<n><f><sg>$ ^multo<preadv>/très<preadv>$ ^gentil<adj>/gentil<adj>$.
+[/6BaLde_7TYOg]
+[7oMkdkO8F1RZ#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^haber<vbhaver><pri>/avoir<vbhaver><pri>$ ^vider<vblex><pp>/voir<vblex><pp>/apercevoir<vblex><pp>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$.
+[/7oMkdkO8F1RZ]
+[CHl44J_bJkaF#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^esser<vbser><pri>/être<vbser><pri>$ ^satisfacte<adj>/content<adj>$
+[/CHl44J_bJkaF]
+[DO4VELZGvxvs#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^mangiar<vblex><pri>/manger<vblex><pri>/bouffer<vblex><pri>/consommer<vblex><pri>$.
+[/DO4VELZGvxvs]
+[F_oufHhPcX3e#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^homine<n><sg>/homme<n><m><sg>$ ^vider<vblex><pri>/voir<vblex><pri>/apercevoir<vblex><pri>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^e<cnjcoo>/et<cnjcoo>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^catto<n><sg>/chat<n><m><sg>/chatte<n><f><sg>$.
+[/F_oufHhPcX3e]
+[ViRpSe7RKzRZ#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^multo<preadv>/très<preadv>$ ^gentil<adj>/gentil<adj>$ ^femina<n><sg>/femme<n><f><sg>$.
+[/ViRpSe7RKzRZ]
+[Y7cjr8FCU2Nf#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^homine<n><sg>/homme<n><m><sg>$ ^esser<vbser><pri>/être<vbser><pri>$ ^vider<vblex><pp>/voir<vblex><pp>/apercevoir<vblex><pp>$.
+[/Y7cjr8FCU2Nf]
+[ZnFwaFuUtF0u#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^responder<vblex><fti>/répondre<vblex><fti>$ ^a<pr>/à<pr>$ ^novanta<num>/quatre-vingt-dix<num>$ ^homine<n><pl>/homme<n><m><pl>$.
+[/ZnFwaFuUtF0u]
+[_yZwGz1bF8_Y#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^albe<adj>/blanc<adj>$ ^gentil<adj>/gentil<adj>$ ^femina<n><sg>/femme<n><f><sg>$.
+[/_yZwGz1bF8_Y]
+[dCkbNJguOehX#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^gentil<adj>/gentil<adj>$ ^e<cnjcoo>/et<cnjcoo>$ ^albe<adj>/blanc<adj>$ ^femina<n><sg>/femme<n><f><sg>$.
+[/dCkbNJguOehX]
+[lRu3N3LbzwkE#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^cantar<vblex><pri>/chanter<vblex><pri>$ ^e<cnjcoo>/et<cnjcoo>$ ^vider<vblex><pri>/voir<vblex><pri>/apercevoir<vblex><pri>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^can<n><sg>/chien<n><m><sg>$.
+[/lRu3N3LbzwkE]
+[lT18YLi-x15M#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^trovar<vblex><pri>/trouver<vblex><pri>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^domo<n><sg>/maison<n><f><sg>$ ^multo<preadv>/très<preadv>$ ^bon<adj>/bon<adj>$.
+[/lT18YLi-x15M]
+[oQ5VoZ4vxzWT#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^vider<vblex><pri>/voir<vblex><pri>/apercevoir<vblex><pri>$ ^e<cnjcoo>/et<cnjcoo>$ ^pensar<vblex><pri>/penser<vblex><pri>/songer<vblex><pri>$.
+[/oQ5VoZ4vxzWT]
+[pSbr4_WIKp_x#0] ^Io<prn><p1><mf><sg><nom>/Je<prn><tn><p1><mf><sg>$ ^vider<vblex><pri>/voir<vblex><pri>/apercevoir<vblex><pri>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^e<cnjcoo>/et<cnjcoo>$ ^seliger<vblex><pri>/choisir<vblex><pri>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^homine<n><sg>/homme<n><m><sg>$.
+[/pSbr4_WIKp_x]
+[tVpr78argAfz#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^vider<vblex><pri>/voir<vblex><pri>/apercevoir<vblex><pri>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^homine<n><sg>/homme<n><m><sg>$ ^e<cnjcoo>/et<cnjcoo>$ ^cantar<vblex><pri>/chanter<vblex><pri>$.
+[/tVpr78argAfz]
+[vc_9DOmsWcX3#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^gentil<adj>/gentil<adj>$ ^e<cnjcoo>/et<cnjcoo>$ ^albe<adj>/blanc<adj>$.
+[/vc_9DOmsWcX3]
+[wHlGrLDcFkJ5#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^can<n><pl>/chien<n><m><pl>$ ^parlar<vblex><pri>/parler<vblex><pri>$.
+[/wHlGrLDcFkJ5]
+[wnNlVrUzucsP#0] ^Le<det><def><sp>/Le<det><def><nd><gd>$ ^femina<n><sg>/femme<n><f><sg>$ ^e<cnjcoo>/et<cnjcoo>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^homine<n><sg>/homme<n><m><sg>$ ^e<cnjcoo>/et<cnjcoo>$ ^le<det><def><sp>/le<det><def><nd><gd>$ ^catto<n><sg>/chat<n><m><sg>/chatte<n><f><sg>$.
+[/wnNlVrUzucsP]

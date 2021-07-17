@@ -1,0 +1,2 @@
+[Crt6ROELNEf5#0] ^default<default>{^Le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$ ^vb<SV>{^<pri>$}$ ^n<SN>{^<adj>$}$ ^default<default>{^con<pr>$}$ ^default<default>{^le<det><def><sp>$}$ ^n<SN>{^<n><sg>$}$.
+[/Crt6ROELNEf5]

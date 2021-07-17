@@ -1,0 +1,22 @@
+[5XnyV5lNkAm1#0] ^Tu<prn><tn><p2><mf><sg>/Tu<prn><p2><mf><sg><nom>$ ^nager<vblex><fti><p2><sg>/natar<vblex><fti><p2><sg>$.
+[/5XnyV5lNkAm1]
+[6a30-VUz_VuC#0] ^Le<det><def><f><sg>/Le<det><def><sp>$ ^femme<n><f><sg>/femina<n><sg>/marita<n><sg>$ ^être<vbser><pri><p3><sg>/esser<vbser><pri><p3><sg>$ ^content<adj><f><sg>/felice<adj><f><sg>/satisfacte<adj><f><sg>$ ^avec<pr>/con<pr>$ ^le<det><def><f><sg>/le<det><def><sp>$ ^maison<n><f><sg>/domo<n><sg>$.
+[/6a30-VUz_VuC]
+[B_LIgRUxhqcm#0] ^Le<det><def><m><sg>/Le<det><def><sp>$ ^chien<n><m><sg>/can<n><sg>$ ^être<vbser><pri><p3><sg>/esser<vbser><pri><p3><sg>$ ^gros<adj><m><sp>/grande<adj><m><ND>$.
+[/B_LIgRUxhqcm]
+[OwI6_dk0Z8r2#0] ^Le<det><def><mf><pl>/Le<det><def><sp>$ ^homme<n><m><pl>/homine<n><pl>$ ^gros<adj><m><sp>/grande<adj><m><ND>$.
+[/OwI6_dk0Z8r2]
+[YVqzHSCs18y3#0] ^Je<prn><tn><p1><mf><sg>/Io<prn><p1><mf><sg><nom>$ ^trouver<vblex><pri><p1><sg>/trovar<vblex><pri><p1><sg>$ ^le<det><def><f><sg>/le<det><def><sp>$ ^maison<n><f><sg>/domo<n><sg>$ ^très<preadv>/multo<preadv>$ ^bon<adj><f><sg>/bon<adj><f><sg>$.
+[/YVqzHSCs18y3]
+[bwGUb-B_BrMb#0] ^Le<det><def><m><sg>/Le<det><def><sp>$ ^fruit<n><m><sg>/fructo<n><sg>$ ^être<vbser><pri><p3><sg>/esser<vbser><pri><p3><sg>$ ^bon<adj><m><sg>/bon<adj><m><sg>$.
+[/bwGUb-B_BrMb]
+[hZYZbxoAHKm1#0] ^Il<prn><tn><p3><f><sg>/Illo<prn><p3><mf><sg><nom>$ ^chercher<vblex><pri><p3><sg>/cercar<vblex><pri><p3><sg>$ ^un<det><ind><f><sg>/un<det><ind><sp>$ ^maison<n><f><sg>/domo<n><sg>$ ^à<pr>/a<pr>$ ^le<det><def><f><sg>/le<det><def><sp>$ ^campagne<n><f><sg>/campania<n><sg>$.
+[/hZYZbxoAHKm1]
+[o5EZMp5cJxuU#0] ^Le<det><def><mf><pl>/Le<det><def><sp>$ ^chien<n><m><pl>/can<n><pl>$ ^parler<vblex><pri><p3><pl>/parlar<vblex><pri><p3><pl>$.
+[/o5EZMp5cJxuU]
+[oOMZApkSKmPz#0] ^Je<prn><tn><p1><mf><sg>/Io<prn><p1><mf><sg><nom>$ ^répondre<vblex><fti><p1><sg>/responder<vblex><fti><p1><sg>$ ^à<pr>/a<pr>$ ^quatre-vingt-dix<num><mf><sp>/novanta<num><mf><sp>$ ^homme<n><m><pl>/homine<n><pl>$.
+[/oOMZApkSKmPz]
+[tsRqMrhpS4tB#0] ^Je<prn><tn><p1><mf><sg>/Io<prn><p1><mf><sg><nom>$ ^manger<vblex><pri><p1><sg>/mangiar<vblex><pri><p1><sg>$.
+[/tsRqMrhpS4tB]
+[wFyVx_qwkdJQ#0] ^Je<prn><tn><p1><mf><sg>/Io<prn><p1><mf><sg><nom>$ ^habiter<vblex><pri><p1><sg>/habitar<vblex><pri><p1><sg>$ ^avec<pr>/con<pr>$ ^un<det><ind><f><sg>/un<det><ind><sp>$ ^famille<n><f><sg>/familia<n><sg>$ ^très<preadv>/multo<preadv>$ ^gentil<adj><f><sg>/gentil<adj><f><sg>$.
+[/wFyVx_qwkdJQ]

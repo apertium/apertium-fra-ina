@@ -1,0 +1,14 @@
+{
+    "fra-ina-pending": {
+        "input": "fra-ina-pending-input.txt",
+        "mode": "fra-ina"
+    },
+    "fra-ina-regression": {
+        "input": "fra-ina-regression-input.txt",
+        "mode": "fra-ina"
+    },
+    "ina-fra-regression": {
+        "input": "ina-fra-regression-input.txt",
+        "mode": "ina-fra"
+    }
+}

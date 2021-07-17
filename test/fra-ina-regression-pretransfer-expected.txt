@@ -1,0 +1,22 @@
+[5XnyV5lNkAm1#0] ^Tu<prn><tn><p2><mf><sg>$ ^nager<vblex><fti><p2><sg>$.
+[/5XnyV5lNkAm1]
+[6a30-VUz_VuC#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^être<vbser><pri><p3><sg>$ ^content<adj><f><sg>$ ^avec<pr>$ ^le<det><def><f><sg>$ ^maison<n><f><sg>$.
+[/6a30-VUz_VuC]
+[B_LIgRUxhqcm#0] ^Le<det><def><m><sg>$ ^chien<n><m><sg>$ ^être<vbser><pri><p3><sg>$ ^gros<adj><m><sp>$.
+[/B_LIgRUxhqcm]
+[OwI6_dk0Z8r2#0] ^Le<det><def><mf><pl>$ ^homme<n><m><pl>$ ^gros<adj><m><sp>$.
+[/OwI6_dk0Z8r2]
+[YVqzHSCs18y3#0] ^Je<prn><tn><p1><mf><sg>$ ^trouver<vblex><pri><p1><sg>$ ^le<det><def><f><sg>$ ^maison<n><f><sg>$ ^très<preadv>$ ^bon<adj><f><sg>$.
+[/YVqzHSCs18y3]
+[bwGUb-B_BrMb#0] ^Le<det><def><m><sg>$ ^fruit<n><m><sg>$ ^être<vbser><pri><p3><sg>$ ^bon<adj><m><sg>$.
+[/bwGUb-B_BrMb]
+[hZYZbxoAHKm1#0] ^Il<prn><tn><p3><f><sg>$ ^chercher<vblex><pri><p3><sg>$ ^un<det><ind><f><sg>$ ^maison<n><f><sg>$ ^à<pr>$ ^le<det><def><f><sg>$ ^campagne<n><f><sg>$.
+[/hZYZbxoAHKm1]
+[o5EZMp5cJxuU#0] ^Le<det><def><mf><pl>$ ^chien<n><m><pl>$ ^parler<vblex><pri><p3><pl>$.
+[/o5EZMp5cJxuU]
+[oOMZApkSKmPz#0] ^Je<prn><tn><p1><mf><sg>$ ^répondre<vblex><fti><p1><sg>$ ^à<pr>$ ^quatre-vingt-dix<num><mf><sp>$ ^homme<n><m><pl>$.
+[/oOMZApkSKmPz]
+[tsRqMrhpS4tB#0] ^Je<prn><tn><p1><mf><sg>$ ^manger<vblex><pri><p1><sg>$.
+[/tsRqMrhpS4tB]
+[wFyVx_qwkdJQ#0] ^Je<prn><tn><p1><mf><sg>$ ^habiter<vblex><pri><p1><sg>$ ^avec<pr>$ ^un<det><ind><f><sg>$ ^famille<n><f><sg>$ ^très<preadv>$ ^gentil<adj><f><sg>$.
+[/wFyVx_qwkdJQ]

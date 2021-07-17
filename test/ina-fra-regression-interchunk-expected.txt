@@ -1,0 +1,42 @@
+[0LS-OvVVUGMT#0] ^n<SN><pl><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^homme<n><m><sg>$}$.
+[/0LS-OvVVUGMT]
+[0tWKdIXdMjI-#0] ^n<SN><p2><mf><sg>{^Tu<prn><tn><2><3><4><5>$}$ ^v<SV><p2><sg>{^nager<vblex><fti><2><3>$}$.
+[/0tWKdIXdMjI-]
+[5osutOmUoXix#0] ^n<SN><p3><f><sg>{^Il<prn><tn><2><3><4><5>$}$ ^v<SV><p3><sg>{^chercher<vblex><pri><2><3>$}$ ^n<SN><sg><p3>{^un<det><ind><f><sg>$ ^maison<n><f><sg>$}$ ^default<default>{^à<pr>$}$ ^n<SN><sg><p3>{^le<det><def><f><sg>$ ^campagne<n><f><sg>$}$.
+[/5osutOmUoXix]
+[6BaLde_7TYOg#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^habiter<vblex><pri><2><3>$}$ ^default<default>{^avec<pr>$}$ ^n<SN><sg><p3>{^un<det><ind><f><sg>$ ^famille<n><f><sg>$ ^très<preadv>$ ^gentil<adj><f><sg>$}$.
+[/6BaLde_7TYOg]
+[7oMkdkO8F1RZ#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^avoir<vbhaver><pri><2><3>$ ^voir<vblex><pp><m><sg>$}$ ^n<SN><sg><p3>{^le<det><def><f><sg>$ ^femme<n><f><sg>$}$.
+[/7oMkdkO8F1RZ]
+[CHl44J_bJkaF#0] ^n<SN><sg><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$}$ ^v<SV><p3><sg>{^être<vbser><pri><2><3>$}$ ^a<adj><sg>{^content<adj><2><3>$}$
+[/CHl44J_bJkaF]
+[DO4VELZGvxvs#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^manger<vblex><pri><2><3>$}$.
+[/DO4VELZGvxvs]
+[F_oufHhPcX3e#0] ^n<SN><sg><p3>{^Le<det><def><m><sg>$ ^homme<n><m><sg>$}$ ^v<SV><p3><sg>{^voir<vblex><pri><2><3>$}$ ^n<SN><pl><p3>{^le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^chat<n><m><sg>$}$.
+[/F_oufHhPcX3e]
+[ViRpSe7RKzRZ#0] ^n<SN><sg><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^très<preadv>$ ^gentil<adj><f><sg>$}$.
+[/ViRpSe7RKzRZ]
+[Y7cjr8FCU2Nf#0] ^n<SN><sg><p3>{^Le<det><def><m><sg>$ ^homme<n><m><sg>$}$ ^v<SV><p3><sg>{^être<vbser><pri><2><3>$ ^voir<vblex><pp><m><sg>$}$.
+[/Y7cjr8FCU2Nf]
+[ZnFwaFuUtF0u#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^répondre<vblex><fti><2><3>$}$ ^default<default>{^à<pr>$}$ ^SN<n>{^quatre-vingt-dix<num><mf><sp>$ ^homme<n><m><pl>$}$.
+[/ZnFwaFuUtF0u]
+[_yZwGz1bF8_Y#0] ^n<SN><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^blanc<adj><f><sg>$ ^gentil<adj><f><sg>$}$.
+[/_yZwGz1bF8_Y]
+[dCkbNJguOehX#0] ^det_nom_adj<SN><sg><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^gentil<adj><f><sg>$ ^et<cnjcoo>$ ^blanc<adj><f><sg>$}$.
+[/dCkbNJguOehX]
+[lRu3N3LbzwkE#0] ^n<SN><sg><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$}$ ^v<SV><p3><sg>{^chanter<vblex><pri><2><3>$}$ ^conj<CNJ>{^et<cnjcoo>$}$ ^v<SV><p3><sg>{^voir<vblex><pri><2><3>$}$ ^n<SN><sg><p3>{^le<det><def><m><sg>$ ^chien<n><m><sg>$}$.
+[/lRu3N3LbzwkE]
+[lT18YLi-x15M#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^trouver<vblex><pri><2><3>$}$ ^n<SN><sg><p3>{^le<det><def><f><sg>$ ^maison<n><f><sg>$ ^très<preadv>$ ^bon<adj><f><sg>$}$.
+[/lT18YLi-x15M]
+[oQ5VoZ4vxzWT#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^voir<vblex><pri><2><3>$}$ ^conj<CNJ>{^et<cnjcoo>$}$ ^v<SV><p1><sg>{^penser<vblex><pri><2><3>$}$.
+[/oQ5VoZ4vxzWT]
+[pSbr4_WIKp_x#0] ^n<SN><p1><mf><sg>{^Je<prn><tn><2><3><4><5>$}$ ^v<SV><p1><sg>{^voir<vblex><pri><2><3>$}$ ^n<SN><sg><p3>{^le<det><def><f><sg>$ ^femme<n><f><sg>$}$ ^conj<CNJ>{^et<cnjcoo>$}$ ^v<SV><p1><sg>{^choisir<vblex><pri><2><3>$}$ ^n<SN><sg><p3>{^le<det><def><m><sg>$ ^homme<n><m><sg>$}$.
+[/pSbr4_WIKp_x]
+[tVpr78argAfz#0] ^n<SN><sg><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$}$ ^v<SV><p3><sg>{^voir<vblex><pri><2><3>$}$ ^n<SN><sg><p3>{^le<det><def><m><sg>$ ^homme<n><m><sg>$}$ ^conj<CNJ>{^et<cnjcoo>$}$ ^v<SV><p3><sg>{^chanter<vblex><pri><2><3>$}$.
+[/tVpr78argAfz]
+[vc_9DOmsWcX3#0] ^det_nom_adj<SN><sg><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^gentil<adj><f><sg>$ ^et<cnjcoo>$ ^blanc<adj><f><sg>$}$.
+[/vc_9DOmsWcX3]
+[wHlGrLDcFkJ5#0] ^n<SN><pl><p3>{^Le<det><def><m><pl>$ ^chien<n><m><pl>$}$ ^v<SV><p3><pl>{^parler<vblex><pri><2><3>$}$.
+[/wHlGrLDcFkJ5]
+[wnNlVrUzucsP#0] ^n<SN><pl><p3>{^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^homme<n><m><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^chat<n><m><sg>$}$.
+[/wnNlVrUzucsP]

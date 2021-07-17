@@ -1,0 +1,42 @@
+[0LS-OvVVUGMT#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^homme<n><m><sg>$.
+[/0LS-OvVVUGMT]
+[0tWKdIXdMjI-#0] ^Tu<prn><tn><p2><mf><sg>$ ^nager<vblex><fti><p2><sg>$.
+[/0tWKdIXdMjI-]
+[5osutOmUoXix#0] ^Il<prn><tn><p3><f><sg>$ ^chercher<vblex><pri><p3><sg>$ ^un<det><ind><f><sg>$ ^maison<n><f><sg>$ ^à<pr>$ ^le<det><def><f><sg>$ ^campagne<n><f><sg>$.
+[/5osutOmUoXix]
+[6BaLde_7TYOg#0] ^Je<prn><tn><p1><mf><sg>$ ^habiter<vblex><pri><p1><sg>$ ^avec<pr>$ ^un<det><ind><f><sg>$ ^famille<n><f><sg>$ ^très<preadv>$ ^gentil<adj><f><sg>$.
+[/6BaLde_7TYOg]
+[7oMkdkO8F1RZ#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><f><sg>$ ^femme<n><f><sg>$.
+[/7oMkdkO8F1RZ]
+[CHl44J_bJkaF#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^être<vbser><pri><p3><sg>$ ^content<adj><sg>$
+[/CHl44J_bJkaF]
+[DO4VELZGvxvs#0] ^Je<prn><tn><p1><mf><sg>$ ^manger<vblex><pri><p1><sg>$.
+[/DO4VELZGvxvs]
+[F_oufHhPcX3e#0] ^Le<det><def><m><sg>$ ^homme<n><m><sg>$ ^voir<vblex><pri><p3><sg>$ ^le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^chat<n><m><sg>$.
+[/F_oufHhPcX3e]
+[ViRpSe7RKzRZ#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^très<preadv>$ ^gentil<adj><f><sg>$.
+[/ViRpSe7RKzRZ]
+[Y7cjr8FCU2Nf#0] ^Le<det><def><m><sg>$ ^homme<n><m><sg>$ ^être<vbser><pri><p3><sg>$ ^voir<vblex><pp><m><sg>$.
+[/Y7cjr8FCU2Nf]
+[ZnFwaFuUtF0u#0] ^Je<prn><tn><p1><mf><sg>$ ^répondre<vblex><fti><p1><sg>$ ^à<pr>$ ^QUATRE-VINGT-DIX<num><mf><sp>$ ^HOMME<n><m><pl>$.
+[/ZnFwaFuUtF0u]
+[_yZwGz1bF8_Y#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^blanc<adj><f><sg>$ ^gentil<adj><f><sg>$.
+[/_yZwGz1bF8_Y]
+[dCkbNJguOehX#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^gentil<adj><f><sg>$ ^et<cnjcoo>$ ^blanc<adj><f><sg>$.
+[/dCkbNJguOehX]
+[lRu3N3LbzwkE#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^chanter<vblex><pri><p3><sg>$ ^et<cnjcoo>$ ^voir<vblex><pri><p3><sg>$ ^le<det><def><m><sg>$ ^chien<n><m><sg>$.
+[/lRu3N3LbzwkE]
+[lT18YLi-x15M#0] ^Je<prn><tn><p1><mf><sg>$ ^trouver<vblex><pri><p1><sg>$ ^le<det><def><f><sg>$ ^maison<n><f><sg>$ ^très<preadv>$ ^bon<adj><f><sg>$.
+[/lT18YLi-x15M]
+[oQ5VoZ4vxzWT#0] ^Je<prn><tn><p1><mf><sg>$ ^voir<vblex><pri><p1><sg>$ ^et<cnjcoo>$ ^penser<vblex><pri><p1><sg>$.
+[/oQ5VoZ4vxzWT]
+[pSbr4_WIKp_x#0] ^Je<prn><tn><p1><mf><sg>$ ^voir<vblex><pri><p1><sg>$ ^le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^choisir<vblex><pri><p1><sg>$ ^le<det><def><m><sg>$ ^homme<n><m><sg>$.
+[/pSbr4_WIKp_x]
+[tVpr78argAfz#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^voir<vblex><pri><p3><sg>$ ^le<det><def><m><sg>$ ^homme<n><m><sg>$ ^et<cnjcoo>$ ^chanter<vblex><pri><p3><sg>$.
+[/tVpr78argAfz]
+[vc_9DOmsWcX3#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^gentil<adj><f><sg>$ ^et<cnjcoo>$ ^blanc<adj><f><sg>$.
+[/vc_9DOmsWcX3]
+[wHlGrLDcFkJ5#0] ^Le<det><def><m><pl>$ ^chien<n><m><pl>$ ^parler<vblex><pri><p3><pl>$.
+[/wHlGrLDcFkJ5]
+[wnNlVrUzucsP#0] ^Le<det><def><f><sg>$ ^femme<n><f><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^homme<n><m><sg>$ ^et<cnjcoo>$ ^le<det><def><m><sg>$ ^chat<n><m><sg>$.
+[/wnNlVrUzucsP]

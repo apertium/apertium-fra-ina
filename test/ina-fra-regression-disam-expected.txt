@@ -1,0 +1,42 @@
+[0LS-OvVVUGMT#0] ^Le/Le<det><def><sp>$ ^femina/femina<n><sg>$ ^e/e<cnjcoo>$ ^le/le<det><def><sp>$ ^homine/homine<n><sg>$.
+[/0LS-OvVVUGMT]
+[0tWKdIXdMjI-#0] ^Tu/Tu<prn><p2><mf><sg><nom>$ ^natara/natar<vblex><fti>$.
+[/0tWKdIXdMjI-]
+[5osutOmUoXix#0] ^Illa/Ille<prn><p3><f><sg><nom>$ ^cerca/cercar<vblex><pri>$ ^un/un<det><ind><sp>$ ^domo/domo<n><sg>$ ^a/a<pr>$ ^le/le<det><def><sp>$ ^campania/campania<n><sg>$.
+[/5osutOmUoXix]
+[6BaLde_7TYOg#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^habita/habitar<vblex><pri>$ ^con/con<pr>$ ^un/un<det><ind><sp>$ ^familia/familia<n><sg>$ ^multo/multo<preadv>$ ^gentil/gentil<adj>$.
+[/6BaLde_7TYOg]
+[7oMkdkO8F1RZ#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^ha/haber<vbhaver><pri>$ ^vidite/vider<vblex><pp>$ ^le/le<det><def><sp>$ ^femina/femina<n><sg>$.
+[/7oMkdkO8F1RZ]
+[CHl44J_bJkaF#0] ^Le/Le<det><def><sp>$ ^femina/femina<n><sg>$ ^es/esser<vbser><pri>$ ^satisfacte/satisfacte<adj>$
+[/CHl44J_bJkaF]
+[DO4VELZGvxvs#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^mangia/mangiar<vblex><pri>$.
+[/DO4VELZGvxvs]
+[F_oufHhPcX3e#0] ^Le/Le<det><def><sp>$ ^homine/homine<n><sg>$ ^vide/vider<vblex><pri>$ ^le/le<det><def><sp>$ ^femina/femina<n><sg>$ ^e/e<cnjcoo>$ ^le/le<det><def><sp>$ ^catto/catto<n><sg>$.
+[/F_oufHhPcX3e]
+[ViRpSe7RKzRZ#0] ^Le/Le<det><def><sp>$ ^multo/multo<preadv>$ ^gentil/gentil<adj>$ ^femina/femina<n><sg>$.
+[/ViRpSe7RKzRZ]
+[Y7cjr8FCU2Nf#0] ^Le/Le<det><def><sp>$ ^homine/homine<n><sg>$ ^es/esser<vbser><pri>$ ^vidite/vider<vblex><pp>$.
+[/Y7cjr8FCU2Nf]
+[ZnFwaFuUtF0u#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^respondera/responder<vblex><fti>$ ^a/a<pr>$ ^novanta/novanta<num>$ ^homines/homine<n><pl>$.
+[/ZnFwaFuUtF0u]
+[_yZwGz1bF8_Y#0] ^Le/Le<det><def><sp>$ ^albe/albe<adj>$ ^gentil/gentil<adj>$ ^femina/femina<n><sg>$.
+[/_yZwGz1bF8_Y]
+[dCkbNJguOehX#0] ^Le/Le<det><def><sp>$ ^gentil/gentil<adj>$ ^e/e<cnjcoo>$ ^albe/albe<adj>$ ^femina/femina<n><sg>$.
+[/dCkbNJguOehX]
+[lRu3N3LbzwkE#0] ^Le/Le<det><def><sp>$ ^femina/femina<n><sg>$ ^canta/cantar<vblex><pri>$ ^e/e<cnjcoo>$ ^vide/vider<vblex><pri>$ ^le/le<det><def><sp>$ ^can/can<n><sg>$.
+[/lRu3N3LbzwkE]
+[lT18YLi-x15M#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^trova/trovar<vblex><pri>$ ^le/le<det><def><sp>$ ^domo/domo<n><sg>$ ^multo/multo<preadv>$ ^bon/bon<adj>$.
+[/lT18YLi-x15M]
+[oQ5VoZ4vxzWT#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^vide/vider<vblex><pri>$ ^e/e<cnjcoo>$ ^pensa/pensar<vblex><pri>$.
+[/oQ5VoZ4vxzWT]
+[pSbr4_WIKp_x#0] ^Io/Io<prn><p1><mf><sg><nom>$ ^vide/vider<vblex><pri>$ ^le/le<det><def><sp>$ ^femina/femina<n><sg>$ ^e/e<cnjcoo>$ ^selige/seliger<vblex><pri>$ ^le/le<det><def><sp>$ ^homine/homine<n><sg>$.
+[/pSbr4_WIKp_x]
+[tVpr78argAfz#0] ^Le/Le<det><def><sp>$ ^femina/femina<n><sg>$ ^vide/vider<vblex><pri>$ ^le/le<det><def><sp>$ ^homine/homine<n><sg>$ ^e/e<cnjcoo>$ ^canta/cantar<vblex><pri>$.
+[/tVpr78argAfz]
+[vc_9DOmsWcX3#0] ^Le/Le<det><def><sp>$ ^femina/femina<n><sg>$ ^gentil/gentil<adj>$ ^e/e<cnjcoo>$ ^albe/albe<adj>$.
+[/vc_9DOmsWcX3]
+[wHlGrLDcFkJ5#0] ^Le/Le<det><def><sp>$ ^canes/can<n><pl>$ ^parla/parlar<vblex><pri>$.
+[/wHlGrLDcFkJ5]
+[wnNlVrUzucsP#0] ^Le/Le<det><def><sp>$ ^femina/femina<n><sg>$ ^e/e<cnjcoo>$ ^le/le<det><def><sp>$ ^homine/homine<n><sg>$ ^e/e<cnjcoo>$ ^le/le<det><def><sp>$ ^catto/catto<n><sg>$.
+[/wnNlVrUzucsP]
